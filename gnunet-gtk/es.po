@@ -1,0 +1,2896 @@
+# Spanish translations for gnunet-gtk.
+# Copyright (C) 2012 Christian Grothoff <christian@grothoff.org>
+# This file is distributed under the same license as the gnunet-gtk package.
+# Miguel Ángel Arruga Vivas <rosen644835@gmail.com>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnunet-gtk 0.9.5\n"
+"Report-Msgid-Bugs-To: bug-gnunet@gnu.org\n"
+"POT-Creation-Date: 2012-12-21 16:11+0100\n"
+"PO-Revision-Date: 2013-02-10 12:41+0100\n"
+"Last-Translator: Miguel Ángel Arruga Vivas <rosen644835@gmail.com>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/fs/gnunet-fs-gtk.c:517
+#: src/peerinfo/gnunet-peerinfo-gtk.c:535
+#: src/statistics/gnunet-statistics-gtk.c:290
+msgid "start in tray mode"
+msgstr "arrancar en la bandeja del sistema"
+
+#: src/fs/gnunet-fs-gtk_common.c:55
+#, c-format
+msgid "Failed to validate supposedly utf-8 string `%s' of length %u, assuming it to be a C string\n"
+msgstr "Se produjo un fallo al validar la cadena «%s» supuestamente utf-8 de longitud %u, suponiendo que es una cadena tipo C\n"
+
+#: src/fs/gnunet-fs-gtk_common.c:245
+#, c-format
+msgid "Selected file `%s' is not a GNUnet directory!\n"
+msgstr "¡El fichero seleccionado «%s» no es un directorio GNUnet!\n"
+
+#: src/fs/gnunet-fs-gtk_common.c:291
+#: src/fs/gnunet-fs-gtk_common.c:300
+msgid "no description supplied"
+msgstr "no se ha proporcionado descripción"
+
+#: src/fs/gnunet-fs-gtk_event-handler.c:988
+#: contrib/gnunet_fs_gtk_main_window.glade:271
+msgid "_Download"
+msgstr "_Descargar"
+
+#: src/fs/gnunet-fs-gtk_event-handler.c:999
+msgid "Download _recursively"
+msgstr "Descargar _recursivamente"
+
+#: src/fs/gnunet-fs-gtk_event-handler.c:1009
+msgid "Download _as..."
+msgstr "Descargar _como..."
+
+#: src/fs/gnunet-fs-gtk_event-handler.c:1021
+msgid "_Abort download"
+msgstr "C_ancelar descarga"
+
+#: src/fs/gnunet-fs-gtk_event-handler.c:1032
+#: src/fs/gnunet-fs-gtk_event-handler.c:3373
+msgid "_Copy URI to Clipboard"
+msgstr "_Copiar URI al portapapeles"
+
+#: src/fs/gnunet-fs-gtk_event-handler.c:1864
+msgid "Error!"
+msgstr "¡Error!"
+
+#: src/fs/gnunet-fs-gtk_event-handler.c:2031
+msgid "no URI"
+msgstr "sin URI"
+
+#: src/fs/gnunet-fs-gtk_event-handler.c:3383
+msgid "_Abort publishing"
+msgstr "C_ancelar publicación"
+
+#: src/fs/gnunet-fs-gtk_main-window-search.c:131
+#, c-format
+msgid "Invalid keyword string `%s': %s"
+msgstr "Cadena de palabras clave «%s» no válida: %s"
+
+#: src/fs/gnunet-fs-gtk_publish-dialog.c:1266
+#, c-format
+msgid "Scanning directory `%s'.\n"
+msgstr "Escaneando el directorio «%s».\n"
+
+#: src/fs/gnunet-fs-gtk_publish-dialog.c:1280
+#, c-format
+msgid "Failed to scan `%s' (access error). Skipping.\n"
+msgstr "Se produjo un fallo al escanear «%s» (error de acceso). Omitiendo.\n"
+
+#: src/fs/gnunet-fs-gtk_publish-dialog.c:1304
+#, c-format
+msgid "Processed file `%s'.\n"
+msgstr "Procesado fichero «%s».\n"
+
+#: src/fs/gnunet-fs-gtk_publish-dialog.c:1322
+msgid "Operation failed (press cancel)\n"
+msgstr "Operación fallida (pulse cancelar)\n"
+
+#: src/fs/gnunet-fs-gtk_publish-dialog.c:1329
+msgid "Scanner has finished.\n"
+msgstr "El escáner ha finalizado.\n"
+
+#: src/fs/gnunet-fs-gtk_publish-edit-dialog.c:544
+msgid "Select a type"
+msgstr "Seleccione un tipo"
+
+#: src/fs/gnunet-fs-gtk_publish-edit-dialog.c:546
+msgid "Specify a value"
+msgstr "Especifique un valor"
+
+#: src/fs/gnunet-fs-gtk_publish-edit-dialog.c:1048
+#, c-format
+msgid "Could not load preview `%s' into memory\n"
+msgstr "No se pudo cargar la previsualización de «%s» en memoria\n"
+
+#: src/fs/gnunet-fs-gtk_publish-edit-dialog.c:1230
+msgid "<unnamed>"
+msgstr "<sin nombre>"
+
+#: src/fs/gnunet-fs-gtk_unindex.c:337
+#, c-format
+msgid "Could not access indexed file `%s'\n"
+msgstr "No se pudo acceder al fichero indexado «%s»\n"
+
+#: src/lib/animations.c:146
+#, c-format
+msgid "Failed to load animation from file `%s'\n"
+msgstr "Se produjo un fallo al cargar la animación del fichero «%s»\n"
+
+#: src/lib/glade.c:118
+#, c-format
+msgid "Failed to load `%s': %s\n"
+msgstr "Se produjo un fallo al cargar «%s»: %s\n"
+
+#: src/lib/os_installation.c:412
+#, c-format
+msgid "Could not determine installation path for %s.  Set `%s' environment variable.\n"
+msgstr "No se pudo determinar la ruta de instalación de %s.  Fije la variable de entorno «%s».\n"
+
+#: src/peerinfo/gnunet-peerinfo-gtk.c:497
+#, c-format
+msgid "Failed to initialize communication with peerinfo service!\n"
+msgstr "¡Se produjo un fallo al inicializar la comunicación con el servicio de información de pares!\n"
+
+#: src/setup/gnunet-setup.c:173
+#: src/setup/gnunet-setup.c:268
+#: src/setup/gnunet-setup-options.c:393
+#: src/setup/gnunet-setup-options.c:413
+#, c-format
+msgid "Widget `%s' not found\n"
+msgstr "Widget «%s» no encontrado\n"
+
+#: src/setup/gnunet-setup.c:182
+#: src/setup/gnunet-setup.c:197
+#, c-format
+msgid "Invalid regular expression `%s'\n"
+msgstr "Expresión regular «%s» no válida\n"
+
+#: src/setup/gnunet-setup.c:230
+#, c-format
+msgid "Failed to obtain option value from widget `%s'\n"
+msgstr "Se produjo un fallo al obtener el valor de una opción del widget «%s»\n"
+
+#: src/setup/gnunet-setup.c:282
+#, c-format
+msgid "Failed to initialize widget `%s'\n"
+msgstr "Se produjo un fallo al inicializar el widget «%s»\n"
+
+#: src/setup/gnunet-setup.c:293
+#, c-format
+msgid "No default value known for option `%s' in section `%s'\n"
+msgstr "No hay un valor predeterminado conocido para la opción «%s» en la sección «%s»\n"
+
+#: src/setup/gnunet-setup.c:303
+#, c-format
+msgid "Failed to initialize widget `%s' with value `%s'\n"
+msgstr "Se produjo un fallo al inicializar el widget «%s» con el valor «%s»\n"
+
+#: src/setup/gnunet-setup.c:498
+#: src/setup/gnunet-setup.c:499
+msgid "Enter YOUR password to run gnunet-setup as user 'gnunet' (assuming 'sudo' allows it)"
+msgstr "Introduzca SU contraseña para ejecutar «gnunet-setup» como usuario «gnunet» (asumiendo que 'sudo' lo permita)"
+
+#: src/setup/gnunet-setup.c:629
+msgid "Attempting fully-automatic, non-interactive network configuration\n"
+msgstr "Probando configuración de red totalmente automática y no interactiva\n"
+
+#: src/setup/gnunet-setup.c:650
+msgid "attempt automatic configuration of the network and instantly exit"
+msgstr "probar configuración de red automática y salir instantaneamente"
+
+#: src/setup/gnunet-setup.c:654
+msgid "run as user 'gnunet', if necessary by executing gksu to elevate rights"
+msgstr "ejecutar como usuario «gnunet», si es necesario ejecutando «gksu» para obtener permiso"
+
+#: src/setup/gnunet-setup.c:657
+msgid "force showing the full set of options, even if gnunet-setup is run as a normal user and as a user 'gnunet' exists on the system, most options should not apply to the normal user as GNUnet should be run by the 'gnunet' user"
+msgstr "fuerza mostrar el conjunto completo de opciones, incluso aunque «gnunet-setup» sea ejecutado como un usuario normal mientras existe el usuario «gnunet» en el sistema; la mayor parte de las opciones no se aplican a un usuario normal debido a que GNUnet debe ejecutarse bajo el usuario «gnunet»"
+
+#: src/setup/gnunet-setup-dns-exit.c:85
+#: src/setup/gnunet-setup-dns-exit.c:93
+#, c-format
+msgid "Option `%s' is not formatted correctly!\n"
+msgstr "¡La opción «%s» no tiene un formato correcto!\n"
+
+#: src/setup/gnunet-setup-dns-exit.c:104
+#: src/setup/gnunet-setup-dns-exit.c:112
+#, c-format
+msgid "`%s' is not a valid port number!\n"
+msgstr "«%s» no es un número de puerto válido!\n"
+
+#: src/setup/gnunet-setup-dns-exit.c:684
+msgid "Specification of .gnunet TLD"
+msgstr "Especificación del dominio superior (TLD) .gnunet"
+
+#: src/setup/gnunet-setup-gns.c:37
+msgid "<new name>"
+msgstr "<nuevo nombre>"
+
+#: src/setup/gnunet-setup-gns.c:43
+msgid "<new record>"
+msgstr "<nuevo registro>"
+
+#: src/setup/gnunet-setup-gns.c:48
+msgid "never"
+msgstr "nunca"
+
+#: src/setup/gnunet-setup-gns.c:53
+msgid "invalid"
+msgstr "no válido"
+
+#: src/setup/gnunet-setup-gns.c:516
+#: src/setup/gnunet-setup-gns.c:560
+msgid "Failed to initialize QR-code pixbuf"
+msgstr "Se produjo un fallo al inicializar el buffer de píxeles para códigos QR"
+
+#: src/setup/gnunet-setup-gns.c:657
+#, c-format
+msgid ""
+"%s\n"
+"%s\n"
+msgstr ""
+"%s\n"
+"%s\n"
+
+#: src/setup/gnunet-setup-gns.c:678
+#: src/setup/gnunet-setup-gns.c:988
+#: src/setup/gnunet-setup-gns.c:2368
+msgid "Setup shutdown before all records could be written. Record lost!\n"
+msgstr "Finalización de la configuración antes de que todos los registros puedan ser escritos. ¡Registro perdido!\n"
+
+#: src/setup/gnunet-setup-gns.c:727
+msgid "Failed to create record"
+msgstr "Se produjo un fallo al crear el registro"
+
+#: src/setup/gnunet-setup-gns.c:786
+#: src/setup/gnunet-setup-gns.c:1029
+msgid "Failed to remove record"
+msgstr "Se produjo un fallo al eliminar el registro"
+
+#: src/setup/gnunet-setup-gns.c:935
+msgid "Invalid pseudonym specified for zone"
+msgstr "Seudónimo no válido especificado para la zona"
+
+#: src/setup/gnunet-setup-gns.c:968
+msgid "Failed to commit record to database"
+msgstr "Se produjo un fallo al guardar el registro en la base de datos"
+
+#: src/setup/gnunet-setup-gns.c:969
+msgid "Internal error"
+msgstr "Error interno"
+
+#: src/setup/gnunet-setup-gns.c:1182
+msgid "Failed to move record to target zone"
+msgstr "Se produjo un fallo al mover el registro a la zona objetivo"
+
+#: src/setup/gnunet-setup-gns.c:1210
+#: src/setup/gnunet-setup-gns.c:1356
+msgid "Failed to access key for target zone"
+msgstr "Se produjo un fallo al acceder a la clave para la zona objetivo"
+
+#: src/setup/gnunet-setup-gns.c:1354
+#: src/setup/gnunet-setup-gns.c:2251
+#, c-format
+msgid "Option `%s' missing in section `%s'\n"
+msgstr "Falta la opción «%s» en la sección «%s»\n"
+
+#: src/setup/gnunet-setup-gns.c:1499
+msgid "Unsupported record type"
+msgstr "Tipo de registro no soportado"
+
+#: src/setup/gnunet-setup-gns.c:1602
+msgid "Invalid time value"
+msgstr "Valor de tiempo no válido"
+
+#: src/setup/gnunet-setup-gns.c:1637
+#: src/setup/gnunet-setup-gns.c:1902
+#, c-format
+msgid "Name `%s' invalid for GADS/DNS (too long for a DNS label?)\n"
+msgstr "Nombre «%s» no válido para GADS/DNS (¿demasiado largo para una etiqueta DNS?)\n"
+
+#: src/setup/gnunet-setup-gns.c:1866
+#: src/setup/gnunet-setup-gns.c:1871
+#, c-format
+msgid "New Pseudonym could not be set: `%s'\n"
+msgstr "El nuevo seudónimo no pudo ser fijado: «%s»\n"
+
+#: src/setup/gnunet-setup-gns.c:2046
+#, c-format
+msgid "Got invalid record name `%s' from namestore\n"
+msgstr "Se obtuvo el nombre de registro «%s» no válido del almacén de nombres\n"
+
+#: src/setup/gnunet-setup-gns.c:2163
+#: src/setup/gnunet-setup-gns.c:2253
+msgid "Failed to load zone"
+msgstr "Se produjo un fallo al cargar la zona"
+
+#: src/setup/gnunet-setup-gns.c:2176
+#, c-format
+msgid "<b>Editing zone %s</b>"
+msgstr "<b>Editando zona %s</b>"
+
+#: src/setup/gnunet-setup-gns.c:2335
+msgid "<b><big>Failed to connect to namestore</b></big>"
+msgstr "<b><big>Se produjo un fallo al conectar con el almacén de nombres</b></big>"
+
+#: src/setup/gnunet-setup-gns-edit.c:1012
+#, c-format
+msgid "Unable to parse MX record `%s'\n"
+msgstr "No se pudo analizar el registro MX «%s»\n"
+
+#: src/setup/gnunet-setup-gns-edit.c:1533
+#, c-format
+msgid "Unable to parse SOA record `%s'\n"
+msgstr "No se pudo analizar el registro SOA «%s»\n"
+
+#: src/setup/gnunet-setup-gns-edit.c:1913
+#, c-format
+msgid "Unable to parse VPN record string `%s'\n"
+msgstr "No se pudo analizar la cadena de registro VPN «%s»\n"
+
+#: src/setup/gnunet-setup-hostlist-server.c:177
+msgid "Could not determine whether the hostlist daemon has an integrated hostlist server!\n"
+msgstr "¡No se pudo determinar si el demonio de listas de máquinas tiene un servidor de listas de máquinas integrado!\n"
+
+#: src/setup/gnunet-setup-options.c:353
+msgid "the hostlist server"
+msgstr "el servidor de listas de máquinas"
+
+#: src/setup/gnunet-setup-options.c:357
+msgid "the TCP transport plugin"
+msgstr "el módulo de transporte TCP"
+
+#: src/setup/gnunet-setup-options.c:361
+msgid "the HTTP transport plugin"
+msgstr "el módulo de transporte HTTP"
+
+#: src/setup/gnunet-setup-options.c:365
+msgid "the HTTPS transport plugin"
+msgstr "el módulo de transporte HTTPS"
+
+#: src/setup/gnunet-setup-options.c:401
+#, c-format
+msgid "Specified widget `%s' is not a checkbutton\n"
+msgstr "El objecto especificado «%s» no es un botón seleccionable\n"
+
+#: src/setup/gnunet-setup-options.c:421
+#, c-format
+msgid "Specified widget `%s' is not a spinbutton\n"
+msgstr "El widget seleccionado «%s» no es un botón selector (spinbutton)\n"
+
+#: src/setup/gnunet-setup-options.c:478
+#, c-format
+msgid "This port is already occupied by %s."
+msgstr "Este puerto está ocupado actualmente por %s."
+
+#: src/setup/gnunet-setup-options.c:973
+msgid "Should GNUnet exclusively connect to friends?"
+msgstr "¿Debería GNUnet conectarse exclusivamente a amigos?"
+
+#: src/setup/gnunet-setup-options.c:985
+msgid "Friends file containing the list of friendly peers"
+msgstr "Fichero de amigos que contiene una lista de pares amistosos"
+
+#: src/setup/gnunet-setup-options.c:997
+msgid "Minimum number of friendly connections"
+msgstr "Número mínimo de conexiones amistosas"
+
+#: src/setup/gnunet-setup-options.c:1009
+msgid "Topology should always be loaded"
+msgstr "La topología siempre debe ser cargada"
+
+#: src/setup/gnunet-setup-options.c:1022
+msgid "Should hostlist support be started automatically on startup?"
+msgstr "¿Deberían habilitarse automáticamente durante el inicio las listas de máquinas?"
+
+#: src/setup/gnunet-setup-options.c:1035
+msgid "Should file-sharing be started automatically on startup?"
+msgstr "¿Debería arrancarse automáticamente durante el inicio la compartición de ficheros?"
+
+#: src/setup/gnunet-setup-options.c:1047
+msgid "Should GNUnet learn about other peers using hostlists"
+msgstr "GNUnet debería aprender acerca de otros pares usando listas de máquinas"
+
+#: src/setup/gnunet-setup-options.c:1059
+msgid "Should GNUnet learn hostlists from other peers"
+msgstr "GNUnet debería aprender listas de máquinas de otros pares"
+
+#: src/setup/gnunet-setup-options.c:1071
+msgid "Should this peer offer a hostlist to other peers"
+msgstr "Este par debería ofrecer una lista de máquinas a otros pares"
+
+#: src/setup/gnunet-setup-options.c:1083
+msgid "Should this peer advertise its hostlist to other peers"
+msgstr "Este par debería anunciar su lista de máquinas a otros pares"
+
+#: src/setup/gnunet-setup-options.c:1095
+msgid "Port this peers hostlist should be offered on"
+msgstr "Puerto en el que esta lista de máquinas debería ser ofrecida a los pares"
+
+#: src/setup/gnunet-setup-options.c:1127
+msgid "Known hostlist URLs"
+msgstr "URL de listas de máquinas conocidas"
+
+#: src/setup/gnunet-setup-options.c:1138
+msgid "How many bytes per second are we allowed to transmit?"
+msgstr "¿Cuantos bytes por segundo podemos enviar?"
+
+#: src/setup/gnunet-setup-options.c:1150
+msgid "How many bytes per second are we allowed to receive?"
+msgstr "¿Cuantos bytes por segundo podemos recibir?"
+
+#: src/setup/gnunet-setup-options.c:1164
+msgid "Enable communication via TCP"
+msgstr "Activar comunicación vía TCP"
+
+#: src/setup/gnunet-setup-options.c:1176
+msgid "Enable communication via UDP"
+msgstr "Activar comunicación vía UDP"
+
+#: src/setup/gnunet-setup-options.c:1188
+msgid "Enable communication via HTTP as a server"
+msgstr "Activar comunicación vía HTTP como un servidor"
+
+#: src/setup/gnunet-setup-options.c:1200
+msgid "Enable communication via HTTP as a client"
+msgstr "Activar comunicación vía HTTP como un cliente"
+
+#: src/setup/gnunet-setup-options.c:1212
+msgid "Enable communication via HTTPS as a server"
+msgstr "Activar comunicación vía HTTPS como un servidor"
+
+#: src/setup/gnunet-setup-options.c:1224
+msgid "Enable communication via HTTPS as a client"
+msgstr "Activar comunicación vía HTTPS como un cliente"
+
+#: src/setup/gnunet-setup-options.c:1236
+msgid "Enable communication via DV"
+msgstr "Activar comunicación vía DV"
+
+#: src/setup/gnunet-setup-options.c:1248
+msgid "Enable communication via WLAN"
+msgstr "Activar comunicación vía WLAN"
+
+#: src/setup/gnunet-setup-options.c:1260
+msgid "Port we bind to for TCP"
+msgstr "Puerto al que nos asociamos para TCP"
+
+#: src/setup/gnunet-setup-options.c:1272
+#: src/setup/gnunet-setup-options.c:1395
+#: src/setup/gnunet-setup-options.c:1419
+#: src/setup/gnunet-setup-options.c:1443
+msgid "Port visible to other peers"
+msgstr "Puerto visible a otros pares"
+
+#: src/setup/gnunet-setup-options.c:1284
+msgid "Check if this peer is behind a NAT"
+msgstr "Comprueba si este par está detrás de un NAT"
+
+#: src/setup/gnunet-setup-options.c:1296
+msgid "Check if the NAT has been configured manually to forward ports"
+msgstr "Comprueba si el NAT ha sido configurado manualmente para encaminar los puertos"
+
+#: src/setup/gnunet-setup-options.c:1308
+msgid "Enable NAT traversal with UPnP/PMP"
+msgstr "Activar recorrido NAT con UPnP/PMP"
+
+#: src/setup/gnunet-setup-options.c:1321
+msgid "Enable NAT traversal with ICMP as server"
+msgstr "Activar recorrido NAT con ICMP como servidor"
+
+#: src/setup/gnunet-setup-options.c:1334
+msgid "External (public) IP address of the NAT"
+msgstr "Dirección IP externa (pública) del NAT"
+
+#: src/setup/gnunet-setup-options.c:1346
+msgid "Enable NAT traversal with ICMP as client"
+msgstr "Activar recorrido NAT con ICMP como cliente"
+
+#: src/setup/gnunet-setup-options.c:1358
+msgid "Internal (private) IP address of the NAT"
+msgstr "Dirección IP interna (privada) del NAT"
+
+#: src/setup/gnunet-setup-options.c:1370
+msgid "Disable IPv6 support"
+msgstr "Deshabilitar soporte IPv6"
+
+#: src/setup/gnunet-setup-options.c:1383
+msgid "Port for inbound UDP packets, use 0 if behind NAT"
+msgstr "Puerto para paquetes UDP entrantes, use 0 si está detrás de un NAT"
+
+#: src/setup/gnunet-setup-options.c:1407
+msgid "Port for inbound HTTP connections, use 0 if behind NAT"
+msgstr "Puerto para conexiones HTTP entrantes, use 0 si está detrás de un NAT"
+
+#: src/setup/gnunet-setup-options.c:1431
+msgid "Port for inbound HTTPS connections, use 0 if behind NAT"
+msgstr "Puerto para conexiones HTTPS entrantes, use 0 si está detrás de un NAT"
+
+#: src/setup/gnunet-setup-options.c:1457
+msgid "How many bytes are we allowed to store in the local datastore?"
+msgstr "¿Cuantos bytes podemos tener alojados en nuestro almacén de datos local?"
+
+#: src/setup/gnunet-setup-options.c:1469
+msgid "Use sqLite to store file-sharing content"
+msgstr "Usar sqLite para almacenar el contenido compartido"
+
+#: src/setup/gnunet-setup-options.c:1481
+msgid "Use MySQL to store file-sharing content"
+msgstr "Usar MySQL para almacenar el contenido compartido"
+
+#: src/setup/gnunet-setup-options.c:1493
+msgid "Use Postgres to store file-sharing content"
+msgstr "Usar Postgres para almacenar el contenido compartido"
+
+#: src/setup/gnunet-setup-options.c:1505
+msgid "Name for the MySQL database"
+msgstr "Nombre de la base de datos MySQL"
+
+#: src/setup/gnunet-setup-options.c:1517
+msgid "Configuration file for MySQL access"
+msgstr "Fichero de configuración para el acceso a MySQL"
+
+#: src/setup/gnunet-setup-options.c:1529
+msgid "Username for MySQL access"
+msgstr "Usuario para el acceso a MySQL"
+
+#: src/setup/gnunet-setup-options.c:1541
+msgid "Password for MySQL access"
+msgstr "Contraseña para el acceso a MySQL"
+
+#: src/setup/gnunet-setup-options.c:1553
+msgid "Name of host running MySQL database"
+msgstr "Nombre de la máquina ejecutando la base de datos MySQL"
+
+#: src/setup/gnunet-setup-options.c:1565
+msgid "Port of MySQL database"
+msgstr "Puerto de la base de datos MySQL"
+
+#: src/setup/gnunet-setup-options.c:1577
+#: src/setup/gnunet-setup-options.c:1676
+#: src/setup/gnunet-setup-options.c:1961
+msgid "Configuration for Postgres (passed to PQconnectdb)"
+msgstr "Configuración para Postgres (pasada a «PQconnectdb»)"
+
+#: src/setup/gnunet-setup-options.c:1590
+msgid "Should we try to push our content to other peers?"
+msgstr "¿Deberíamos probar a subir nuestros contenidos a otros pares?"
+
+#: src/setup/gnunet-setup-options.c:1602
+msgid "Are we allowed to cache content received from other peers?"
+msgstr "¿Podemos cachear el contenido recibido de otros pares?"
+
+#: src/setup/gnunet-setup-options.c:1615
+msgid "How many bytes are we allowed to store in the local datacache?"
+msgstr "¿Cuantos bytes podemos almacenar en la caché de datos local?"
+
+#: src/setup/gnunet-setup-options.c:1628
+msgid "Use sqLite to cache DHT data"
+msgstr "Usar sqLite para cachear los datos de la DHT"
+
+#: src/setup/gnunet-setup-options.c:1640
+msgid "Use memory to cache DHT data"
+msgstr "Usar la memoria para cachear los datos de la DHT"
+
+#: src/setup/gnunet-setup-options.c:1652
+msgid "Use Postgres to cache DHT data"
+msgstr "Usar Postgres para cachear los datos de la DHT"
+
+#: src/setup/gnunet-setup-options.c:1664
+msgid "Name of monitoring interface to use (monX)"
+msgstr "Nombre de la interfaz de monitorización a usar (monX)"
+
+#: src/setup/gnunet-setup-options.c:1690
+msgid "Should the VPN/PT be started automatically on startup?"
+msgstr "¿Debería arrancarse al inicio (automáticamente) la VPN/PT?"
+
+#: src/setup/gnunet-setup-options.c:1704
+msgid "Tunnel IPv4 traffic over GNUnet"
+msgstr "Encaminar el tráfico IPv4 a través de GNUnet"
+
+#: src/setup/gnunet-setup-options.c:1718
+msgid "Tunnel IPv6 traffic over GNUnet"
+msgstr "Encaminar el tráfico IPv6 a través de GNUnet"
+
+#: src/setup/gnunet-setup-options.c:1731
+msgid "Tunnel DNS traffic over GNUnet"
+msgstr "Encaminar el tráfico DNS a través de GNUnet"
+
+#: src/setup/gnunet-setup-options.c:1743
+msgid "Name of the virtual interface the GNUnet VPN should create"
+msgstr "Nombre de la interfaz virtual que la VPN de GNUnet debería crear"
+
+#: src/setup/gnunet-setup-options.c:1755
+msgid "IPv4 address to use for the VPN interface"
+msgstr "Dirección IPv4 a usar para la interfaz VPN"
+
+#: src/setup/gnunet-setup-options.c:1767
+msgid "IPv4 network mask to use for the VPN interface"
+msgstr "Máscara de red IPv4 a usar para la interfaz VPN"
+
+#: src/setup/gnunet-setup-options.c:1779
+msgid "IPv6 address to use for the VPN interface"
+msgstr "Dirección IPv6 a usar para la interfaz VPN"
+
+#: src/setup/gnunet-setup-options.c:1791
+msgid "IPv6 network prefix length to use for the VPN interface"
+msgstr "Longitud del prefijo de red IPv6 a usar para la interfaz VPN"
+
+#: src/setup/gnunet-setup-options.c:1807
+msgid "Activate the VPN exit to provide services and/or to enable others to use your Internet connection"
+msgstr "Activar la salida VPN para proveer servicios y/o para permitir a otros usar su conexión de internet"
+
+#: src/setup/gnunet-setup-options.c:1820
+msgid "IP address of the external DNS resolver to use (values from your resolve.conf are usually appropriate))"
+msgstr "Dirección IP del resolvedor DNS externo a usar (los valores de su resolve.conf habitualmente son apropiados)"
+
+#: src/setup/gnunet-setup-options.c:1833
+msgid "Allow other peers to perform DNS resolutions using your Internet connection"
+msgstr "Permitir a otros pares realizar resoluciones DNS usando su conexión a Internet"
+
+#: src/setup/gnunet-setup-options.c:1846
+msgid "Name of the virtual interface the GNUnet exit service should create for traffic exiting the VPN to the Internet"
+msgstr "Nombre de la interfaz virtual que el servicio de salida GNUnet debe crear para el tráfico saliendo de la VPN a Internet"
+
+#: src/setup/gnunet-setup-options.c:1858
+msgid "IPv4 address to use for the Exit interface"
+msgstr "Dirección IPv4 a usar para la interfaz de salida"
+
+#: src/setup/gnunet-setup-options.c:1870
+msgid "IPv4 network mask to use for the Exit interface"
+msgstr "Máscara de red IPv4 a usar para la interfaz de salida"
+
+#: src/setup/gnunet-setup-options.c:1882
+msgid "IPv6 address to use for the Exit interface"
+msgstr "Dirección IPv6 a usar para la interfaz de salida"
+
+#: src/setup/gnunet-setup-options.c:1895
+msgid "IPv6 network prefix length to use for the Exit interface"
+msgstr "Longitud del prefijo de red IPv6 a usar para la interfaz de salida"
+
+#: src/setup/gnunet-setup-options.c:1909
+msgid "Allow other users to use your Internet connection for UDP traffic (via the Exit interface)"
+msgstr "Permitir a otros usuarios usar su conexión de internet para tráfico UDP (vía la interfaz de salida)"
+
+#: src/setup/gnunet-setup-options.c:1922
+msgid "Allow other users to use your Internet connection for TCP traffic (via the Exit interface)"
+msgstr "Permitir a otros usuarios usar su conexión de internet para tráfico TCP (vía la interfaz de salida)"
+
+#: src/setup/gnunet-setup-options.c:1937
+msgid "Use sqLite to store names"
+msgstr "Usar sqLite para almacenar nombres"
+
+#: src/setup/gnunet-setup-options.c:1949
+msgid "Use PostGres to store names"
+msgstr "Usar PostGres para almacenar nombres"
+
+#: src/setup/gnunet-setup-options.c:1976
+msgid "Should the GNS be started automatically on startup?"
+msgstr "¿Debería arrancarse al inicio (automáticamente) el GNS?"
+
+#: src/setup/gnunet-setup-options.c:1989
+msgid "Should DNS queries be intercepted using iptables?"
+msgstr "¿Las consultas DNS deberían ser interceptadas usando iptables?"
+
+#: src/setup/gnunet-setup-options.c:2001
+msgid "Should names be automatically learned and placed into the 'shorten' Zone?"
+msgstr "¿Los nombres deberían ser aprendidos automáticamente y situados en la zona «acortada»?"
+
+#: src/setup/gnunet-setup-transport.c:182
+msgid "NAT traversal with ICMP Server succeeded.\n"
+msgstr "Recorrido NAT con servidor ICMP completado.\n"
+
+#: src/setup/gnunet-setup-transport.c:183
+msgid "NAT traversal with ICMP Server failed.\n"
+msgstr "Recorrido NAT con servidor ICMP fallido.\n"
+
+#: src/setup/gnunet-setup-transport.c:205
+msgid "NAT traversal with ICMP Server timed out.\n"
+msgstr "Expiró el plazo del recorrido NAT con servidor ICMP.\n"
+
+#: src/setup/gnunet-setup-transport.c:229
+msgid "Testing connection reversal with ICMP server.\n"
+msgstr "Provando conexión inversa con servidor ICMP.\n"
+
+#: src/setup/gnunet-setup-transport.c:276
+#, c-format
+msgid "Detected external IP `%s'\n"
+msgstr "Detectada IP externa «%s»\n"
+
+#: src/setup/gnunet-setup-transport.c:349
+msgid "This system has a global IPv6 address, setting IPv6 to supported.\n"
+msgstr "Este sistema tiene una dirección IPv6 global, habilitando IPv6.\n"
+
+#: src/setup/gnunet-setup-transport.c:364
+#, c-format
+msgid "Detected internal network address `%s'.\n"
+msgstr "Detectada dirección de la red interna «%s».\n"
+
+#: src/setup/gnunet-setup-transport.c:430
+msgid "upnpc found, enabling its use\n"
+msgstr "«upnpc» encontrado, habilitando su uso\n"
+
+#: src/setup/gnunet-setup-transport.c:431
+msgid "upnpc not found\n"
+msgstr "«upnpc» no encontrado\n"
+
+#: src/setup/gnunet-setup-transport.c:469
+msgid "gnunet-helper-nat-server found, testing it\n"
+msgstr "«gnunet-helper-nat-server» encontrado, probándolo\n"
+
+#: src/setup/gnunet-setup-transport.c:470
+msgid "No working gnunet-helper-nat-server found\n"
+msgstr "No se encontró un «gnunet-helper-nat-server» funcional\n"
+
+#: src/setup/gnunet-setup-transport.c:505
+msgid "gnunet-helper-nat-client found, enabling it\n"
+msgstr "«gnunet-helper-nat-client» encontrado, habilitándolo\n"
+
+#: src/setup/gnunet-setup-transport.c:506
+msgid "gnunet-helper-nat-client not found or behind NAT, disabling it\n"
+msgstr "«gnunet-helper-nat-client» no encontrado o detrás de un NAT, deshabilitándolo\n"
+
+#: src/statistics/functions.c:519
+msgid "Connectivity"
+msgstr "Conectividad"
+
+#: src/statistics/functions.c:520
+msgid "# connected nodes (100% = connection table size)"
+msgstr "# nodos conectados (100% = tamaño de la tabla de conexiones)"
+
+#: src/statistics/functions.c:528
+msgid "System load"
+msgstr "Carga del sistema"
+
+#: src/statistics/functions.c:530
+msgid "CPU load (red), IO load (green), Network upload (yellow), Network download (blue)"
+msgstr "Carga de CPU (rojo), carga de entrada/salida (verde), subida de la red (amarillo), bajada de la red (azul)"
+
+#: src/statistics/functions.c:538
+msgid "Datastore capacity"
+msgstr "Capacidad del almacén de datos"
+
+#: src/statistics/functions.c:539
+msgid "Persistent file-sharing data (red) and DHT cache (green)"
+msgstr "Datos compartidos persistentes (rojo) y caché de la DHT (verde)"
+
+#: src/statistics/functions.c:547
+msgid "Inbound Traffic"
+msgstr "Tráfico entrante"
+
+#: src/statistics/functions.c:549
+#: src/statistics/functions.c:559
+msgid "Noise (red), Content (green), Queries (yellow), Hellos (blue), other (gray), limit (magenta)"
+msgstr "Ruido (rojo), Contenido (verde), Búsquedas (amarillo), Número de «HELLO» (azul), otros (gris), límite (magenta)"
+
+#: src/statistics/functions.c:557
+msgid "Outbound Traffic"
+msgstr "Trafico de salida"
+
+#: src/statistics/functions.c:567
+msgid "Trust"
+msgstr "Confianza"
+
+#: src/statistics/functions.c:568
+msgid "Spent (red), Earned (green) and Awarded (yellow)"
+msgstr "Gastado (rojo), Ganado (verde) y Concedido (amarillo)"
+
+#: src/statistics/functions.c:576
+msgid "Routing Effectiveness"
+msgstr "Efectividad del encaminamiento"
+
+#: src/statistics/functions.c:577
+msgid "Average (red) effectiveness (100% = perfect)"
+msgstr "Efectividad media (rojo) (100% = perfecto)"
+
+#: src/statistics/gnunet-statistics-gtk.c:256
+msgid "Failed to initiate connection with statistics service\n"
+msgstr "Se produjo un fallo al iniciar la conexión con el servicio de estadísticas\n"
+
+#: src/statistics/statistics.c:434
+#, c-format
+msgid "Connected to %Lu peers"
+msgstr "Conectado a %Lu pares"
+
+#: contrib/gnunet_fs_gtk_about_window.glade:96
+#: contrib/gnunet_peerinfo_gtk_about_window.glade:158
+#: contrib/gnunet_setup_about_window.glade:158
+#: contrib/gnunet_statistics_gtk_about_window.glade:158
+msgid "Developed by"
+msgstr "Desarrollado por"
+
+#: contrib/gnunet_fs_gtk_about_window.glade:128
+#: contrib/gnunet_peerinfo_gtk_about_window.glade:190
+#: contrib/gnunet_setup_about_window.glade:190
+#: contrib/gnunet_statistics_gtk_about_window.glade:190
+msgid "Documented by"
+msgstr "Documentado por"
+
+#: contrib/gnunet_fs_gtk_about_window.glade:161
+#: contrib/gnunet_peerinfo_gtk_about_window.glade:223
+#: contrib/gnunet_setup_about_window.glade:223
+#: contrib/gnunet_statistics_gtk_about_window.glade:223
+msgid "Translated by"
+msgstr "Traducido por"
+
+#: contrib/gnunet_fs_gtk_about_window.glade:194
+#: contrib/gnunet_peerinfo_gtk_about_window.glade:256
+#: contrib/gnunet_setup_about_window.glade:256
+#: contrib/gnunet_statistics_gtk_about_window.glade:256
+msgid "Artwork by"
+msgstr "Trabajos artísticos de"
+
+#: contrib/gnunet_fs_gtk_about_window.glade:239
+#: contrib/gnunet_peerinfo_gtk_about_window.glade:301
+#: contrib/gnunet_setup_about_window.glade:301
+#: contrib/gnunet_statistics_gtk_about_window.glade:301
+msgid "Credits"
+msgstr "Créditos"
+
+#: contrib/gnunet_fs_gtk_about_window.glade:254
+#: contrib/gnunet_peerinfo_gtk_about_window.glade:316
+#: contrib/gnunet_setup_about_window.glade:316
+#: contrib/gnunet_statistics_gtk_about_window.glade:316
+msgid "License"
+msgstr "Licencia"
+
+#: contrib/gnunet_fs_gtk_about_window.glade:361
+#: contrib/gnunet_peerinfo_gtk_about_window.glade:65
+#: contrib/gnunet_setup_about_window.glade:65
+#: contrib/gnunet_statistics_gtk_about_window.glade:65
+msgid "License should be loaded here at runtime from the license file (no need to copy the whole GPL in here...)."
+msgstr "La licencia debería ser cargada aquí en tiempo de ejecución del archivo de licencia (no hace falta tener una copia de la GPL completa aquí...)."
+
+#: contrib/gnunet_fs_gtk_create_namespace_dialog.glade:10
+msgid "Create namespace"
+msgstr "Crear un espacio de nombres"
+
+#: contrib/gnunet_fs_gtk_create_namespace_dialog.glade:31
+msgid "_Name:"
+msgstr "_Nombre:"
+
+#: contrib/gnunet_fs_gtk_download_as_dialog.glade:15
+msgid "Save file as..."
+msgstr "Guardar fichero como..."
+
+#: contrib/gnunet_fs_gtk_download_as_dialog.glade:37
+#: contrib/gnunet_fs_gtk_open_url_dialog.glade:79
+msgid "_Anonymity:"
+msgstr "_Anonimato:"
+
+#: contrib/gnunet_fs_gtk_download_as_dialog.glade:66
+msgid "_recursive"
+msgstr "_recursivo"
+
+#: contrib/gnunet_fs_gtk_edit_publication.glade:121
+msgid "_Publication type:"
+msgstr "Tipo de _publicación:"
+
+#: contrib/gnunet_fs_gtk_edit_publication.glade:282
+msgid "Select file"
+msgstr "Seleccionar fichero"
+
+#: contrib/gnunet_fs_gtk_edit_publication.glade:330
+msgid "Preview:"
+msgstr "Previsualización:"
+
+#: contrib/gnunet_fs_gtk_edit_publication.glade:362
+msgid "_Keyword:"
+msgstr "Palabra _clave:"
+
+#: contrib/gnunet_fs_gtk_edit_publication.glade:510
+msgid "_Index file:"
+msgstr "_Fichero de índice:"
+
+#: contrib/gnunet_fs_gtk_edit_publication.glade:551
+msgid "_Root keyword:"
+msgstr "Palabra clave _raíz:"
+
+#: contrib/gnunet_fs_gtk_edit_publication.glade:595
+msgid "A_nonymity:"
+msgstr "A_nonimato:"
+
+#: contrib/gnunet_fs_gtk_edit_publication.glade:653
+msgid "_Priority:"
+msgstr "_Prioridad:"
+
+#: contrib/gnunet_fs_gtk_edit_publication.glade:698
+msgid "_Expriation year:"
+msgstr "Año de _expiración:"
+
+#: contrib/gnunet_fs_gtk_edit_publication.glade:744
+#: contrib/gnunet_fs_gtk_publish_directory_dialog.glade:118
+#: contrib/gnunet_fs_gtk_publish_file_dialog.glade:129
+msgid "_Replication:"
+msgstr "_Replicación:"
+
+#: contrib/gnunet_fs_gtk_edit_publication.glade:787
+msgid "Publication options:"
+msgstr "Opciones de publicación:"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:199
+msgid "gnunet-fs-gtk"
+msgstr ""
+
+#: contrib/gnunet_fs_gtk_main_window.glade:233
+msgid "_File sharing"
+msgstr "_Compartición de ficheros"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:240
+msgid "_Publish"
+msgstr "_Publicar"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:244
+msgid "Publish files or directories on GNUnet"
+msgstr "Publicar ficheros o directorios en GNUnet"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:258
+msgid "_List indexed files"
+msgstr "_Lista de ficheros indexados"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:275
+msgid "Download a file or directory with a known URI."
+msgstr "Descargar un fichero o directorio con una URI conocida."
+
+#: contrib/gnunet_fs_gtk_main_window.glade:286
+msgid "_Open GNUnet directory"
+msgstr "_Abrir un directorio GNUnet"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:290
+msgid "Use this option to browse a GNUnet directory file that has been previously downloaded."
+msgstr "Use esta opción para buscar un fichero de directorio GNUnet que ha sido previamente descargado."
+
+#: contrib/gnunet_fs_gtk_main_window.glade:307
+msgid "_Create pseudonym"
+msgstr "_Crear un seudónimo"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:311
+msgid "Create a pseudonym for publishing content.  Note that you can also publish content anonymously (without using a pseudonym)."
+msgstr "Crear un seudónimo para publicar contenido.  Fíjese que también puede publicar contenido anónimamente (sin usar un seudónimo)."
+
+#: contrib/gnunet_fs_gtk_main_window.glade:322
+msgid "_Advertise Pseudonym"
+msgstr "_Anunciar un seudónimo"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:337
+msgid "Opens namespace manager dialog to adjust the list of namespaces you want to use, as well as get detailed information about all discovered namespaces."
+msgstr "Abre el dialogo del gestor de espacios de nombres para ajustar la lista de espacios de nombres que se desea usar, así como obtener información detallada acerca de todos los espacios de nombres descubiertos."
+
+#: contrib/gnunet_fs_gtk_main_window.glade:338
+#: contrib/gnunet_fs_gtk_main_window.glade:1141
+msgid "_Manage namespaces"
+msgstr "_Gestionar espacios de nombres"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:355
+msgid "Exit gnunet-fs-gtk.  Active file-sharing operations will resume upon restart."
+msgstr "Salir de «gnunet-fs-gtk».  Las operaciones de compartición de ficheros activas se retomarán al reinicio."
+
+#: contrib/gnunet_fs_gtk_main_window.glade:371
+msgid "_Edit"
+msgstr "_Editar"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:383
+msgid "Edit the system configuration."
+msgstr "Editar la configuración del sistema."
+
+#: contrib/gnunet_fs_gtk_main_window.glade:398
+msgid "_View"
+msgstr "_Ver"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:409
+msgid "Show meta data in main window"
+msgstr "Mostrar metadatos en la ventana principal"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:410
+msgid "Metadata"
+msgstr "Metadatos"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:421
+msgid "Show preview (when available)"
+msgstr "Mostrar previsualización (cuando esté disponible)"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:422
+msgid "Preview"
+msgstr "Previsualización"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:433
+msgid "Show search box in main window"
+msgstr "Mostrar la caja de búsqueda en la ventana principal"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:434
+msgid "Search"
+msgstr "Buscar"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:449
+#: contrib/gnunet_peerinfo_gtk_main_window.glade:44
+#: contrib/gnunet_statistics_gtk_main_window.glade:25
+msgid "_Help"
+msgstr "_Ayuda"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:461
+msgid "Display information about this version of gnunet-fs-gtk"
+msgstr "Mostrar información acerca de esta versión de «gnunet-fs-gtk»"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:489
+msgid "Namespace:"
+msgstr "Espacio de nombres:"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:556
+msgid "Find:"
+msgstr "Buscar:"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:592
+#: contrib/gnunet_fs_gtk_main_window.glade:845
+#: contrib/gnunet_fs_gtk_publish_directory_dialog.glade:106
+#: contrib/gnunet_fs_gtk_publish_file_dialog.glade:61
+msgid "Anonymity:"
+msgstr "Anonimato:"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:637
+msgid "Type:"
+msgstr "Tipo:"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:744
+msgid "Download into:"
+msgstr "Descargar en:"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:758
+msgid "Select a directory to download into"
+msgstr "Seleccionar un directorio en el que descargar"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:784
+msgid "Download as:"
+msgstr "Descargar como:"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:888
+msgid "Recursive"
+msgstr "Recursivo"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:915
+msgid "Download!"
+msgstr "¡Descargar!"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:959
+msgid "Thumbnail associated with the currently selected content"
+msgstr "Miniatura asociada con el contenido seleccionado actualmente"
+
+#: contrib/gnunet_fs_gtk_main_window.glade:1068
+msgid "Copy selection"
+msgstr "Copiar colección"
+
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:64
+msgid "Saves all changes made in this dialog to disk without closing the dialog."
+msgstr "Guardar todos los cambios hechos en este dialogo al disco sin cerrar el dialogo."
+
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:80
+msgid "Saves all changes made in this dialog to disk and closes the dialog."
+msgstr "Guardar todos los cambios hechos en este dialogo al disco y cerrar el dialogo."
+
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:96
+msgid "Closes the dialog. Changes made in this dialog will not be preserved."
+msgstr "Cerrar el diálogo. Los cambios hechos en este diálogo no se guardarán."
+
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:129
+msgid ""
+"Known namespaces:\n"
+"Select a namespace to see its complete metadata. Click \"Delete\" to delete (forget) namespace.\n"
+"Namespace names are editable."
+msgstr ""
+"Espacios de nombres conocidos:\n"
+"Seleccione un espacio de nombres para ver todos sus metadatos. Pulse «Borrar» para borrar (olvidar) el espacio de nombres.\n"
+"Namespace names are editable."
+
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:160
+msgid "Is mine"
+msgstr "Es mío"
+
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:176
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:328
+msgid "Rank"
+msgstr "Evaluación"
+
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:190
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:341
+msgid "Name"
+msgstr "Nombre"
+
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:208
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:354
+msgid "Identifier"
+msgstr "Identificador"
+
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:244
+msgid ""
+"Makes GNUnet \"forget\" about selected known namespace.\n"
+"However, GNUnet will be able to learn about this namespace, if it ever discovers it again."
+msgstr ""
+"Hace que GNUnet se «olvide» del espacio de nombres seleccionado.\n"
+"No obstante, GNUnet será capaz de aprender sobre este espacio de nombres, si alguna vez vuelve a descubrirlo."
+
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:257
+msgid "Swap _Rank"
+msgstr "_Conmutar evaluación"
+
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:262
+msgid ""
+"Changes the rank value of the selected namespace in \"Known namespaces\" list.\n"
+"If it had rank 0, it's given rank -1, otherwise the sign of its rank is flipped.\n"
+"Only namespaces with positive ranks are displayed in \"Namespace order\" list."
+msgstr ""
+"Cambia el valor de la evaluación del espacio de nombres seleccionado en la lista «Espacios de nombres conocidos».\n"
+"Si tenía una evaluación 0, su evaluación será -1, en otro caso el signo de su evaluación será invertido.\n"
+"Únicamente los espacios de nombres con evaluación positiva aparece en la lista «Ordenación de espacios de nombres»."
+
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:295
+msgid ""
+"Namespace order:\n"
+"Drag rows to change namespace order, click \"Apply\" to save it."
+msgstr ""
+"Ordenación de espacios de nombres:\n"
+"Arrastre las filas para cambiar el orden de los espacios de nombres, pulse «Aplicar» para guardarlo."
+
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:387
+msgid ""
+"Convert the order in which namespaces are arranged in \"Namespace order\" list to ranks.\n"
+"Top namespace is assigned rank 0, namespace below it - rank 1, and so on."
+msgstr ""
+"Convertir el orden en el que los espacios de nombres están colocados en la lista «Ordenación de espacios de nombres» a evaluaciones.\n"
+"El espacio de nombres superior tendrá asignada evaluación 0, los espacios de nombres inferiores -posición y así sucesivamente."
+
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:425
+msgid ""
+"Selected namespace details:\n"
+"Metadata can be <s>added,</s> deleted and edited. Click \"Apply\" to save metadata changes."
+msgstr ""
+"Detalles de espacio de nombres seleccionadas:\n"
+"Los metadatos pueden ser <s>añadidos,</s> borrados y editados. Pulse «Aplicar» para guardar los cambios en los metadatos."
+
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:459
+msgid "Type"
+msgstr "Tipo"
+
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:472
+msgid "Value"
+msgstr "Valor"
+
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:508
+msgid ""
+"Adds a new metadata Type=Value pair to the list.\n"
+"This functionality is not available at the moment."
+msgstr ""
+"Añade un nuevo par Tipo=Valor de metadatos a la lista.\n"
+"Esta funcionalidad no está disponible de momento."
+
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:526
+msgid ""
+"Removes selected Type=Value pair from metadata list.\n"
+"The change will not last unless you click on \"Apply\" button before closing the window or selecing some other known namespace."
+msgstr ""
+"Borra el par Tipo=Valor de metadatos seleccionado de la lista.\n"
+"El cambio no durará a menos que pulse el botón «Aplicar» antes de cerrar la ventana o seleccionar otro espacio de nombres conocido."
+
+#: contrib/gnunet_fs_gtk_namespace_manager.glade:545
+msgid "Applies changes made in metadata list to currently selected known namespace."
+msgstr "Aplica los cambios hechos a la lista de metadatos a los espacios de nombres conocidos seleccionados actualmente."
+
+#: contrib/gnunet_fs_gtk_open_url_dialog.glade:6
+msgid "Enter the URI to be downloaded"
+msgstr "Introducir la URI a descargar"
+
+#: contrib/gnunet_fs_gtk_open_url_dialog.glade:26
+msgid "_URI:"
+msgstr "_URI:"
+
+#: contrib/gnunet_fs_gtk_progress_dialog.glade:52
+msgid "<b>Messages</b>"
+msgstr "<b>Mensajes</b>"
+
+#: contrib/gnunet_fs_gtk_progress_dialog.glade:67
+msgid "Preprocessing..."
+msgstr "Preprocesando..."
+
+#: contrib/gnunet_fs_gtk_publish_dialog.glade:28
+msgid "Publish content on GNUnet"
+msgstr "Publicar contenido en GNUnet"
+
+#: contrib/gnunet_fs_gtk_publish_dialog.glade:115
+msgid "Add _File"
+msgstr "Añadir _fichero"
+
+#: contrib/gnunet_fs_gtk_publish_dialog.glade:126
+msgid "_Create empty directory"
+msgstr "_Crear directorio vacío"
+
+#: contrib/gnunet_fs_gtk_publish_dialog.glade:142
+msgid "Add _Directory"
+msgstr "Añadir _directorio"
+
+#: contrib/gnunet_fs_gtk_publish_dialog.glade:224
+msgid "_Left"
+msgstr "_Izquierda"
+
+#: contrib/gnunet_fs_gtk_publish_dialog.glade:259
+msgid "_Right"
+msgstr "_Derecha"
+
+#: contrib/gnunet_fs_gtk_publish_dialog.glade:406
+msgid "_Execute"
+msgstr "_Ejecutar"
+
+#: contrib/gnunet_fs_gtk_publish_dialog.glade:423
+msgid "Remove all _Keywords"
+msgstr "Borrar todas las palabras _clave"
+
+#: contrib/gnunet_fs_gtk_publish_dialog.glade:429
+msgid "This button removes all keywords from all files and directories in this dialog.  This is useful if you want to get rid of the automatically extracted keywords to make sure that your published file(s) are only available from the resulting URI or from keywords that you manually enter after clicking this button.  Note that meta data is unaffected when using this function."
+msgstr "Este botón borra todas las palabras clave de todos los ficheros y directorios en este dialogo.  Esto es útil si quiere deshacerse de las palabras clave extraídas automáticamente para asegurarse que su(s) fichero(s) publicado(s) únicamente está(n) disponibles a partir de la URI resultante o de palabras clave que introduzca manualmente después de pulsar este botón.  Fíjese que los metadatos no se ven afectados por usar esta función."
+
+#: contrib/gnunet_fs_gtk_publish_dialog.glade:441
+msgid "_Cancel"
+msgstr "_Cancelar"
+
+#: contrib/gnunet_fs_gtk_publish_directory_dialog.glade:51
+#: contrib/gnunet_fs_gtk_publish_file_dialog.glade:75
+#: contrib/gnunet_setup_gns_edit_srv.glade:257
+msgid "Priority:"
+msgstr "Prioridad:"
+
+#: contrib/gnunet_fs_gtk_publish_directory_dialog.glade:80
+#: contrib/gnunet_fs_gtk_publish_file_dialog.glade:103
+msgid "Expiration year:"
+msgstr "Año de expiración:"
+
+#: contrib/gnunet_fs_gtk_publish_directory_dialog.glade:196
+msgid "Index files"
+msgstr "Ficheros de índices"
+
+#: contrib/gnunet_fs_gtk_publish_file_dialog.glade:8
+msgid "Publish file..."
+msgstr "Publicar fichero..."
+
+#: contrib/gnunet_fs_gtk_publish_file_dialog.glade:173
+msgid "Index file"
+msgstr "Fichero de índices"
+
+#: contrib/gnunet_fs_gtk_publish_tab.glade:55
+msgid "Progress"
+msgstr "Progreso"
+
+#: contrib/gnunet_fs_gtk_publish_tab.glade:67
+#: contrib/gnunet_fs_gtk_search_tab.glade:94
+msgid "Status"
+msgstr "Estado"
+
+#: contrib/gnunet_fs_gtk_publish_tab.glade:108
+msgid "Publishing"
+msgstr "Publicación"
+
+#: contrib/gnunet_fs_gtk_search_tab.glade:225
+msgid "You shouldn't see this also"
+msgstr "No deberías ver tampoco esto"
+
+#: contrib/gnunet_fs_gtk_select_pseudonym_dialog.glade:27
+msgid "Select pseudonym..."
+msgstr "Selecciona seudónimo..."
+
+#: contrib/gnunet_fs_gtk_unindex.glade:29
+msgid "Indexed files"
+msgstr "Ficheros indexados"
+
+#: contrib/gnunet_fs_gtk_unindex.glade:113
+msgid "Unindex the selected indexed file."
+msgstr "Desindexar el fichero indexado seleccionado."
+
+#: contrib/gnunet_gtk_status_bar_menu.glade:11
+msgid "Quit"
+msgstr "Salir"
+
+#: contrib/gnunet_peerinfo_gtk_about_dialog.glade:8
+msgid "About gnunet-peerinfo-gtk"
+msgstr "Acerca de «gnunet-peerinfo-gtk»"
+
+#: contrib/gnunet_peerinfo_gtk_about_dialog.glade:17
+#: contrib/gnunet_setup_about_dialog.glade:17
+#: contrib/gnunet_statistics_gtk_about_dialog.glade:17
+msgid "(C) 2011 The GNUnet Project"
+msgstr "(C) 2011 El proyecto GNUnet"
+
+#: contrib/gnunet_peerinfo_gtk_about_dialog.glade:19
+#: contrib/gnunet_setup_about_dialog.glade:19
+#: contrib/gnunet_statistics_gtk_about_dialog.glade:19
+msgid "GNUnet: GNU's Framework for Secure P2P Networking"
+msgstr "GNUnet: La biblioteca de GNU para comunicaciones P2P seguras"
+
+#: contrib/gnunet_peerinfo_gtk_about_dialog.glade:20
+#: contrib/gnunet_setup_about_dialog.glade:20
+#: contrib/gnunet_statistics_gtk_about_dialog.glade:20
+msgid ""
+"                    GNU GENERAL PUBLIC LICENSE\n"
+"                       Version 2, June 1991\n"
+"\n"
+" Copyright (C) 1989, 1991 Free Software Foundation, Inc.\n"
+"     59 Temple Place, Suite 330, Boston, MA  02111-1307  USA\n"
+" Everyone is permitted to copy and distribute verbatim copies\n"
+" of this license document, but changing it is not allowed.\n"
+"\n"
+"                            Preamble\n"
+"\n"
+"  The licenses for most software are designed to take away your\n"
+"freedom to share and change it.  By contrast, the GNU General Public\n"
+"License is intended to guarantee your freedom to share and change free\n"
+"software--to make sure the software is free for all its users.  This\n"
+"General Public License applies to most of the Free Software\n"
+"Foundation's software and to any other program whose authors commit to\n"
+"using it.  (Some other Free Software Foundation software is covered by\n"
+"the GNU Library General Public License instead.)  You can apply it to\n"
+"your programs, too.\n"
+"\n"
+"  When we speak of free software, we are referring to freedom, not\n"
+"price.  Our General Public Licenses are designed to make sure that you\n"
+"have the freedom to distribute copies of free software (and charge for\n"
+"this service if you wish), that you receive source code or can get it\n"
+"if you want it, that you can change the software or use pieces of it\n"
+"in new free programs; and that you know you can do these things.\n"
+"\n"
+"  To protect your rights, we need to make restrictions that forbid\n"
+"anyone to deny you these rights or to ask you to surrender the rights.\n"
+"These restrictions translate to certain responsibilities for you if you\n"
+"distribute copies of the software, or if you modify it.\n"
+"\n"
+"  For example, if you distribute copies of such a program, whether\n"
+"gratis or for a fee, you must give the recipients all the rights that\n"
+"you have.  You must make sure that they, too, receive or can get the\n"
+"source code.  And you must show them these terms so they know their\n"
+"rights.\n"
+"\n"
+"  We protect your rights with two steps: (1) copyright the software, and\n"
+"(2) offer you this license which gives you legal permission to copy,\n"
+"distribute and/or modify the software.\n"
+"\n"
+"  Also, for each author's protection and ours, we want to make certain\n"
+"that everyone understands that there is no warranty for this free\n"
+"software.  If the software is modified by someone else and passed on, we\n"
+"want its recipients to know that what they have is not the original, so\n"
+"that any problems introduced by others will not reflect on the original\n"
+"authors' reputations.\n"
+"\n"
+"  Finally, any free program is threatened constantly by software\n"
+"patents.  We wish to avoid the danger that redistributors of a free\n"
+"program will individually obtain patent licenses, in effect making the\n"
+"program proprietary.  To prevent this, we have made it clear that any\n"
+"patent must be licensed for everyone's free use or not licensed at all.\n"
+"\n"
+"  The precise terms and conditions for copying, distribution and\n"
+"modification follow.\n"
+"\n"
+"                    GNU GENERAL PUBLIC LICENSE\n"
+"   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n"
+"\n"
+"  0. This License applies to any program or other work which contains\n"
+"a notice placed by the copyright holder saying it may be distributed\n"
+"under the terms of this General Public License.  The \"Program\", below,\n"
+"refers to any such program or work, and a \"work based on the Program\"\n"
+"means either the Program or any derivative work under copyright law:\n"
+"that is to say, a work containing the Program or a portion of it,\n"
+"either verbatim or with modifications and/or translated into another\n"
+"language.  (Hereinafter, translation is included without limitation in\n"
+"the term \"modification\".)  Each licensee is addressed as \"you\".\n"
+"\n"
+"Activities other than copying, distribution and modification are not\n"
+"covered by this License; they are outside its scope.  The act of\n"
+"running the Program is not restricted, and the output from the Program\n"
+"is covered only if its contents constitute a work based on the\n"
+"Program (independent of having been made by running the Program).\n"
+"Whether that is true depends on what the Program does.\n"
+"\n"
+"  1. You may copy and distribute verbatim copies of the Program's\n"
+"source code as you receive it, in any medium, provided that you\n"
+"conspicuously and appropriately publish on each copy an appropriate\n"
+"copyright notice and disclaimer of warranty; keep intact all the\n"
+"notices that refer to this License and to the absence of any warranty;\n"
+"and give any other recipients of the Program a copy of this License\n"
+"along with the Program.\n"
+"\n"
+"You may charge a fee for the physical act of transferring a copy, and\n"
+"you may at your option offer warranty protection in exchange for a fee.\n"
+"\n"
+"  2. You may modify your copy or copies of the Program or any portion\n"
+"of it, thus forming a work based on the Program, and copy and\n"
+"distribute such modifications or work under the terms of Section 1\n"
+"above, provided that you also meet all of these conditions:\n"
+"\n"
+"    a) You must cause the modified files to carry prominent notices\n"
+"    stating that you changed the files and the date of any change.\n"
+"\n"
+"    b) You must cause any work that you distribute or publish, that in\n"
+"    whole or in part contains or is derived from the Program or any\n"
+"    part thereof, to be licensed as a whole at no charge to all third\n"
+"    parties under the terms of this License.\n"
+"\n"
+"    c) If the modified program normally reads commands interactively\n"
+"    when run, you must cause it, when started running for such\n"
+"    interactive use in the most ordinary way, to print or display an\n"
+"    announcement including an appropriate copyright notice and a\n"
+"\n"
+"    notice that there is no warranty (or else, saying that you provide\n"
+"    a warranty) and that users may redistribute the program under\n"
+"    these conditions, and telling the user how to view a copy of this\n"
+"    License.  (Exception: if the Program itself is interactive but\n"
+"    does not normally print such an announcement, your work based on\n"
+"    the Program is not required to print an announcement.)\n"
+"\n"
+"These requirements apply to the modified work as a whole.  If\n"
+"identifiable sections of that work are not derived from the Program,\n"
+"and can be reasonably considered independent and separate works in\n"
+"themselves, then this License, and its terms, do not apply to those\n"
+"sections when you distribute them as separate works.  But when you\n"
+"distribute the same sections as part of a whole which is a work based\n"
+"on the Program, the distribution of the whole must be on the terms of\n"
+"this License, whose permissions for other licensees extend to the\n"
+"entire whole, and thus to each and every part regardless of who wrote it.\n"
+"\n"
+"Thus, it is not the intent of this section to claim rights or contest\n"
+"your rights to work written entirely by you; rather, the intent is to\n"
+"exercise the right to control the distribution of derivative or\n"
+"collective works based on the Program.\n"
+"\n"
+"In addition, mere aggregation of another work not based on the Program\n"
+"with the Program (or with a work based on the Program) on a volume of\n"
+"a storage or distribution medium does not bring the other work under\n"
+"the scope of this License.\n"
+"\n"
+"  3. You may copy and distribute the Program (or a work based on it,\n"
+"under Section 2) in object code or executable form under the terms of\n"
+"Sections 1 and 2 above provided that you also do one of the following:\n"
+"\n"
+"    a) Accompany it with the complete corresponding machine-readable\n"
+"    source code, which must be distributed under the terms of Sections\n"
+"    1 and 2 above on a medium customarily used for software interchange; or,\n"
+"\n"
+"    b) Accompany it with a written offer, valid for at least three\n"
+"    years, to give any third party, for a charge no more than your\n"
+"    cost of physically performing source distribution, a complete\n"
+"    machine-readable copy of the corresponding source code, to be\n"
+"    distributed under the terms of Sections 1 and 2 above on a medium\n"
+"    customarily used for software interchange; or,\n"
+"\n"
+"    c) Accompany it with the information you received as to the offer\n"
+"    to distribute corresponding source code.  (This alternative is\n"
+"    allowed only for noncommercial distribution and only if you\n"
+"    received the program in object code or executable form with such\n"
+"    an offer, in accord with Subsection b above.)\n"
+"\n"
+"The source code for a work means the preferred form of the work for\n"
+"making modifications to it.  For an executable work, complete source\n"
+"code means all the source code for all modules it contains, plus any\n"
+"associated interface definition files, plus the scripts used to\n"
+"control compilation and installation of the executable.  However, as a\n"
+"special exception, the source code distributed need not include\n"
+"anything that is normally distributed (in either source or binary\n"
+"form) with the major components (compiler, kernel, and so on) of the\n"
+"operating system on which the executable runs, unless that component\n"
+"itself accompanies the executable.\n"
+"\n"
+"If distribution of executable or object code is made by offering\n"
+"access to copy from a designated place, then offering equivalent\n"
+"access to copy the source code from the same place counts as\n"
+"distribution of the source code, even though third parties are not\n"
+"compelled to copy the source along with the object code.\n"
+"\n"
+"  4. You may not copy, modify, sublicense, or distribute the Program\n"
+"except as expressly provided under this License.  Any attempt\n"
+"otherwise to copy, modify, sublicense or distribute the Program is\n"
+"void, and will automatically terminate your rights under this License.\n"
+"However, parties who have received copies, or rights, from you under\n"
+"this License will not have their licenses terminated so long as such\n"
+"parties remain in full compliance.\n"
+"\n"
+"  5. You are not required to accept this License, since you have not\n"
+"signed it.  However, nothing else grants you permission to modify or\n"
+"distribute the Program or its derivative works.  These actions are\n"
+"prohibited by law if you do not accept this License.  Therefore, by\n"
+"modifying or distributing the Program (or any work based on the\n"
+"Program), you indicate your acceptance of this License to do so, and\n"
+"all its terms and conditions for copying, distributing or modifying\n"
+"the Program or works based on it.\n"
+"\n"
+"  6. Each time you redistribute the Program (or any work based on the\n"
+"Program), the recipient automatically receives a license from the\n"
+"original licensor to copy, distribute or modify the Program subject to\n"
+"these terms and conditions.  You may not impose any further\n"
+"restrictions on the recipients' exercise of the rights granted herein.\n"
+"You are not responsible for enforcing compliance by third parties to\n"
+"this License.\n"
+"\n"
+"  7. If, as a consequence of a court judgment or allegation of patent\n"
+"infringement or for any other reason (not limited to patent issues),\n"
+"conditions are imposed on you (whether by court order, agreement or\n"
+"otherwise) that contradict the conditions of this License, they do not\n"
+"excuse you from the conditions of this License.  If you cannot\n"
+"distribute so as to satisfy simultaneously your obligations under this\n"
+"License and any other pertinent obligations, then as a consequence you\n"
+"may not distribute the Program at all.  For example, if a patent\n"
+"license would not permit royalty-free redistribution of the Program by\n"
+"all those who receive copies directly or indirectly through you, then\n"
+"the only way you could satisfy both it and this License would be to\n"
+"refrain entirely from distribution of the Program.\n"
+"\n"
+"If any portion of this section is held invalid or unenforceable under\n"
+"any particular circumstance, the balance of the section is intended to\n"
+"apply and the section as a whole is intended to apply in other\n"
+"circumstances.\n"
+"\n"
+"It is not the purpose of this section to induce you to infringe any\n"
+"patents or other property right claims or to contest validity of any\n"
+"such claims; this section has the sole purpose of protecting the\n"
+"integrity of the free software distribution system, which is\n"
+"implemented by public license practices.  Many people have made\n"
+"generous contributions to the wide range of software distributed\n"
+"through that system in reliance on consistent application of that\n"
+"system; it is up to the author/donor to decide if he or she is willing\n"
+"to distribute software through any other system and a licensee cannot\n"
+"impose that choice.\n"
+"\n"
+"This section is intended to make thoroughly clear what is believed to\n"
+"be a consequence of the rest of this License.\n"
+"\n"
+"  8. If the distribution and/or use of the Program is restricted in\n"
+"certain countries either by patents or by copyrighted interfaces, the\n"
+"original copyright holder who places the Program under this License\n"
+"may add an explicit geographical distribution limitation excluding\n"
+"those countries, so that distribution is permitted only in or among\n"
+"countries not thus excluded.  In such case, this License incorporates\n"
+"the limitation as if written in the body of this License.\n"
+"\n"
+"  9. The Free Software Foundation may publish revised and/or new versions\n"
+"of the General Public License from time to time.  Such new versions will\n"
+"be similar in spirit to the present version, but may differ in detail to\n"
+"address new problems or concerns.\n"
+"\n"
+"Each version is given a distinguishing version number.  If the Program\n"
+"specifies a version number of this License which applies to it and \"any\n"
+"later version\", you have the option of following the terms and conditions\n"
+"either of that version or of any later version published by the Free\n"
+"Software Foundation.  If the Program does not specify a version number of\n"
+"this License, you may choose any version ever published by the Free Software\n"
+"Foundation.\n"
+"\n"
+"  10. If you wish to incorporate parts of the Program into other free\n"
+"programs whose distribution conditions are different, write to the author\n"
+"to ask for permission.  For software which is copyrighted by the Free\n"
+"Software Foundation, write to the Free Software Foundation; we sometimes\n"
+"make exceptions for this.  Our decision will be guided by the two goals\n"
+"of preserving the free status of all derivatives of our free software and\n"
+"of promoting the sharing and reuse of software generally.\n"
+"\n"
+"                            NO WARRANTY\n"
+"\n"
+"  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY\n"
+"FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN\n"
+"OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES\n"
+"PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED\n"
+"OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\n"
+"MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS\n"
+"TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE\n"
+"PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,\n"
+"REPAIR OR CORRECTION.\n"
+"\n"
+"  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING\n"
+"WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR\n"
+"REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,\n"
+"INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING\n"
+"OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED\n"
+"TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY\n"
+"YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER\n"
+"PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE\n"
+"POSSIBILITY OF SUCH DAMAGES.\n"
+"\n"
+"                     END OF TERMS AND CONDITIONS\n"
+msgstr ""
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: contrib/gnunet_peerinfo_gtk_about_dialog.glade:338
+#: contrib/gnunet_setup_about_dialog.glade:338
+#: contrib/gnunet_statistics_gtk_about_dialog.glade:338
+msgid ""
+"Di Ma\n"
+"Jens Palsberg <palsberg@cs.ucla.edu>\n"
+"Christian Grothoff <christian@grothoff.org>\n"
+"Nils Durner <durner@gnunet.org>\n"
+"Mathieu <mollo@bghflt.org>\n"
+"Eric Haumant\n"
+"milan@skoid.org\n"
+"Hiroshi Yamauchi <yamauchi@cs.purdue.edu>\n"
+"Adam Welc <welc@cs.purdue.edu>\n"
+"Bogdan Carbunar <carbunar@cs.purdue.edu>\n"
+"Steven Michael Murphy <murf@e-tools.com>\n"
+"Phan Vinh Thinh <teppi82@gmail.com>\n"
+"Daniel Nylander <po@danielnylander.se>\n"
+msgstr ""
+"Di Ma\n"
+"Jens Palsberg <palsberg@cs.ucla.edu>\n"
+"Christian Grothoff <christian@grothoff.org>\n"
+"Nils Durner <durner@gnunet.org>\n"
+"Mathieu <mollo@bghflt.org>\n"
+"Eric Haumant\n"
+"milan@skoid.org\n"
+"Hiroshi Yamauchi <yamauchi@cs.purdue.edu>\n"
+"Adam Welc <welc@cs.purdue.edu>\n"
+"Bogdan Carbunar <carbunar@cs.purdue.edu>\n"
+"Steven Michael Murphy <murf@e-tools.com>\n"
+"Phan Vinh Thinh <teppi82@gmail.com>\n"
+"Daniel Nylander <po@danielnylander.se>\n"
+"Traducido por:\n"
+"Miguel Ángel Arruga Vivas <rosen644835@gmail.com>\n"
+
+#: contrib/gnunet_peerinfo_gtk_main_window.glade:28
+msgid "gnunet-peerinfo-gtk"
+msgstr "«gnunet-peerinfo-gtk»"
+
+#: contrib/gnunet_peerinfo_gtk_main_window.glade:53
+msgid "Display information about this version of gnunet-peerinfo-gtk"
+msgstr "Muestra información acerca de esta versión de «gnunet-peerinfo-gtk»"
+
+#: contrib/gnunet_setup_about_dialog.glade:8
+msgid "About gnunet-setup"
+msgstr "Acerca de «gnunet-setup»"
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:77
+#: contrib/gnunet_setup_gns_edit_a.glade:94
+#: contrib/gnunet_setup_gns_edit_cname.glade:77
+#: contrib/gnunet_setup_gns_edit_leho.glade:116
+#: contrib/gnunet_setup_gns_edit_mx.glade:121
+#: contrib/gnunet_setup_gns_edit_ns.glade:116
+#: contrib/gnunet_setup_gns_edit_pkey.glade:116
+#: contrib/gnunet_setup_gns_edit_ptr.glade:116
+#: contrib/gnunet_setup_gns_edit_soa.glade:145
+#: contrib/gnunet_setup_gns_edit_srv.glade:131
+#: contrib/gnunet_setup_gns_edit_txt.glade:116
+#: contrib/gnunet_setup_gns_edit_vpn.glade:116
+msgid "Store the updated record in the database. If the record is public, GNUnet will begin to publish the record to the world, limiting your ability to change it later (based on the selected expiration values)."
+msgstr "Almacena el registro actualizado en la base de datos. Si el registro es público, GNUnet comenzará a publicar el registro al mundo, limitando su capacidad de cambiarlo posteriormente (en base a los valores de expiración seleccionados)."
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:113
+#: contrib/gnunet_setup_gns_edit_a.glade:130
+#: contrib/gnunet_setup_gns_edit_cname.glade:113
+#: contrib/gnunet_setup_gns_edit_leho.glade:152
+#: contrib/gnunet_setup_gns_edit_mx.glade:157
+#: contrib/gnunet_setup_gns_edit_ns.glade:152
+#: contrib/gnunet_setup_gns_edit_pkey.glade:152
+#: contrib/gnunet_setup_gns_edit_ptr.glade:152
+#: contrib/gnunet_setup_gns_edit_soa.glade:181
+#: contrib/gnunet_setup_gns_edit_srv.glade:167
+#: contrib/gnunet_setup_gns_edit_txt.glade:152
+#: contrib/gnunet_setup_gns_edit_vpn.glade:152
+msgid "Name of the record in the zone."
+msgstr "Nombre del registro en la zona."
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:132
+#: contrib/gnunet_setup_gns_edit_a.glade:149
+#: contrib/gnunet_setup_gns_edit_cname.glade:132
+#: contrib/gnunet_setup_gns_edit_leho.glade:171
+#: contrib/gnunet_setup_gns_edit_mx.glade:176
+#: contrib/gnunet_setup_gns_edit_ns.glade:171
+#: contrib/gnunet_setup_gns_edit_pkey.glade:171
+#: contrib/gnunet_setup_gns_edit_ptr.glade:171
+#: contrib/gnunet_setup_gns_edit_soa.glade:200
+#: contrib/gnunet_setup_gns_edit_srv.glade:186
+#: contrib/gnunet_setup_gns_edit_txt.glade:171
+#: contrib/gnunet_setup_gns_edit_vpn.glade:171
+msgid "in"
+msgstr "entrada"
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:145
+#: contrib/gnunet_setup_gns_edit_a.glade:162
+#: contrib/gnunet_setup_gns_edit_cname.glade:145
+#: contrib/gnunet_setup_gns_edit_leho.glade:184
+#: contrib/gnunet_setup_gns_edit_mx.glade:189
+#: contrib/gnunet_setup_gns_edit_ns.glade:184
+#: contrib/gnunet_setup_gns_edit_pkey.glade:184
+#: contrib/gnunet_setup_gns_edit_ptr.glade:184
+#: contrib/gnunet_setup_gns_edit_soa.glade:213
+#: contrib/gnunet_setup_gns_edit_srv.glade:199
+#: contrib/gnunet_setup_gns_edit_txt.glade:184
+#: contrib/gnunet_setup_gns_edit_vpn.glade:184
+msgid "Select the desired zone for the record.  Changing this value here will move the record to the selected zone."
+msgstr "Seleccione la zona deseada para el registro.  Cambiar este valor aquí moverá el registro a la zona seleccionada."
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:170
+#: contrib/gnunet_setup_gns_edit_a.glade:187
+#: contrib/gnunet_setup_gns_edit_cname.glade:170
+#: contrib/gnunet_setup_gns_edit_leho.glade:209
+#: contrib/gnunet_setup_gns_edit_mx.glade:214
+#: contrib/gnunet_setup_gns_edit_ns.glade:209
+#: contrib/gnunet_setup_gns_edit_pkey.glade:209
+#: contrib/gnunet_setup_gns_edit_ptr.glade:209
+#: contrib/gnunet_setup_gns_edit_soa.glade:238
+#: contrib/gnunet_setup_gns_edit_srv.glade:224
+#: contrib/gnunet_setup_gns_edit_txt.glade:209
+#: contrib/gnunet_setup_gns_edit_vpn.glade:209
+msgid "<b>Name</b>"
+msgstr "<b>Nombre</b>"
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:202
+msgid "Enter the IPv6 address for the A record here. The format is the usual format (i.e. ::1)."
+msgstr "Introduzca una dirección IPv6 para el registro A aquí. El formato es la notación de dos puntos habitual (por ejemplo ::1)."
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:225
+msgid "<b>Destination IPv6 Address</b>"
+msgstr "<b>Dirección IPv6 de destino</b>"
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:254
+#: contrib/gnunet_setup_gns_edit_a.glade:271
+#: contrib/gnunet_setup_gns_edit_cname.glade:254
+#: contrib/gnunet_setup_gns_edit_leho.glade:293
+#: contrib/gnunet_setup_gns_edit_mx.glade:329
+#: contrib/gnunet_setup_gns_edit_ns.glade:293
+#: contrib/gnunet_setup_gns_edit_pkey.glade:293
+#: contrib/gnunet_setup_gns_edit_ptr.glade:293
+#: contrib/gnunet_setup_gns_edit_soa.glade:530
+#: contrib/gnunet_setup_gns_edit_srv.glade:417
+#: contrib/gnunet_setup_gns_edit_txt.glade:293
+#: contrib/gnunet_setup_gns_edit_vpn.glade:395
+msgid "Record is public (visible to other users)"
+msgstr "El registro es público (visible para otros usuarios)"
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:259
+#: contrib/gnunet_setup_gns_edit_a.glade:276
+#: contrib/gnunet_setup_gns_edit_cname.glade:259
+#: contrib/gnunet_setup_gns_edit_leho.glade:298
+#: contrib/gnunet_setup_gns_edit_mx.glade:334
+#: contrib/gnunet_setup_gns_edit_ns.glade:298
+#: contrib/gnunet_setup_gns_edit_pkey.glade:298
+#: contrib/gnunet_setup_gns_edit_ptr.glade:298
+#: contrib/gnunet_setup_gns_edit_soa.glade:535
+#: contrib/gnunet_setup_gns_edit_srv.glade:422
+#: contrib/gnunet_setup_gns_edit_txt.glade:298
+#: contrib/gnunet_setup_gns_edit_vpn.glade:400
+msgid "Not that while it is recommended that 'private' records should be in the 'private zone', you are allowed to mark records in other zones as private as well.  Please be aware that once a record is made public, you are less free to change expiration times.  Most importantly, if your record is set to never expire, you will never be able to change the mapping in the future if the record is public."
+msgstr "Aunque se recomienda que los registros «privados» estén en la «zona privada», se tiene total libertada para marcar registros en otras zonas como privados.  Tenga en cuenta que una vez que un registro es hecho público se dispone de menos libertad para cambiar los tiempos de expiración.  Más importante, si su registro está fijado a no expirar nunca, nunca podrá cambiar el mapeado en el futuro si el registro es público."
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:270
+#: contrib/gnunet_setup_gns_edit_a.glade:287
+#: contrib/gnunet_setup_gns_edit_cname.glade:270
+#: contrib/gnunet_setup_gns_edit_leho.glade:309
+#: contrib/gnunet_setup_gns_edit_mx.glade:345
+#: contrib/gnunet_setup_gns_edit_ns.glade:309
+#: contrib/gnunet_setup_gns_edit_pkey.glade:309
+#: contrib/gnunet_setup_gns_edit_ptr.glade:309
+#: contrib/gnunet_setup_gns_edit_soa.glade:546
+#: contrib/gnunet_setup_gns_edit_srv.glade:433
+#: contrib/gnunet_setup_gns_edit_txt.glade:309
+#: contrib/gnunet_setup_gns_edit_vpn.glade:411
+msgid "Record is a shadow record (valid after other records expire)"
+msgstr "El registro es un registro fantasma (válido después de que otros registros expiren)"
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:275
+#: contrib/gnunet_setup_gns_edit_a.glade:292
+#: contrib/gnunet_setup_gns_edit_cname.glade:275
+#: contrib/gnunet_setup_gns_edit_leho.glade:314
+#: contrib/gnunet_setup_gns_edit_mx.glade:350
+#: contrib/gnunet_setup_gns_edit_ns.glade:314
+#: contrib/gnunet_setup_gns_edit_pkey.glade:314
+#: contrib/gnunet_setup_gns_edit_ptr.glade:314
+#: contrib/gnunet_setup_gns_edit_soa.glade:551
+#: contrib/gnunet_setup_gns_edit_srv.glade:438
+#: contrib/gnunet_setup_gns_edit_txt.glade:314
+#: contrib/gnunet_setup_gns_edit_vpn.glade:416
+msgid "A shadow record is a record which becomes valid in the future.  They are not used as long as a second non-expired record with the same name and type exists. This is useful if a mapping is to be changed as soon as an existing record expires. For example, if a users are supposed to switch at midnight from one IP address to another, two records would be placed into the system: one that is valid until midnight, and a second \"shadow\" record that becomes valid at midnight."
+msgstr "Un registro fantasma es un registro que se vuelve válido en el futuro.  No son usados en tanto un segundo registro con el mismo nombre y tipo existe. Esto es útil si un mapeado va a ser cambiado en cuanto un registro existente expire. Por ejemplo, si un usuario va a cambiar a medianoche de una dirección IP a otra, dos registros pueden ser fijados en el sistema: uno que es válido hasta media noche, y uno fantasma que se vuelve válido a media noche."
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:292
+#: contrib/gnunet_setup_gns_edit_a.glade:309
+#: contrib/gnunet_setup_gns_edit_cname.glade:292
+#: contrib/gnunet_setup_gns_edit_leho.glade:331
+#: contrib/gnunet_setup_gns_edit_mx.glade:367
+#: contrib/gnunet_setup_gns_edit_ns.glade:331
+#: contrib/gnunet_setup_gns_edit_pkey.glade:331
+#: contrib/gnunet_setup_gns_edit_ptr.glade:331
+#: contrib/gnunet_setup_gns_edit_soa.glade:568
+#: contrib/gnunet_setup_gns_edit_srv.glade:455
+#: contrib/gnunet_setup_gns_edit_txt.glade:331
+#: contrib/gnunet_setup_gns_edit_vpn.glade:433
+msgid "<b>Options</b>"
+msgstr "<b>Opciones</b>"
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:327
+#: contrib/gnunet_setup_gns_edit_a.glade:344
+#: contrib/gnunet_setup_gns_edit_cname.glade:327
+#: contrib/gnunet_setup_gns_edit_leho.glade:366
+#: contrib/gnunet_setup_gns_edit_mx.glade:402
+#: contrib/gnunet_setup_gns_edit_ns.glade:366
+#: contrib/gnunet_setup_gns_edit_pkey.glade:366
+#: contrib/gnunet_setup_gns_edit_ptr.glade:366
+#: contrib/gnunet_setup_gns_edit_soa.glade:603
+#: contrib/gnunet_setup_gns_edit_srv.glade:490
+#: contrib/gnunet_setup_gns_edit_txt.glade:366
+#: contrib/gnunet_setup_gns_edit_vpn.glade:468
+msgid "Relative"
+msgstr "Relativo"
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:332
+#: contrib/gnunet_setup_gns_edit_a.glade:349
+#: contrib/gnunet_setup_gns_edit_cname.glade:332
+#: contrib/gnunet_setup_gns_edit_leho.glade:371
+#: contrib/gnunet_setup_gns_edit_mx.glade:407
+#: contrib/gnunet_setup_gns_edit_ns.glade:371
+#: contrib/gnunet_setup_gns_edit_pkey.glade:371
+#: contrib/gnunet_setup_gns_edit_ptr.glade:371
+#: contrib/gnunet_setup_gns_edit_soa.glade:608
+#: contrib/gnunet_setup_gns_edit_srv.glade:495
+#: contrib/gnunet_setup_gns_edit_txt.glade:371
+#: contrib/gnunet_setup_gns_edit_vpn.glade:473
+msgid "Records with a relative expiration time (such as 1 week) are always valid for at least that time period into the future. In other words, the auto-renew their own expiration to the given time period into the future. When you convert a public record with a relative expiration time to one with an absolute expiration time, the earliest possible expiration will be the respective relative time in the future. Use relative expiration times for entries for which you do not know a specific date when they will expire."
+msgstr "Los registros con un tiempo de expiración relativo (como 1 semana) son siempre válidos durante al menos ese periodo de tiempo en el futuro. En otras palabras, auto-renuevan su tiempo de expiración durante dicho periodo de tiempo en el futuro. Cuando se convierte un registro público con un tiempo de expiración relativo a uno con tiempo de expiración absoluto, la primera fecha posible de expiración será el tiempo relativo respectivo en el futuro. Use tiempos de expiración relativos para entradas de kas cuales no conoce una fecha específica en la que expirarán."
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:345
+#: contrib/gnunet_setup_gns_edit_a.glade:362
+#: contrib/gnunet_setup_gns_edit_cname.glade:345
+#: contrib/gnunet_setup_gns_edit_leho.glade:384
+#: contrib/gnunet_setup_gns_edit_mx.glade:420
+#: contrib/gnunet_setup_gns_edit_ns.glade:384
+#: contrib/gnunet_setup_gns_edit_pkey.glade:384
+#: contrib/gnunet_setup_gns_edit_ptr.glade:384
+#: contrib/gnunet_setup_gns_edit_soa.glade:621
+#: contrib/gnunet_setup_gns_edit_srv.glade:508
+#: contrib/gnunet_setup_gns_edit_txt.glade:384
+#: contrib/gnunet_setup_gns_edit_vpn.glade:486
+msgid "Absolute"
+msgstr "Absoluto"
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:350
+#: contrib/gnunet_setup_gns_edit_a.glade:367
+#: contrib/gnunet_setup_gns_edit_cname.glade:350
+#: contrib/gnunet_setup_gns_edit_leho.glade:389
+#: contrib/gnunet_setup_gns_edit_mx.glade:425
+#: contrib/gnunet_setup_gns_edit_ns.glade:389
+#: contrib/gnunet_setup_gns_edit_pkey.glade:389
+#: contrib/gnunet_setup_gns_edit_ptr.glade:389
+#: contrib/gnunet_setup_gns_edit_soa.glade:626
+#: contrib/gnunet_setup_gns_edit_srv.glade:513
+#: contrib/gnunet_setup_gns_edit_txt.glade:389
+#: contrib/gnunet_setup_gns_edit_vpn.glade:491
+msgid "Records with an absolute expiration time are valid until the specified date. You can change that date to an even later date, but you cannot set it to an earlier time (as other users may have cached the longer expiration time). Use absolute expiration times if you know that a particular record will only be valid until a particular day."
+msgstr "Los registros con una fecha de expiración absoluta son válidos hasta la fecha especificada. Usted puede cambiar esa fecha a una posterior, pero no se puede fijar en una fecha anterior (ya que otros usuarios pueden haber cacheado una fecha de expiración posterior). Use fechas de expiración absolutas si sabe que un registro particular va a ser válido únicamente hasta un día preciso."
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:364
+#: contrib/gnunet_setup_gns_edit_a.glade:381
+#: contrib/gnunet_setup_gns_edit_cname.glade:364
+#: contrib/gnunet_setup_gns_edit_leho.glade:403
+#: contrib/gnunet_setup_gns_edit_mx.glade:439
+#: contrib/gnunet_setup_gns_edit_ns.glade:403
+#: contrib/gnunet_setup_gns_edit_pkey.glade:403
+#: contrib/gnunet_setup_gns_edit_ptr.glade:403
+#: contrib/gnunet_setup_gns_edit_soa.glade:640
+#: contrib/gnunet_setup_gns_edit_srv.glade:527
+#: contrib/gnunet_setup_gns_edit_txt.glade:403
+#: contrib/gnunet_setup_gns_edit_vpn.glade:505
+msgid "Never"
+msgstr "Nunca"
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:369
+#: contrib/gnunet_setup_gns_edit_a.glade:386
+#: contrib/gnunet_setup_gns_edit_cname.glade:369
+#: contrib/gnunet_setup_gns_edit_leho.glade:408
+#: contrib/gnunet_setup_gns_edit_mx.glade:444
+#: contrib/gnunet_setup_gns_edit_ns.glade:408
+#: contrib/gnunet_setup_gns_edit_pkey.glade:408
+#: contrib/gnunet_setup_gns_edit_ptr.glade:408
+#: contrib/gnunet_setup_gns_edit_soa.glade:645
+#: contrib/gnunet_setup_gns_edit_srv.glade:532
+#: contrib/gnunet_setup_gns_edit_txt.glade:408
+#: contrib/gnunet_setup_gns_edit_vpn.glade:510
+msgid "Records can be set to be valid forever. This is great if you are worried about censorship or certain that the mapping will never change.  Note that if you set a public record to never expire, you cannot later change it (as other users are free to cache the old value forever)."
+msgstr "Los registros pueden ser fijados con validez perpetua. Esto es genial si está preocupado por la censura o seguro de que el mapeado nunca cambiará.  Fíjese que si un registro público nunca expira no puede cambiarlo posteriormente (puesto que otros usuarios son libres de cachear el valor antiguo para siempre)."
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:391
+#: contrib/gnunet_setup_gns_edit_a.glade:408
+#: contrib/gnunet_setup_gns_edit_cname.glade:391
+#: contrib/gnunet_setup_gns_edit_leho.glade:430
+#: contrib/gnunet_setup_gns_edit_mx.glade:466
+#: contrib/gnunet_setup_gns_edit_ns.glade:430
+#: contrib/gnunet_setup_gns_edit_pkey.glade:430
+#: contrib/gnunet_setup_gns_edit_ptr.glade:430
+#: contrib/gnunet_setup_gns_edit_soa.glade:667
+#: contrib/gnunet_setup_gns_edit_srv.glade:554
+#: contrib/gnunet_setup_gns_edit_txt.glade:430
+#: contrib/gnunet_setup_gns_edit_vpn.glade:532
+msgid "Select the date on which you want this record to expire. At that date, you can then create a new mapping or have a shadow record go automatically into effect.  Note that for public records you cannot change the expiration time to an earlier date after the fact."
+msgstr "Seleccione la fecha en la que quiere que expire este registro. En esa fecha, usted puede crear un nuevo mapeado o tener un registro fantasma para tal efecto.  Fíjese que para los registros públicos no se puede cambiar el tiempo de expiración a una fecha anterior después de hacerlo efectivo."
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:411
+#: contrib/gnunet_setup_gns_edit_a.glade:428
+#: contrib/gnunet_setup_gns_edit_cname.glade:411
+#: contrib/gnunet_setup_gns_edit_leho.glade:450
+#: contrib/gnunet_setup_gns_edit_mx.glade:486
+#: contrib/gnunet_setup_gns_edit_ns.glade:450
+#: contrib/gnunet_setup_gns_edit_pkey.glade:450
+#: contrib/gnunet_setup_gns_edit_ptr.glade:450
+#: contrib/gnunet_setup_gns_edit_soa.glade:687
+#: contrib/gnunet_setup_gns_edit_srv.glade:574
+#: contrib/gnunet_setup_gns_edit_txt.glade:450
+#: contrib/gnunet_setup_gns_edit_vpn.glade:552
+msgid "Hours:"
+msgstr "Horas:"
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:424
+#: contrib/gnunet_setup_gns_edit_a.glade:441
+#: contrib/gnunet_setup_gns_edit_cname.glade:424
+#: contrib/gnunet_setup_gns_edit_leho.glade:463
+#: contrib/gnunet_setup_gns_edit_mx.glade:499
+#: contrib/gnunet_setup_gns_edit_ns.glade:463
+#: contrib/gnunet_setup_gns_edit_pkey.glade:463
+#: contrib/gnunet_setup_gns_edit_ptr.glade:463
+#: contrib/gnunet_setup_gns_edit_soa.glade:700
+#: contrib/gnunet_setup_gns_edit_srv.glade:587
+#: contrib/gnunet_setup_gns_edit_txt.glade:463
+#: contrib/gnunet_setup_gns_edit_vpn.glade:565
+msgid "Which hour of the day selected above should the record expire?"
+msgstr "¿A qué hora del día seleccionado debería expirar el registro?"
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:443
+#: contrib/gnunet_setup_gns_edit_a.glade:460
+#: contrib/gnunet_setup_gns_edit_cname.glade:443
+#: contrib/gnunet_setup_gns_edit_leho.glade:482
+#: contrib/gnunet_setup_gns_edit_mx.glade:518
+#: contrib/gnunet_setup_gns_edit_ns.glade:482
+#: contrib/gnunet_setup_gns_edit_pkey.glade:482
+#: contrib/gnunet_setup_gns_edit_ptr.glade:482
+#: contrib/gnunet_setup_gns_edit_soa.glade:719
+#: contrib/gnunet_setup_gns_edit_srv.glade:606
+#: contrib/gnunet_setup_gns_edit_txt.glade:482
+#: contrib/gnunet_setup_gns_edit_vpn.glade:584
+msgid "Minutes:"
+msgstr "Minutos:"
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:456
+#: contrib/gnunet_setup_gns_edit_a.glade:473
+#: contrib/gnunet_setup_gns_edit_cname.glade:456
+#: contrib/gnunet_setup_gns_edit_leho.glade:495
+#: contrib/gnunet_setup_gns_edit_mx.glade:531
+#: contrib/gnunet_setup_gns_edit_ns.glade:495
+#: contrib/gnunet_setup_gns_edit_pkey.glade:495
+#: contrib/gnunet_setup_gns_edit_ptr.glade:495
+#: contrib/gnunet_setup_gns_edit_soa.glade:732
+#: contrib/gnunet_setup_gns_edit_srv.glade:619
+#: contrib/gnunet_setup_gns_edit_txt.glade:495
+#: contrib/gnunet_setup_gns_edit_vpn.glade:597
+msgid "Which minute of the day selected above should the record expire?"
+msgstr "¿En qué minuto del día seleccionado debería expirar el registro?"
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:475
+#: contrib/gnunet_setup_gns_edit_a.glade:492
+#: contrib/gnunet_setup_gns_edit_cname.glade:475
+#: contrib/gnunet_setup_gns_edit_leho.glade:514
+#: contrib/gnunet_setup_gns_edit_mx.glade:550
+#: contrib/gnunet_setup_gns_edit_ns.glade:514
+#: contrib/gnunet_setup_gns_edit_pkey.glade:514
+#: contrib/gnunet_setup_gns_edit_ptr.glade:514
+#: contrib/gnunet_setup_gns_edit_soa.glade:751
+#: contrib/gnunet_setup_gns_edit_srv.glade:638
+#: contrib/gnunet_setup_gns_edit_txt.glade:514
+#: contrib/gnunet_setup_gns_edit_vpn.glade:616
+msgid "Seconds:"
+msgstr "Segundos:"
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:488
+#: contrib/gnunet_setup_gns_edit_a.glade:505
+#: contrib/gnunet_setup_gns_edit_cname.glade:488
+#: contrib/gnunet_setup_gns_edit_leho.glade:527
+#: contrib/gnunet_setup_gns_edit_mx.glade:563
+#: contrib/gnunet_setup_gns_edit_ns.glade:527
+#: contrib/gnunet_setup_gns_edit_pkey.glade:527
+#: contrib/gnunet_setup_gns_edit_ptr.glade:527
+#: contrib/gnunet_setup_gns_edit_soa.glade:764
+#: contrib/gnunet_setup_gns_edit_srv.glade:651
+#: contrib/gnunet_setup_gns_edit_txt.glade:527
+#: contrib/gnunet_setup_gns_edit_vpn.glade:629
+msgid "Which second of the day selected above should the record expire?"
+msgstr "¿En qué segundo del día seleccionado debería expirar el registro?"
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:514
+#: contrib/gnunet_setup_gns_edit_a.glade:531
+#: contrib/gnunet_setup_gns_edit_cname.glade:514
+#: contrib/gnunet_setup_gns_edit_leho.glade:553
+#: contrib/gnunet_setup_gns_edit_mx.glade:589
+#: contrib/gnunet_setup_gns_edit_ns.glade:553
+#: contrib/gnunet_setup_gns_edit_pkey.glade:553
+#: contrib/gnunet_setup_gns_edit_ptr.glade:553
+#: contrib/gnunet_setup_gns_edit_soa.glade:790
+#: contrib/gnunet_setup_gns_edit_srv.glade:677
+#: contrib/gnunet_setup_gns_edit_txt.glade:553
+#: contrib/gnunet_setup_gns_edit_vpn.glade:655
+msgid "Relative expiration time of the record.  The syntax is a number followed by a space and a time unit, possibly followed by additional numbers and time units. For example, you can specify \"1 d\" or \"6 h 30 m 15 s\". Use the drop-down menu to select from a set of common defaults. (Editing is not possible right now as Gtk2 and Gtk3 use incompatible ways for doing this.) "
+msgstr "Tiempo de expiración relativo para el registro.  La sintaxis es: un número seguido de un espacio y una unidad de tiempo, posiblemente seguido por números y unidades de tiempo adicionales. Por ejemplo, usted puede especificar «1 d» o «6 h 30 m 15 s». Use el menú desplegable para seleccionar dentro de un conjunto de opciones comunes predeterminadas. (No es posible editar ahora mismo debido a que Gtk2 y Gtk3 tienen modos incompatibles de hacerlo)."
+
+#: contrib/gnunet_setup_gns_edit_aaaa.glade:538
+#: contrib/gnunet_setup_gns_edit_a.glade:555
+#: contrib/gnunet_setup_gns_edit_cname.glade:538
+#: contrib/gnunet_setup_gns_edit_leho.glade:577
+#: contrib/gnunet_setup_gns_edit_mx.glade:613
+#: contrib/gnunet_setup_gns_edit_ns.glade:577
+#: contrib/gnunet_setup_gns_edit_pkey.glade:577
+#: contrib/gnunet_setup_gns_edit_ptr.glade:577
+#: contrib/gnunet_setup_gns_edit_soa.glade:814
+#: contrib/gnunet_setup_gns_edit_srv.glade:701
+#: contrib/gnunet_setup_gns_edit_txt.glade:577
+#: contrib/gnunet_setup_gns_edit_vpn.glade:679
+msgid "<b>Expiration Time</b>"
+msgstr "<b>Tiempo de expiración</b>"
+
+#: contrib/gnunet_setup_gns_edit_a.glade:219
+#: contrib/gnunet_setup_gns_edit_ptr.glade:241
+#: contrib/gnunet_setup_gns_edit_txt.glade:241
+msgid "Enter the IPv4 address for the A record here. The format is the usual dotted-decimal format (i.e. 127.0.0.1)."
+msgstr "Introduzca una dirección IPv4 para el registro A aquí. El formato es la notación punto-decimal habitual (por ejemplo 127.0.0.1)."
+
+#: contrib/gnunet_setup_gns_edit_a.glade:242
+msgid "<b>Destination IPv4 Address</b>"
+msgstr "<b>Dirección IPv4 de destino</b>"
+
+#: contrib/gnunet_setup_gns_edit_cname.glade:202
+msgid "Enter the name for which this name is an alias."
+msgstr "Introduce el nombre para el cual este nombre es un alias."
+
+#: contrib/gnunet_setup_gns_edit_cname.glade:225
+msgid "<b>Canonical Name (CNAME)</b>"
+msgstr "<b>Nombre canónico (CNAME)</b>"
+
+#: contrib/gnunet_setup_gns_edit_leho.glade:241
+msgid "Enter the DNS name under which this system is reachable using traditional DNS."
+msgstr "Introduzca el nombre de DNS bajo el cual este sistema es alcanzable usando el DNS tradicional."
+
+#: contrib/gnunet_setup_gns_edit_leho.glade:264
+msgid "<b>Legacy Hostname in DNS (LEHO)</b>"
+msgstr "<b>Nombre de máquina antiguo en DNS (LEHO)</b>"
+
+#: contrib/gnunet_setup_gns_edit_mx.glade:246
+msgid "Enter the hostname of the mail server here"
+msgstr "Introduzca el nombre de máquina del servidor de correo aquí"
+
+#: contrib/gnunet_setup_gns_edit_mx.glade:265
+msgid "distance"
+msgstr "distancia"
+
+#: contrib/gnunet_setup_gns_edit_mx.glade:277
+msgid "Enter the preference number (or distance, as smaller values are preferred) of the given mailserver here"
+msgstr "Introduzca el número de preferencia (o distancia, ya que valores menores son preferidos) del servidor de correo dado aquí"
+
+#: contrib/gnunet_setup_gns_edit_mx.glade:300
+msgid "<b>Mail eXchanger record (MX)</b>"
+msgstr "<b>Registro de intercambio de correo (MX)</b>"
+
+#: contrib/gnunet_setup_gns_edit_ns.glade:241
+msgid "Enter the name of the DNS nameserver for the subzone."
+msgstr "Introduzca el nombre del servidor de nombres DNS para la subzona."
+
+#: contrib/gnunet_setup_gns_edit_ns.glade:264
+msgid "<b>Name of the authoritative name server for the given name</b>"
+msgstr "<b>Nombre del servidor de nombres autoritativo para el nombre dado</b>"
+
+#: contrib/gnunet_setup_gns_edit_pkey.glade:241
+msgid "Enter the hash of the public key of the authority here."
+msgstr "Introduzca el hash de la clave pública de la autoridad aquí."
+
+#: contrib/gnunet_setup_gns_edit_pkey.glade:264
+msgid "<b>GADS authority for the subzone (PKEY)</b>"
+msgstr "<b>Autoridad GADS para la subzona (PKEY)</b>"
+
+#: contrib/gnunet_setup_gns_edit_ptr.glade:264
+msgid "<b>Canonical name (PTR)</b>"
+msgstr "<b>Nombre canónico (PTR)</b>"
+
+#: contrib/gnunet_setup_gns_edit_soa.glade:271
+msgid "Source host:"
+msgstr "Máquina fuente:"
+
+#: contrib/gnunet_setup_gns_edit_soa.glade:282
+msgid "Contact e-mail:"
+msgstr "Correo de contacto:"
+
+#: contrib/gnunet_setup_gns_edit_soa.glade:295
+msgid "Serial number:"
+msgstr "Número de serie:"
+
+#: contrib/gnunet_setup_gns_edit_soa.glade:308
+msgid "Refresh time:"
+msgstr "Tiempo de refresco:"
+
+#: contrib/gnunet_setup_gns_edit_soa.glade:321
+msgid "Retry time:"
+msgstr "Tiempo de reintento:"
+
+#: contrib/gnunet_setup_gns_edit_soa.glade:334
+msgid "Expire time:"
+msgstr "Tiempo de expiración:"
+
+#: contrib/gnunet_setup_gns_edit_soa.glade:347
+msgid "Minimum TTL:"
+msgstr "TTL mínimo:"
+
+#: contrib/gnunet_setup_gns_edit_soa.glade:360
+msgid "This number should be incremented for every zone update."
+msgstr "Este número debe ser incrementado para cada actualización de zona."
+
+#: contrib/gnunet_setup_gns_edit_soa.glade:381
+#: contrib/gnunet_setup_gns_edit_soa.glade:401
+#: contrib/gnunet_setup_gns_edit_soa.glade:421
+#: contrib/gnunet_setup_gns_edit_soa.glade:441
+msgid "The value is in seconds."
+msgstr "El valor es en segundos."
+
+#: contrib/gnunet_setup_gns_edit_soa.glade:461
+msgid "Name of the host responsible for the zone."
+msgstr "Nombre de la máquina responsable de la zona."
+
+#: contrib/gnunet_setup_gns_edit_soa.glade:478
+msgid "Note that a \".\" is used instead of \"@\" in the e-mail address!"
+msgstr "¡Fíjese que se usa un «.» en vez de «@» en la dirección de correo!"
+
+#: contrib/gnunet_setup_gns_edit_soa.glade:501
+msgid "<b>Start of Authority (SOA) information</b>"
+msgstr "<b>Información de Inicio de Autoridad (SOA en inglés)</b>"
+
+#: contrib/gnunet_setup_gns_edit_srv.glade:268
+msgid "Weight:"
+msgstr "Peso:"
+
+#: contrib/gnunet_setup_gns_edit_srv.glade:281
+#: contrib/gnunet_setup_gtk_main_window.glade:499
+#: contrib/gnunet_setup_gtk_main_window.glade:2666
+msgid "Port:"
+msgstr "Puerto:"
+
+#: contrib/gnunet_setup_gns_edit_srv.glade:294
+msgid "Target:"
+msgstr "Objetivo:"
+
+#: contrib/gnunet_setup_gns_edit_srv.glade:307
+msgid "Priority of the target, lower values means more preferred"
+msgstr "Prioridad del objetivo, valores menores significan mayor preferencia"
+
+#: contrib/gnunet_setup_gns_edit_srv.glade:325
+msgid "Relative weight for records with the same priority"
+msgstr "Peso relativo para registros de la misma prioridad"
+
+#: contrib/gnunet_setup_gns_edit_srv.glade:345
+msgid "TCP or UDP port on which the service is to be found"
+msgstr "Puerto TCP o UDP donde se encontrará el servicio"
+
+#: contrib/gnunet_setup_gns_edit_srv.glade:365
+msgid "Canonical hostname of the machine providing the service"
+msgstr "Nombre canónico de máquina del equipo que provee el servicio"
+
+#: contrib/gnunet_setup_gns_edit_srv.glade:388
+msgid "<b>Service record (SRV)</b>"
+msgstr "<b>Registro de servicio (SRV)</b>"
+
+#: contrib/gnunet_setup_gns_edit_txt.glade:264
+msgid "<b>Text value (TXT)</b>"
+msgstr "<b>Valor textual (TXT)</b>"
+
+#: contrib/gnunet_setup_gns_edit_vpn.glade:242
+msgid "Protocol:"
+msgstr "Protocolo:"
+
+#: contrib/gnunet_setup_gns_edit_vpn.glade:253
+msgid "Peer:"
+msgstr "Par:"
+
+#: contrib/gnunet_setup_gns_edit_vpn.glade:266
+msgid "Identifier:"
+msgstr "Identificador:"
+
+#: contrib/gnunet_setup_gns_edit_vpn.glade:281
+#: contrib/gnunet_setup_gtk_main_window.glade:1480
+msgid "TCP"
+msgstr "TCP"
+
+#: contrib/gnunet_setup_gns_edit_vpn.glade:286
+msgid "Service is available via TCP"
+msgstr "El servicio está disponible vía TCP"
+
+#: contrib/gnunet_setup_gns_edit_vpn.glade:298
+#: contrib/gnunet_setup_gtk_main_window.glade:1682
+msgid "UDP"
+msgstr "UDP"
+
+#: contrib/gnunet_setup_gns_edit_vpn.glade:303
+msgid "Service is available via UDP"
+msgstr "El servicio está disponible vía UDP"
+
+#: contrib/gnunet_setup_gns_edit_vpn.glade:324
+msgid "Enter the identity (gnunet-peerinfo -s) of the peer offering the service here."
+msgstr "Introduzca la identidad (gnunet-peerinfo -s) del para que ofrece el servicio aquí."
+
+#: contrib/gnunet_setup_gns_edit_vpn.glade:344
+msgid "Each GNUnet service is identified by an identiifer (name, password) that can be freely chosen by the service provider.  This string should be entered here."
+msgstr "Cada servicio de GNUnet es identificado por un identificador (nombre, contraseña) que puede ser libremente seleccionado por el proveedor de servicio.  Esta cadena debe ser introducida aquí."
+
+#: contrib/gnunet_setup_gns_edit_vpn.glade:366
+msgid "<b>GNUnet VPN address (GADS only)</b>"
+msgstr "<b>Dirección VPN de GNUnet (únicamente GADS)</b>"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:22
+msgid "gnunet-setup"
+msgstr "«gnunet-setup»"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:114
+msgid "Services:"
+msgstr "Servicios:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:125
+msgid "Topology"
+msgstr "Topología"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:131
+msgid "The topology subsystem is required as it ensures that your peer connects to other peers."
+msgstr "El subsistema de topología es necesario ya que asegura que su par se conecte a otros pares."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:145
+msgid "Hostlist"
+msgstr "Lista de máquinas"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:150
+msgid "Hostlist servers are used to find other peers.  Here you can choose to offer a hostlist or simply configure which hostlists by other peers you want to use."
+msgstr "Los servidores de listas de máquinas son usados para encontrar otros pares.  Aquí puede seleccionar si ofrecer una lista de máquinas o simplemente configurar que listas de máquinas de otros pares se desean usar."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:164
+msgid "File _Sharing"
+msgstr "Compartición de fichero_s"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:169
+msgid "Enable GNUnet's file-sharing subsystem."
+msgstr "Activar el subsistema de compartición de ficheros de GNUnet."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:184
+msgid "PT/VPN"
+msgstr "PT/VPN"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:189
+msgid "Using the PT/VPN subsystems you can tunnel your Internet traffic over GNUnet.  This is useful if you want to access the IPv4-Internet if you only have IPv6-connectivity or vice versa.  Furthermore, if you are only connected to other peers using WLAN, you could also get Internet access in the first place by routing IP traffic over GNUnet."
+msgstr "A través de los subsistemas PT/VPN usted puede encaminar su tráfico de internet a través de GNUnet.  Esto es útil si quiere acceder a Internet IPv4 y únicamente tiene conectividad IPv6 o viceversa.  Más aún, si está conectado únicamente a otros pares usando WLAN, se puede obtener acceso directo a Internet encaminando el tráfico IP a través de GNUnet."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:203
+msgid "EXIT"
+msgstr "SALIDA"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:208
+msgid "By offering an EXIT service, you can allow other peers to use your Internet connection to reach the IPv4 and/or IPv6 Internet.  Naturally, as your machine will be seen as the origin of the traffic, this might be risky in some jurisdictions.  Enabling the exit for IPv4 and IPv6 and PT/VPN interception for IPv4 and IPv6 on the same machine will still give you 4to6 and 6to4 protocol translation, allowing you to access IPv4-only servers from IPv6-only clients and IPv6-only servers from IPv4-only clients."
+msgstr "Ofreciendo un servicio de SALIDA, puede permitir a otros pares usar su conexión de Internet para alcanzar Internet IPv4 y/o IPv6.  Naturalmente, su maquina será vista como el origen del tráfico, lo cual puede ser arriesgado en algunas jurisdicciones.  Activar la salida para IPv4 e IPv6 y la intercepción de PT/VPN para IPv4 e IPv6 en la misma máquina aún permitirá realizar traducciones de protocolo 4a6 y 6a4, permitiendo acceder a servidores únicamente IPv4 desde clientes únicamente IPv6 y acceder a servidores únicamente IPv6 desde clientes únicamente IPv4."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:222
+msgid "GNS"
+msgstr "GNS"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:227
+msgid "The GNS is GNUnet's replacement for DNS.  Enabling this subsystem will make the \".gnunet\" TLD available on your system.  You will be in charge of your \".gnunet\" TLD."
+msgstr "El GNS es el remplazo de GNUnet para DNS.  Activar este subsistema dejará disponible el dominio TLD «.gnunet» en su sistema.  Usted está a cargo de su dominio TLD «.gnunet»."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:247
+msgid "<b>Service Configuration</b>"
+msgstr "<b>Configuración del servicio</b>"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:276
+msgid "F_2F only"
+msgstr "F_2F únicamente"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:307
+msgid "Friends file:"
+msgstr "Fichero de amigos:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:342
+msgid "Min. connected friends:"
+msgstr "Mín. de amigos conectados"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:377
+msgid "<b>Friend-to-Friend Configuration (restricts P2P connections)</b>"
+msgstr "<b>Configuración F2F (Amigo a amigo) (restringe las conexiones P2P)</b>"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:410
+msgid "Use Hostlists to bootstrap"
+msgstr "Usar la lista de máquinas para inicializar"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:427
+msgid "Learn Servers from P2P Network"
+msgstr "Aprender servidores de la red P2P"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:459
+msgid "Run Hostlist Server"
+msgstr "Ejecutar el servidor de listas de máquinas"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:476
+msgid "Advertise Hostlist Server"
+msgstr "Anunciar el servidor de listas de máquinas"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:552
+msgid "Known Hostlist Servers:"
+msgstr "Lista de servidores de listas de máquinas conocidos:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:628
+msgid "<b>Hostlist Configuration (for bootstrapping the network)</b>"
+msgstr "<b>Configuración de listas de máquinas (para inicializar la red)</b>"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:646
+msgid "_General"
+msgstr "_General"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:680
+msgid "Max. download bandwidth (B/s):"
+msgstr "Ancho de banda de descarga máximo (B/s):"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:712
+msgid "Max. upload bandwidth (B/s)"
+msgstr "Ancho de banda de subida máximo (B/s)"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:754
+msgid "<b>Bandwidth Configuration</b>"
+msgstr "<b>Configuración de ancho de banda</b>"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:786
+msgid "Peer is behind _NAT"
+msgstr "El par está detrás de un _NAT"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:791
+msgid "Check this box if your machine is behind a NAT box (router that performs network address translation).  Leave off if your machine has a globally unique IPv4 address.  NAT options only impact IPv4 addresses at this time."
+msgstr "Marque esta casilla si su máquina está detrás de una caja NAT (un router que realiza traducción de direcciones de red).  Desmárquela en el caso de que su máquina tenga una dirección global única IPv4.  Las opciones de NAT únicamente afectan a las direcciones IPv4 en este momento."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:805
+msgid "Attempt automatic configuration"
+msgstr "Intentar configuración automática"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:821
+msgid "Disable IPv_6 support"
+msgstr "Deshabilitar el soporte IPv_6"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:826
+msgid "Disable advertising IPv6 addresses. Check this box if you know that your system has no IPv6 Internet connectivity."
+msgstr "Deshabilita el anuncio de direcciones IPv6. Marque esta casilla si sabe que su sistema no tiene conectividad IPv6 a Internet."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:869
+msgid "NAT ports have been opened manually"
+msgstr "Puertos abiertos manualmente en el NAT"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:874
+msgid "Set this option if you have configured your NAT to forward the ports for the various enabled GNUnet transports.  If the external ports are different, the respective values of the external port should be specified under \"advertised port\" for the respective transport. You also need to specify the \"External (public) IPv4 address\" of your NAT box below."
+msgstr "Fije esta opción si ha configurado su NAT para encaminar los puertos para los distintos transportes habilitados de GNUnet.  Si los puertos externos son diferentes, los valores respectivos de los puertos externos deben ser especificados en «puerto anunciado» para el transporte respectivo. También debe especificar la «Dirección externa (pública) IPv4» de su NAT."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:886
+msgid "Enable NAT traversal via UPnP or PMP"
+msgstr "Activar recorrido NAT vía UPnP o PMP"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:891
+msgid "This option enables the use of upnpc from miniupnpd for NAT traversal"
+msgstr "Esta opción habilita el uso de «upnpc» desde «miniupnpd» para el recorrido NAT"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:903
+msgid "Enable NAT traversal using ICMP method"
+msgstr "Activar recorrido NAT usando método ICMP"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:908
+msgid "This option enables the use of the \"Autonomous NAT Traversal\" method (presented at P2P 2010).  It requires gnunet-helper-nat-server to be installed SUID on the local system."
+msgstr "Esta opción habilita el uso del método «Recorrido autónomo NAT» (presentado en P2P 2010).  Requiere que «gnunet-helper-nat-server» esté instalado con el bit SUID activado en el sistema local."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:926
+msgid "Globally visible IP address of your system (IP address of the external interface of your NAT).  You can also specify a hostname, in which case GNUnet will periodically look up the hostname in DNS to determine our external IP address (DynDNS setup)."
+msgstr "Dirección IP visible globalmente de su sistema (dirección IP de la interfaz externa de su NAT).  También puede especificar un nombre de máquina, en cuyo caso GNUnet periódicamente buscará el nombre de máquina en el DNS para determinar nuestra dirección IP externa (configurada por DynDNS, por ejemplo)."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:927
+msgid "External (public) IPv4 address:"
+msgstr "Dirección externa (pública) IPv4:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:964
+msgid "Enable connecting to NATed peers using ICMP method"
+msgstr "Habilitar conexión a pares detrás de un NAT usando el método ICMP"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:969
+msgid "This method allows this peer to initiate connections to NATed peers using the 'Autonomous NAT traversal' method (presented at P2P 2010). It requires having gnunet-helper-nat-client installed SUID on the local system."
+msgstr "Este método permite a este par iniciar conexiones a pares detrás de un NAT usando el método «Recorrido autónomo NAT» (presentado en P2P 2010). Requiere tener «gnunet-helper-nat-client» instalado con el bit SUID activado en el sistema local."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:988
+msgid "Specify the IPv4 address of your computers main network interface (typically eth0 or wlan0)."
+msgstr "Especificar la dirección IPv4 de la interfaz de red principal de sus ordenadores (habitualmente eth0 o wlan0)."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:989
+msgid "Internal (private) IPv4 address:"
+msgstr "Dirección interna (privada) IPv4_"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1046
+msgid "<b>NAT Traversal Configuration</b>"
+msgstr "<b>Configuraciópn de recorrido NAT</b>"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1067
+msgid "_Network"
+msgstr "_Red"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1099
+msgid "Plugins to use:"
+msgstr "Módulos a usar:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1110
+msgid "_TCP"
+msgstr "_TCP"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1130
+msgid "_UDP"
+msgstr "_UDP"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1149
+msgid "_HTTP Client"
+msgstr "C_liente HTTP"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1169
+msgid "HTT_P Server"
+msgstr "S_ervidor HTTP"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1189
+msgid "HTTPS _Client"
+msgstr "_Cliente HTTPS"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1209
+msgid "HTTPS _Server"
+msgstr "_Servidor HTTPS"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1229
+msgid "D_V"
+msgstr "D_V"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1247
+msgid "_WLAN"
+msgstr "_WLAN"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1288
+#: contrib/gnunet_setup_gtk_main_window.glade:1500
+#: contrib/gnunet_setup_gtk_main_window.glade:1705
+#: contrib/gnunet_setup_gtk_main_window.glade:1912
+msgid "Bind to port:"
+msgstr "Asociar al puerto:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1322
+msgid "Use Port \"0\" to only allow outgoing TCP connections"
+msgstr "Use el puerto «0» para permitir únicamente conexiones TCP salientes"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1347
+#: contrib/gnunet_setup_gtk_main_window.glade:1547
+#: contrib/gnunet_setup_gtk_main_window.glade:1752
+#: contrib/gnunet_setup_gtk_main_window.glade:1959
+msgid "Advertised port:"
+msgstr "Puerto anunciado:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1381
+#: contrib/gnunet_setup_gtk_main_window.glade:1579
+#: contrib/gnunet_setup_gtk_main_window.glade:1786
+#: contrib/gnunet_setup_gtk_main_window.glade:1993
+msgid "External port visible on our public IP address after mappings by NAT/firewalls"
+msgstr "Puerto externo visible en nuestra dirección IP pública después de ser mapeado por cortafuegos/NAT"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1414
+#: contrib/gnunet_setup_gtk_main_window.glade:1613
+#: contrib/gnunet_setup_gtk_main_window.glade:1820
+#: contrib/gnunet_setup_gtk_main_window.glade:2027
+#: contrib/gnunet_setup_gtk_main_window.glade:2726
+#: contrib/gnunet_setup_gtk_main_window.glade:2829
+#: contrib/gnunet_setup_gtk_main_window.glade:3150
+#: contrib/gnunet_setup_gtk_main_window.glade:4085
+msgid "Test configuration"
+msgstr "Probar configuración"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1419
+#: contrib/gnunet_setup_gtk_main_window.glade:1618
+#: contrib/gnunet_setup_gtk_main_window.glade:1825
+#: contrib/gnunet_setup_gtk_main_window.glade:2032
+msgid "Test your network configuration by contacting a public gnunet-nat-server and asking it to establish a connection to your system for testing.  This test can only work if you are not running your peer at the time you run the test."
+msgstr "Prueba su configuración de red contactando con un «gnunet-nat-server» público y solicitándole establecer una conexión de prueba con nuestro sistema.  Esta prueba únicamente funciona si no está ejecutando su par a la vez que ejecuta la prueba."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1432
+#: contrib/gnunet_setup_gtk_main_window.glade:1631
+#: contrib/gnunet_setup_gtk_main_window.glade:1838
+#: contrib/gnunet_setup_gtk_main_window.glade:2045
+#: contrib/gnunet_setup_gtk_main_window.glade:2743
+#: contrib/gnunet_setup_gtk_main_window.glade:2846
+#: contrib/gnunet_setup_gtk_main_window.glade:3167
+#: contrib/gnunet_setup_gtk_main_window.glade:4102
+msgid "Configuration works!"
+msgstr "¡La configuración funciona!"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1445
+#: contrib/gnunet_setup_gtk_main_window.glade:1644
+#: contrib/gnunet_setup_gtk_main_window.glade:1851
+#: contrib/gnunet_setup_gtk_main_window.glade:2058
+msgid "Test failed!"
+msgstr "¡Prueba fallida!"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1499
+#: contrib/gnunet_setup_gtk_main_window.glade:1704
+#: contrib/gnunet_setup_gtk_main_window.glade:1911
+msgid "Port number that GNUnet's UDP transport should bind to on the local system"
+msgstr "Número de puerto al que el transporte UDP de GNUnet se asociará en el sistema local"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:1889
+msgid "HTTP"
+msgstr "HTTP"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2096
+msgid "HTTPS"
+msgstr "HTTPS"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2119
+msgid "DV"
+msgstr "DV"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2138
+msgid "Name of _Monitor Interface"
+msgstr "Nombre de la interfaz de _monitorización"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2184
+msgid "WLAN"
+msgstr "WLAN"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2206
+msgid "<b>Transport Configuration</b>"
+msgstr "<b>Configuración de transporte</b>"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2219
+msgid "_Transports"
+msgstr "_Transportes"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2248
+msgid "Enable unsolicited content transmission from this peer"
+msgstr "Activar transmisión de contenido no solicitado desde este par"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2266
+msgid "Enable caching content at this peer"
+msgstr "Activar el cacheo de contenido en este par"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2289
+msgid "<b>File Sharing Options</b>"
+msgstr "<b>Opciones de compartición de ficheros</b>"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2323
+#: contrib/gnunet_setup_gtk_main_window.glade:3941
+msgid "Database Backend to use:"
+msgstr "Base de datos a usar:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2339
+#: contrib/gnunet_setup_gtk_main_window.glade:2465
+#: contrib/gnunet_setup_gtk_main_window.glade:2938
+#: contrib/gnunet_setup_gtk_main_window.glade:3064
+#: contrib/gnunet_setup_gtk_main_window.glade:3083
+#: contrib/gnunet_setup_gtk_main_window.glade:3957
+#: contrib/gnunet_setup_gtk_main_window.glade:4021
+msgid "sqLite"
+msgstr "sqLite"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2357
+#: contrib/gnunet_setup_gtk_main_window.glade:2716
+msgid "MySQL"
+msgstr "MySQL"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2376
+#: contrib/gnunet_setup_gtk_main_window.glade:2819
+#: contrib/gnunet_setup_gtk_main_window.glade:2975
+#: contrib/gnunet_setup_gtk_main_window.glade:3140
+#: contrib/gnunet_setup_gtk_main_window.glade:3976
+#: contrib/gnunet_setup_gtk_main_window.glade:4075
+msgid "Postgres"
+msgstr "Postgres"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2415
+#: contrib/gnunet_setup_gtk_main_window.glade:3014
+msgid "Quota (bytes):"
+msgstr "Cuota (bytes):"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2458
+#: contrib/gnunet_setup_gtk_main_window.glade:3057
+#: contrib/gnunet_setup_gtk_main_window.glade:4014
+msgid "No setup required."
+msgstr "No se requiere configuración."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2483
+msgid "MySQL database name:"
+msgstr "Nombre de base de datos MySQL:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2497
+msgid "gnunet"
+msgstr "«gnunet»"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2527
+msgid "Configuration file:"
+msgstr "Fichero de configuración:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2562
+msgid "Username:"
+msgstr "Nombre de usuario:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2593
+msgid "Password:"
+msgstr "Contraseña:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2634
+msgid "MySQL Server Hostname:"
+msgstr "Nombre de máquina del servidor MySQL"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2648
+msgid "localhost"
+msgstr "localhost"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2755
+#: contrib/gnunet_setup_gtk_main_window.glade:2858
+#: contrib/gnunet_setup_gtk_main_window.glade:3179
+#: contrib/gnunet_setup_gtk_main_window.glade:4114
+msgid "Configuration error!"
+msgstr "¡Error de configuración!"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2778
+#: contrib/gnunet_setup_gtk_main_window.glade:3098
+#: contrib/gnunet_setup_gtk_main_window.glade:4035
+msgid "Configuration:"
+msgstr "Configuración:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2888
+msgid "<b>Configure Datastore (persistent storage)</b>"
+msgstr "<b>Configurar el almacén de datos (almacenamiento persistente)</b>"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2922
+msgid "Datacache:"
+msgstr "Caché de datos:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:2956
+msgid "Memory"
+msgstr "Memoria"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3209
+msgid "<b>Configure Datacache (temporary storage)</b>"
+msgstr "<b>Configurar caché de datos (almacenamiento temporal)</b>"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3229
+msgid "_File Sharing"
+msgstr "Compartición de _ficheros"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3262
+msgid "Tunnel IPv4 Traffic"
+msgstr "Encaminar tráfico IPv4"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3267
+msgid "By enabling this option, all of your IPv4-Internet traffic will be routed over GNUnet to a GNUnet exit node.  Note that this will enable other GNUnet peers to observe your unencrypted Internet traffic. This enables 4over6 tunneling and 4to6 protocol translation."
+msgstr "Habilitando esta opción, todo su tráfico IPv4 a Internet será encaminado a través de GNUnet a un nodo de salida GNUnet.  Fíjese que esto permitirá a otros pares GNUnet observar su tráfico de Internet no encriptado. Esto habilita el tunelizado 4sobre6 y la traducción de protocolo 4a6."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3279
+msgid "Tunnel IPv6 Traffic"
+msgstr "Encaminar tráfico IPv6"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3284
+msgid "By enabling this option, all of your IPv6-Internet traffic will be routed over GNUnet to a GNUnet exit node.  Note that this will enable other GNUnet peers to observe your unencrypted Internet traffic.  This enables 6over4 tunneling and 6to4 protocol translation."
+msgstr "Habilitando esta opción, todo su tráfico IPv6 a Internet será encaminado a través de GNUnet a un nodo de salida GNUnet.  Fíjese que esto permitirá a otros pares GNUnet observar su tráfico de Internet no encriptado. Esto habilita el tunelizado 6sobre4 y la traducción de protocolo 6a4."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3296
+msgid "Tunnel DNS Traffic"
+msgstr "Encaminar tráfico DNS"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3301
+msgid "Enabling this option will cause your DNS traffic to be routed via the GNUnet network to some other peer offering DNS exit functionality. This is needed if you have no Internet access (and are thus tunnelling both IPv4 and IPv6 traffic over GNUnet).  If you have regular Internet access, this option only makes sense if you want to get some 'weak' anonymity by tunnelling all of your traffic over GNUnet (using the network as a 1-hop proxy in the worst-case, so this does not provide you with strong anonymity)."
+msgstr "Habilitar esta opción provocará que su tráfico DNS sea encaminado vía la red de GNUnet a algún otro par que ofrezca una salida DNS. Esto es necesario si no tiene acceso a Internet (y por tanto está encaminando el tráfico IPv4 y IPv6 a través de GNUnet).  Si dispone de acceso normal a Internet, esta opción únicamente tiene sentido si desea obtener un anonimato «débil» a través de encaminar todo su tráfico a través de GNUnet (usando la red como un proxy de un salto en el caso peor, por lo que no provee de anonimato fuerte)."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3327
+msgid "<b>Protocol Translation and Tunneling Configuration</b>"
+msgstr "<b>Configuración de traducción de protocolos y encaminamiento</b>"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3361
+msgid "_Interface name:"
+msgstr "Nombre de _interfaz:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3375
+msgid "Name of the TUN interface GNUnet will create for intercepting outgoing Internet traffic from your machine.  The default \"gnunet-vpn\" is almost always fine."
+msgstr "Nombre de la interfaz TUN que GNUnet creará para interceptar el trafico saliente a Internet desde su máquina.  El predeterminado «gnunet-vpn» casi siempre está bien."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3403
+msgid "IPv4 address for interface:"
+msgstr "Dirección IPv4 para la interfaz:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3432
+#: contrib/gnunet_setup_gtk_main_window.glade:3500
+#: contrib/gnunet_setup_gtk_main_window.glade:3775
+#: contrib/gnunet_setup_gtk_main_window.glade:3845
+msgid "/"
+msgstr "/"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3471
+msgid "IPv6 address for interface: "
+msgstr "Dirección IPv6 para la interfaz:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3540
+msgid "<b>VPN Interface Configuration</b>"
+msgstr "<b>Configuración de interfaz VPN</b>"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3561
+msgid "Configuration of the GNUnet VPN and the Protocol Translation (6to4, 4to6, 6over4, 4over6) facilities"
+msgstr "Configuración de las herramientas de GNUnet de VPN y traducción de protocolos (6a4, 4a6, 6sobre4, 4sobre6)"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3562
+msgid "_VPN"
+msgstr "_VPN"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3595
+msgid "Enable DNS Exit"
+msgstr "Activar salida DNS"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3612
+msgid "Enable IPv4 Exit"
+msgstr "Activar salida IPv4"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3617
+msgid "This option will allow other peers to send IPv4 traffic to the Internet using your network connection."
+msgstr "Esta opción permitirá a otros pares mandar a Internet tráfico IPv4 usando su conexión de red."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3630
+msgid "Enable IPv6 Exit"
+msgstr "Activar salida IPv6"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3635
+msgid "This option will allow other peers to send IPv6 traffic to the Internet using your network connection.  You should make sure that you have IPv6-support before enabling this option."
+msgstr "Esta opción permitirá a otros pares mandar a Internet tráfico IPv6 usando su conexión de red.  Debe estar seguro de que el soporte IPv6 está habilitado antes de habilitar esta opción."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3662
+msgid "IP Address of external DNS Resolver:"
+msgstr "Dirección IP del resolvedor externo DNS:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3703
+msgid "Exit interface name: "
+msgstr "Nombre de la interfaz de salida:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3716
+msgid "Name of the TUN interface GNUnet will create for Internet traffic exiting GNUnet via your machine.  The default \"gnunet-exit\" is almost always fine."
+msgstr "Nombre de la interfaz TUN que GNUnet creará para el tráfico a Internez saliente de GNUnet vía su propia máquina.  El predeterminado «gnunet-exit» está casi siempre bien."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3745
+msgid "IPv4 address for Exit interface: "
+msgstr "Dirección IPv4 de la interfaz de salida:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3758
+msgid "Use a private IPv4 network here that does not conflict with your existing setup (i.e. something like 10.53.0.1/255.255.0.0 or 192.168.0.1/255.255.0.0).  "
+msgstr "Use una red IPv4 privada aquí que no entre en conflicto con su configuración existente (por ejemplo algo como 10.50.0.1/255.255.0.0 o 192.168.0.1/255.255.0.0)."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3815
+msgid "IPv6 address for Exit interface: "
+msgstr "Dirección IPv6 de la interfaz de salida:"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3828
+msgid "This should be a globally routed IPv6 subnet of your host.  Alternatively, if your kernel supports IPv6-NAT, you can pick any site-local prefix and manually configure IPv6-NAT."
+msgstr "Esto debería ser una subred IPv6 globalmente encaminada de su máquina.  Alternativamente, si su núcleo soporta IPv6-NAT, puede escoger cualquier prefijo del nombre local y configurar manualmente IPv6-NAT."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3885
+msgid "<b>GNUnet Exit Configuration</b>"
+msgstr "<b>Configuración de salida GNUnet</b>"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:3906
+msgid "_Exit"
+msgstr "S_alida"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:4144
+msgid "<b>Configure Namestore (persistent storage)</b>"
+msgstr "<b>Configurar el almacén de nombres (almacenamiento persistente)</b>"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:4172
+msgid "Enable iptables-based DNS hijacking (GNU/Linux-only)"
+msgstr "Activar espionaje DNS basado en iptables (únicamente en GNU/Linux)"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:4188
+msgid "Enable automatic shortening"
+msgstr "Activar acortado automático"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:4209
+msgid "<b>Configure GNUnet Naming System</b>"
+msgstr "<b>Configurar el sistema de nombrado de GNUnet (GNS)</b>"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:4230
+msgid "GNS & N_amestore"
+msgstr "GNS y _almacén de nombres"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:4257
+msgid "<b>SET TO PUBLIC KEY OF THE ZONE</b>"
+msgstr "<b>FIJAR A LA CLAVE PÚBLICA DE LA ZONA</b>"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:4298
+msgid "Preferred zone name (PSEU):"
+msgstr "Nombre de zona preferido (PSEU):"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:4342
+msgid "_Master Zone"
+msgstr "_Zona principal"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:4361
+msgid "_Private Zone"
+msgstr "Zona _privada"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:4380
+msgid "_Shorten Zone"
+msgstr "Zona _acortada"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:4429
+msgid "QR code for the selected zone"
+msgstr "Código QR para la zona seleccionada"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:4466
+msgid "<b><big>Loading...</big></b>"
+msgstr "<b><big>Cargando...</big></b>"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:4608
+msgid "GAD_S"
+msgstr "GAD_S"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:4625
+msgid "Welcome to gnunet-setup."
+msgstr "Bienvenido a la configuración de gnunet, «gnunet-setup»."
+
+#: contrib/gnunet_setup_gtk_main_window.glade:4691
+msgid "Edit GNS entry"
+msgstr "Editar entrada GNS"
+
+#: contrib/gnunet_setup_gtk_main_window.glade:4692
+msgid "Edit"
+msgstr "Editar"
+
+#: contrib/gnunet_statistics_gtk_about_dialog.glade:8
+msgid "About gnunet-statistics-gtk"
+msgstr "Acerca de «gnunet-statistics-gtk»"
+
+#: contrib/gnunet_statistics_gtk_main_window.glade:6
+msgid "gnunet-statistics-gtk"
+msgstr "«gnunet-statistics-gtk»"
+
+#: contrib/gnunet_statistics_gtk_main_window.glade:36
+msgid "Display information about this version of gnunet-statistics-gtk"
+msgstr "Muestra información acerca de esta versión de «gnunet-statistics-gtk»"
+
+#: contrib/gnunet_statistics_gtk_main_window.glade:73
+msgid "_Connections"
+msgstr "_Conexiones"
+
+#: contrib/gnunet_statistics_gtk_main_window.glade:97
+msgid "_Traffic"
+msgstr "_Tráfico"
+
+#: contrib/gnunet_statistics_gtk_main_window.glade:122
+msgid "_Storage"
+msgstr "_Almacenamiento"
+
+#~ msgid "short"
+#~ msgstr "corto"
+
+#~ msgid "private"
+#~ msgstr "privado"
+
+#~ msgid "_HTTP"
+#~ msgstr "_HTTP"
+
+#~ msgid "GN_S"
+#~ msgstr "GN_S"
+
+#~ msgid "Delete"
+#~ msgstr "Borrar"
+
+#~ msgid "1 day"
+#~ msgstr "1 día"
+
+#~ msgid "1 week"
+#~ msgstr "1 semana"
+
+#~ msgid "1 year"
+#~ msgstr "1 año"
+
+#~ msgid "Pick expiration date from calendar"
+#~ msgstr "Seleccione la fecha de expiración del calendario"
+
+#~ msgid "Calendar"
+#~ msgstr "Calendario"
