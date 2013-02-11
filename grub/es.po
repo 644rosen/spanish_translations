@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: grub 2.0.0-pre6\n"
 "Report-Msgid-Bugs-To: bug-grub@gnu.org\n"
 "POT-Creation-Date: 2012-05-09 14:36+0200\n"
-"PO-Revision-Date: 2013-02-10 20:03+0100\n"
+"PO-Revision-Date: 2013-02-11 11:18+0100\n"
 "Last-Translator: Miguel Ángel Arruga Vivas <rosen644835@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "Language: \n"
@@ -352,8 +352,9 @@ msgstr ""
 "existentes."
 
 #: grub-core/commands/efi/loadbios.c:214
+#, fuzzy
 msgid "BIOS_DUMP [INT10_DUMP]"
-msgstr ""
+msgstr "VOLCADO_BIOS [VOLCADO_INT10]"
 
 #: grub-core/commands/efi/loadbios.c:215
 msgid "Load BIOS dump."
@@ -568,9 +569,8 @@ msgid "Show a help message."
 msgstr "Mostrar un mensaje de ayuda."
 
 #: grub-core/commands/hexdump.c:31
-#, fuzzy
 msgid "Skip offset bytes from the beginning of file."
-msgstr "Descartar bytes del desplazamiento del inicio del fichero."
+msgstr "Descartar bytes de desplazamiento del inicio del fichero."
 
 #: grub-core/commands/hexdump.c:33
 msgid "Read only LENGTH bytes."
@@ -629,9 +629,8 @@ msgid "Reset all mappings to the default values."
 msgstr "Reiniciar todos los mapas a los valores predeterminados."
 
 #: grub-core/commands/i386/pc/drivemap.c:45
-#, fuzzy
 msgid "Perform both direct and reverse mappings."
-msgstr "Realizar mapeados directos e inversos."
+msgstr "Realizar ambos mapeados, directos e inversos."
 
 #: grub-core/commands/i386/pc/drivemap.c:184
 msgid "No drives have been remapped"
@@ -678,24 +677,20 @@ msgstr ""
 "DS = 0x%x, longitud = 0x%x\n"
 
 #: grub-core/commands/i386/pc/lsapm.c:86
-#, fuzzy
 msgid "16-bit protected interface supported\n"
-msgstr "Interfaz protegida de 16 bits soportada\n"
+msgstr "Interfaz protegida de 16 bits permitida\n"
 
 #: grub-core/commands/i386/pc/lsapm.c:87
-#, fuzzy
 msgid "16-bit protected interface unsupported\n"
-msgstr "Interfaz protegida de 16 bits no soportada\n"
+msgstr "Interfaz protegida de 16 bits no permitida\n"
 
 #: grub-core/commands/i386/pc/lsapm.c:89
-#, fuzzy
 msgid "32-bit protected interface supported\n"
-msgstr "Interfaz protegida de 32 bits soportada\n"
+msgstr "Interfaz protegida de 32 bits permitida\n"
 
 #: grub-core/commands/i386/pc/lsapm.c:90
-#, fuzzy
 msgid "32-bit protected interface unsupported\n"
-msgstr "Interfaz protegida de 32 bits no soportada\n"
+msgstr "Interfaz protegida de 32 bits no permitida\n"
 
 #: grub-core/commands/i386/pc/lsapm.c:92
 msgid "CPU Idle slows down processor\n"
@@ -837,7 +832,6 @@ msgid "Emulate a keystroke sequence"
 msgstr "Emula una secuencia de pulsaciones de teclas"
 
 #: grub-core/commands/ieee1275/suspend.c:34
-#, fuzzy
 msgid "Run `go' to resume GRUB."
 msgstr "Ejecute «go» para continuar con GRUB."
 
@@ -1003,23 +997,20 @@ msgid "[-f FILE]"
 msgstr "[-f FICHERO]"
 
 #: grub-core/commands/loadenv.c:381
-#, fuzzy
 msgid "Load variables from environment block file."
-msgstr "Carga variables del fichero de bloques de entorno."
+msgstr "Carga variables de un fichero de bloques de entorno."
 
 #: grub-core/commands/loadenv.c:385
-#, fuzzy
 msgid "List variables from environment block file."
-msgstr "Muestra las variables del fichero de bloques de entorno."
+msgstr "Muestra las variables de un fichero de bloques de entorno."
 
 #: grub-core/commands/loadenv.c:389
 msgid "[-f FILE] variable_name [...]"
 msgstr "[-f FICHERO] nombre_de_variable [...]"
 
 #: grub-core/commands/loadenv.c:390
-#, fuzzy
 msgid "Save variables to environment block file."
-msgstr "Guarda las variables en un fichero de bloques de entorno."
+msgstr "Guarda las variables a un fichero de bloques de entorno."
 
 #: grub-core/commands/lsacpi.c:200
 msgid "Show version 1 tables only."
@@ -1082,9 +1073,8 @@ msgid "faulty RAM (BadRAM)"
 msgstr "RAM defectuosa (BadRAM)"
 
 #: grub-core/commands/lsmmap.c:38
-#, fuzzy
 msgid "RAM holding firmware code"
-msgstr "RAM con el código del firmware"
+msgstr "RAM con código del firmware"
 
 #: grub-core/commands/lsmmap.c:39
 msgid "Address range not associated with RAM"
@@ -1967,12 +1957,14 @@ msgstr ""
 #: grub-core/disk/ldm.c:973
 msgid "your LDM embedding Partition is too small; embedding won't be possible"
 msgstr ""
+"su Partición de Embebido de su LDM es demasiado pequeña; el embebido no será "
+"posible"
 
 #. TRANSLATORS: it's a partition for embedding,
 #. not a partition embed into something.
 #: grub-core/disk/ldm.c:991
 msgid "this LDM has no Embedding Partition; embedding won't be possible"
-msgstr ""
+msgstr "este LDM no tiene Partición de Embebido; el embebido no será posible"
 
 #. TRANSLATORS: The disk is simply removed from the list of available ones,
 #. not wiped, avoid to scare user.
@@ -2086,7 +2078,7 @@ msgstr ""
 #: grub-core/fs/btrfs.c:1659 grub-core/fs/zfs/zfs.c:3929
 #: grub-core/partmap/msdos.c:388
 msgid "your core.img is unusually large.  It won't fit in the embedding area"
-msgstr "su core.img es inusualmente grande.  No entrará en el área embebida"
+msgstr "su core.img es inusualmente grande.  No entrará en el área de embebido"
 
 #: grub-core/fs/fshelp.c:206 grub-core/fs/hfs.c:1083 grub-core/fs/minix.c:613
 #: grub-core/fs/ufs.c:630 grub-core/fs/ufs.c:710 grub-core/kern/fs.c:165
@@ -2242,7 +2234,7 @@ msgstr "Estado del \"pool\": destruido"
 
 #: grub-core/fs/zfs/zfsinfo.c:245
 msgid "Pool state: reserved for hot spare"
-msgstr ""
+msgstr "Estado del \"pool\": reservado para arranque rápido"
 
 #: grub-core/fs/zfs/zfsinfo.c:246
 msgid "Pool state: level 2 ARC device"
@@ -2562,9 +2554,8 @@ msgid "Invalid character class name"
 msgstr "Nombre de clase de carácter no válido"
 
 #: grub-core/gnulib/regcomp.c:147
-#, fuzzy
 msgid "Trailing backslash"
-msgstr "Barra invertida final"
+msgstr "Barra invertida extra al final"
 
 #: grub-core/gnulib/regcomp.c:150
 msgid "Invalid back reference"
@@ -2713,14 +2704,14 @@ msgstr "no se puede abrir «geom»"
 #. classes.
 #: grub-core/kern/emu/hostdisk.c:452
 msgid "couldn't find geom `part' class"
-msgstr ""
+msgstr "no se pudo encontrar la clase «part» de «geom»"
 
 #: grub-core/kern/emu/hostdisk.c:750 grub-core/kern/emu/hostdisk.c:761
 #: grub-core/kern/emu/hostfs.c:150 util/grub-editenv.c:163
 #: util/grub-editenv.c:169 util/grub-fstest.c:306 util/misc.c:154
 #, c-format
 msgid "cannot seek `%s': %s"
-msgstr "no se puede desplazar «%s»: %s"
+msgstr "no se puede buscar «%s»: %s"
 
 #. TRANSLATORS: it refers to the lack of free slots.
 #: grub-core/kern/emu/hostdisk.c:783 grub-core/kern/emu/hostdisk.c:1227
@@ -2828,7 +2819,7 @@ msgstr "Error analizando los parámetros de la línea de comandos\n"
 
 #. TRANSLATORS: In this case GRUB tells user what he has to do.
 #: grub-core/kern/emu/main.c:197
-#, fuzzy, c-format
+#, c-format
 msgid "Run `gdb %s %d', and set ARGS.HOLD to zero.\n"
 msgstr "Ejecute «gdb %s %d», y cambie ARGS.HOLD a cero.\n"
 
@@ -3810,19 +3801,18 @@ msgid "--MORE--"
 msgstr "--MÁS--"
 
 #: grub-core/partmap/gpt.c:178
-#, fuzzy
 msgid ""
 "this GPT partition label contains no BIOS Boot Partition; embedding won't be "
 "possible"
 msgstr ""
 "esta etiqueta de partición GPT no contiene ninguna Partición de Arranque "
-"BIOS; no será posible embeberse"
+"BIOS; el embebido no será posible"
 
 #: grub-core/partmap/gpt.c:183
 msgid "your BIOS Boot Partition is too small; embedding won't be possible"
 msgstr ""
-"su Partición de Arranquie BIOS es demasiado pequeña; no será posible "
-"embeberse"
+"su Partición de Arranque BIOS es demasiado pequeña; el embebido no será "
+"posible"
 
 #. TRANSLATORS: MBR gap and boot track is the same thing and is the space
 #. between MBR and first partitition. If your language translates well only
@@ -3868,12 +3858,12 @@ msgid ""
 "possible"
 msgstr ""
 "esta etiqueta de partición de tipo msdos no tiene espacio después del sector "
-"de arranque; no será posible embeberse"
+"de arranque; el embebido no será posible"
 
 #: grub-core/partmap/msdos.c:392
 msgid "your embedding area is unusually small.  core.img won't fit in it."
 msgstr ""
-"su área embebida es inusualmente pequeña.  core.img no entrará en ella."
+"su área de embebido es inusualmente pequeña.  core.img no entrará en ella."
 
 #: grub-core/parttool/msdospart.c:39
 msgid "Make partition active"
@@ -3918,7 +3908,7 @@ msgstr "Cambiando el tipo de partición a 0x%x\n"
 #. But asking it to break 0 loops makes no sense.
 #: grub-core/script/execute.c:93
 msgid "can't break 0 loops"
-msgstr ""
+msgstr "no se puede salir de 0 bucles"
 
 #. TRANSLATORS: It's about not being
 #. inside a function. "return" can be used only
@@ -3943,14 +3933,12 @@ msgid "[NUM]"
 msgstr "[NÚMERO]"
 
 #: grub-core/script/main.c:54
-#, fuzzy
 msgid "Exit from loops"
-msgstr "Salir de los bucles"
+msgstr "Sale de bucles"
 
 #: grub-core/script/main.c:56
-#, fuzzy
 msgid "Continue loops"
-msgstr "Continúa los bucles"
+msgstr "Continúa bucles"
 
 #. TRANSLATORS: Positional arguments are
 #. arguments $0, $1, $2, ...
@@ -3992,7 +3980,6 @@ msgid "Set background color for active terminal."
 msgstr "Establece el color de fondo para el terminal activo."
 
 #: grub-core/term/serial.c:42
-#, fuzzy
 msgid "Set the serial unit."
 msgstr "Establece la unidad serie."
 
@@ -4047,7 +4034,6 @@ msgstr "UTF-8"
 #. Used on some terminals. Normal UTF-8 is refered as
 #. "logically-ordered UTF-8" by opposition.
 #: grub-core/term/terminfo.c:613
-#, fuzzy
 msgid "visually-ordered UTF-8"
 msgstr "UTF-8 visualmente ordenado"
 
@@ -4065,11 +4051,11 @@ msgstr "El terminal es únicamente ASCII [predeterminado]."
 
 #: grub-core/term/terminfo.c:634
 msgid "Terminal is logical-ordered UTF-8."
-msgstr ""
+msgstr "El terminal es UTF-8 lógicamente ordenado."
 
 #: grub-core/term/terminfo.c:635
 msgid "Terminal is visually-ordered UTF-8."
-msgstr ""
+msgstr "El terminal es UTF-8 visualmente ordenado."
 
 #: grub-core/term/terminfo.c:637
 msgid "Terminal has specified geometry."
@@ -4096,7 +4082,7 @@ msgstr "[[-a|-u|-v] [-g ANCHOxALTO] TERMINAL [TIPO]]"
 
 #: grub-core/term/terminfo.c:724
 msgid "Set terminfo type of TERM  to TYPE.\n"
-msgstr "Cambia el tipo de «terminfo» de TERMINAL a TIPO."
+msgstr "Cambia el tipo de «terminfo» de TERMINAL a TIPO.\n"
 
 #. TRANSLATORS: this is the BLOCK-argument, not
 #. environment block.
@@ -4156,11 +4142,12 @@ msgstr "No se pudo abrir el flujo de %s: %s"
 #, c-format
 msgid "cannot get translator command line for path `%s': %s"
 msgstr ""
+"no se pudo obtener la línea de comandos del traductor para la ruta «%s»: %s"
 
 #: util/getroot.c:740
 #, c-format
 msgid "translator command line is empty for path `%s'"
-msgstr ""
+msgstr "la línea de comandos del traductor está vacía para la ruta «%s»"
 
 #. TRANSLATORS: we expect to get something like
 #. /hurd/foobar --option1 --option2=baz /dev/something
@@ -4171,6 +4158,8 @@ msgid ""
 "translator `%s' for path `%s' has several non-option words, at least `%s' "
 "and `%s'"
 msgstr ""
+"el traductor «%s» tiene varias palabras que no son opciones para la ruta "
+"«%s», al menos «%s» y «%s»"
 
 #. TRANSLATORS: we expect to get something like
 #. /hurd/foobar --option1 --option2=baz /dev/something
@@ -4180,6 +4169,8 @@ msgstr ""
 msgid ""
 "translator `%s' for path `%s' is given only options, cannot find device part"
 msgstr ""
+"el traductor «%s» tiene únicamente opciones para la ruta «%s», no se pudo "
+"encontrar el parámetro del dispositivo"
 
 #: util/getroot.c:860 util/getroot.c:910 util/getroot.c:919
 msgid "cannot restore the original directory"
@@ -4187,11 +4178,11 @@ msgstr "no se pudo restituir el directorio original"
 
 #: util/getroot.c:1114
 msgid "Failed to create `device-mapper' tree"
-msgstr ""
+msgstr "No se pudo crear el árbol de «device-mapper»"
 
 #: util/getroot.c:1479 util/getroot.c:2477
 msgid "couldn't find geli consumer"
-msgstr ""
+msgstr "no se pudo encontrar el cliente «geli»"
 
 #: util/getroot.c:1499 util/getroot.c:1544
 #, c-format
@@ -4201,11 +4192,11 @@ msgstr "no se pudo montar el volumen encriptado «%s»: %s"
 #: util/getroot.c:2312
 #, c-format
 msgid "disk does not exist, so falling back to partition device %s"
-msgstr ""
+msgstr "no existe el disco, por lo que se usa el dispositivo de partición %s"
 
 #: util/getroot.c:2482
 msgid "couldn't retrieve geli UUID"
-msgstr ""
+msgstr "no se pudo obtener el UUID «geli»"
 
 #: util/getroot.c:2567
 #, c-format
@@ -4296,47 +4287,47 @@ msgstr "bloque de entorno demasiado pequeño"
 #: util/grub-fstest.c:108
 #, c-format
 msgid "disk read fails at offset %lld, length %d"
-msgstr ""
+msgstr "la lectura del disco falló en el desplazamiento %lld, longitud %d"
 
 #: util/grub-fstest.c:136
 #, c-format
 msgid "invalid skip value %lld"
-msgstr ""
+msgstr "valor de desplazamiento %lld no válido"
 
 #: util/grub-fstest.c:156 util/grub-fstest.c:235
 #, c-format
 msgid "read error at offset %llu: %s"
-msgstr ""
+msgstr "error de lectura en el desplazamiento %llu: %s"
 
 #: util/grub-fstest.c:195
 #, c-format
 msgid "cannot open OS file `%s': %s"
-msgstr ""
+msgstr "no se puede abrir el fichero del SO «%s»: %s"
 
 #: util/grub-fstest.c:213 util/misc.c:169
 #, c-format
 msgid "cannot write to the stdout: %s"
-msgstr "no se pudo escribir en la salida estándar: %s"
+msgstr "no se puede escribir en la salida estándar: %s"
 
 #: util/grub-fstest.c:247
 #, c-format
 msgid "compare fail at offset %llu"
-msgstr ""
+msgstr "falló la comparación en el desplazamiento %llu"
 
 #: util/grub-fstest.c:256 util/grub-fstest.c:265 util/grub-fstest.c:300
 #, c-format
 msgid "OS file %s open error: %s"
-msgstr ""
+msgstr "error de apertura en el fichero del SO %s: %s"
 
 #: util/grub-fstest.c:387 util/grub-mount.c:351
 #, c-format
 msgid "`loopback' command fails: %s"
-msgstr ""
+msgstr "el comando «loopback» falló: %s"
 
 #: util/grub-fstest.c:398 util/grub-mount.c:361
 #, c-format
 msgid "`cryptomount' command fails: %s"
-msgstr ""
+msgstr "el comando «cryptmount» falló: %s"
 
 #: util/grub-fstest.c:459 util/grub-fstest.c:463
 msgid "couldn't retrieve UUID"
@@ -4489,7 +4480,7 @@ msgstr "Uso: %s [FICHERO_DE_ENTRADA [FICHERO_DE_SALIDA]]\n"
 #: util/grub-mkfont.c:142
 #, c-format
 msgid "Freetype Error %d loading glyph 0x%x for U+0x%x%s"
-msgstr ""
+msgstr "Error de Freetype %d cargando el símbolo 0x%x para U+0x%x%s"
 
 #. TRANSLATORS: These qualifiers are used for cursive typography,
 #. mainly Arabic. Note that the terms refer to the visual position
@@ -4497,8 +4488,9 @@ msgstr ""
 #. leftmost is initial but with right-to-left script like Arabic
 #. rightmost is the initial.
 #: util/grub-mkfont.c:150
+#, fuzzy
 msgid " (medial)"
-msgstr ""
+msgstr " (altura de minúsculas)"
 
 #: util/grub-mkfont.c:151
 msgid " (leftmost)"
@@ -4555,7 +4547,7 @@ msgstr "AVISO: parámetros de características de fuente no soportados: %x\n"
 #: util/grub-mkfont.c:638
 #, c-format
 msgid "Unknown gsub font feature 0x%x (%s)\n"
-msgstr ""
+msgstr "Se desconoce la característica gsub 0x%x de la fuente (%s)\n"
 
 #: util/grub-mkfont.c:976 util/grub-kbdcomp.in:31 util/grub-mkrescue.in:69
 #: util/grub-mkstandalone.in:60
@@ -4570,9 +4562,8 @@ msgstr "almacena únicamente los mapas de bits ASCII"
 #. TRANSLATORS: this refers to creating a file containing the width of
 #. every glyph but not the glyphs themselves.
 #: util/grub-mkfont.c:982
-#, fuzzy
 msgid "create width summary file"
-msgstr "crea un amplio fichero de resumen"
+msgstr "crea un fichero con las anchuras"
 
 #. TRANSLATORS: some font files may have multiple faces (fonts).
 #. This option is used to chose among them, the first face being '0'.
@@ -4606,11 +4597,11 @@ msgstr "cambia el tamaño de las fuentes"
 
 #: util/grub-mkfont.c:996
 msgid "set font descent"
-msgstr ""
+msgstr "cambia el espacio inferior entre líneas"
 
 #: util/grub-mkfont.c:997
 msgid "set font ascent"
-msgstr ""
+msgstr "cambia el espacio superior entre líneas"
 
 #: util/grub-mkfont.c:998
 msgid "convert to bold font"
@@ -4630,7 +4621,7 @@ msgstr "deshabilita indicaciones"
 #.
 #: util/grub-mkfont.c:1006
 msgid "ignore bitmap strikes when loading"
-msgstr ""
+msgstr "ignora los fallos de los mapas de bits al cargar"
 
 #. TRANSLATORS: It refers to the range of characters in font.
 #: util/grub-mkfont.c:1075 util/grub-mkfont.c:1091
@@ -4643,11 +4634,11 @@ msgstr "[OPCIONES] FICHEROS_DE_FUENTES"
 
 #: util/grub-mkfont.c:1133
 msgid "Convert common font file formats into PF2"
-msgstr ""
+msgstr "Convierte formatos de ficheros de fuentes comunes a PF2"
 
 #: util/grub-mkfont.c:1164
 msgid "Option --ascii-bitmaps doesn't accept ranges (it always uses ASCII)."
-msgstr ""
+msgstr "La opción --ascii-bitmaps no acepta rangos (siempre se usa ASCII)."
 
 #: util/grub-mkfont.c:1179 util/grub-kbdcomp.in:72 util/grub-mkrescue.in:153
 #: util/grub-mkstandalone.in:135
@@ -4695,6 +4686,8 @@ msgstr "el tamaño de diskboot.img debe ser de %u bytes"
 msgid ""
 "fwstart.img doesn't match the known good version. proceed at your own risk"
 msgstr ""
+"fwstart.img no coincide con la versión buena conocida. Continúe bajo su "
+"responsabilidad"
 
 #: util/grub-mkimage.c:1363 util/grub-mkimage.c:1387
 msgid "firmware image is too big"
@@ -4706,6 +4699,7 @@ msgstr "la imagen del firmware es demasiado grande"
 #, c-format
 msgid "use images and modules under DIR [default=%s/<platform>]"
 msgstr ""
+"usa imágenes y módulos en el DIRECTORO [predeterminado=%s/<plataforma>]"
 
 #: util/grub-mkimage.c:1647
 #, c-format
@@ -4716,16 +4710,16 @@ msgstr "cambia el directorio prefijo [predeterminado=%s]"
 #. "embed" is a verb (command description).  "
 #: util/grub-mkimage.c:1651
 msgid "embed FILE as a memdisk image"
-msgstr "embeber FICHERO como una imagen de disco de memoria"
+msgstr "embebe el FICHERO como una imagen de disco de memoria"
 
 #: util/grub-mkimage.c:1653
 msgid "embed FILE as an early config"
-msgstr "embeber FICHERO como una configuración temprana"
+msgstr "embebe el FICHERO como una configuración temprana"
 
 #. TRANSLATORS: NOTE is a name of segment.
 #: util/grub-mkimage.c:1655
 msgid "add NOTE segment for CHRP IEEE1275"
-msgstr ""
+msgstr "añade un segmento «NOTE» para el CHRP IEEE1275"
 
 #: util/grub-mkimage.c:1656
 msgid "output a generated image to FILE [default=stdout]"
@@ -4785,13 +4779,13 @@ msgstr "establece el nombre del archivo de salida. El predeterminado es STDOUT"
 #: util/grub-mklayout.c:293
 #, c-format
 msgid "Unknown keyboard scan identifier %s\n"
-msgstr ""
+msgstr "Identificador de tecla %s desconocido\n"
 
 #. TRANSLATORS: scan code is keyboard key numeric identifier.
 #: util/grub-mklayout.c:390
 #, c-format
 msgid "Unknown keyboard scan code 0x%02x\n"
-msgstr ""
+msgstr "Código de tecla 0x%02x desconocido\n"
 
 #. TRANSLATORS: this error is triggered when input doesn't contain any
 #. key descriptions.
@@ -4899,6 +4893,9 @@ msgid ""
 "print filesystem module, GRUB drive, system device, partition map module, "
 "abstraction module or cryptographic container UUID [default=fs]"
 msgstr ""
+"imprime el módulo del sistema de ficheros, la unidad de GRUB, el dispositivo "
+"del sistema, el módulo del mapa de particiones, el módulo de abstracción o "
+"el UUID del contenedor criptográfico [predeterminado=fs]"
 
 #: util/grub-probe.c:788
 msgid "No path or device is specified.\n"
@@ -4913,6 +4910,8 @@ msgid ""
 "Probe device information for a given path (or device, if the -d option is "
 "given)."
 msgstr ""
+"Comprueba la información del dispositivo para una ruta dada (o dispositivo, "
+"si se proporciona la opción -d)."
 
 #: util/grub-script-check.c:83
 msgid "[PATH]"
@@ -4960,11 +4959,15 @@ msgid ""
 "Attempting to install GRUB to a disk with multiple partition labels or both "
 "partition label and filesystem.  This is not supported yet."
 msgstr ""
+"Intentando instalar GRUB en un disco con múltiples etiquetas de partición o "
+"con etiqueta de partición y sistema de ficheros.  Todavía no está soportado."
 
 #: util/grub-setup.c:391
 #, c-format
 msgid "unable to identify a filesystem in %s; safety check can't be performed"
 msgstr ""
+"imposible identificar un sistema de ficheros en %s; no se puede realizar la "
+"comprobación de seguridad"
 
 #. TRANSLATORS: Filesystem may reserve the space just GRUB isn't sure about it.
 #: util/grub-setup.c:395
@@ -4975,6 +4978,11 @@ msgid ""
 "DESTRUCTION if valuable data is overwritten by grub-setup (--skip-fs-probe "
 "disables this check, use at your own risk)"
 msgstr ""
+"Parece que %s contiene un sistema de ficheros %s del que se sabe que no "
+"reserva espacio para un arranque tipo DOS.  Instalar GRUB ahí puede provocar "
+"la DESTRUCCIÓN DEL SISTEMA DE FICHEROS si algún dato importante es "
+"sobrescrito por grub-setup (--skip-fs-probe deshabilita esta comprobación, "
+"úselo bajo su responsabilidad)"
 
 #. TRANSLATORS: Partition map may reserve the space just GRUB isn't sure about it.
 #: util/grub-setup.c:408
@@ -4985,6 +4993,11 @@ msgid ""
 "DESTRUCTION if valuable data is overwritten by grub-setup (--skip-fs-probe "
 "disables this check, use at your own risk)"
 msgstr ""
+"Parece que %s contiene un mapa de particiones %s del que se sabe que no "
+"reserva espacio para un arranque tipo DOS.  Instalar GRUB ahí puede provocar "
+"la DESTRUCCIÓN DEL SISTEMA DE FICHEROS si algún dato importante es "
+"sobrescrito por grub-setup (--skip-fs-probe deshabilita esta comprobación, "
+"úselo bajo su responsabilidad)"
 
 #: util/grub-setup.c:415
 #, c-format
@@ -4994,46 +5007,56 @@ msgid ""
 "DESTRUCTION if valuable data is overwritten by grub-setup (--skip-fs-probe "
 "disables this check, use at your own risk)"
 msgstr ""
+"Parece que %s contiene un mapa de particiones %s y LDM y no se tiene "
+"constancia de que sea una combinación segura.  Instalar GRUB ahí puede "
+"provocar la DESTRUCCIÓN DEL SISTEMA DE FICHEROS si algún dato importante es "
+"sobrescrito por grub-setup (--skip-fs-probe deshabilita esta comprobación, "
+"úselo bajo su responsabilidad)"
 
 #: util/grub-setup.c:438
 msgid ""
 "Attempting to install GRUB to a partitionless disk or to a partition.  This "
 "is a BAD idea."
 msgstr ""
+"Intentando instalar GRUB en un disco sin particiones o en una partición.  Es "
+"una MALA idea."
 
 #: util/grub-setup.c:443
 msgid ""
 "Attempting to install GRUB to a disk with multiple partition labels.  This "
 "is not supported yet."
 msgstr ""
+"Intentando instalar GRUB en un disco con múltiples etiquetas de partición.  "
+"Todavía no está soportado."
 
 #: util/grub-setup.c:449
 #, c-format
 msgid "Partition style `%s' doesn't support embedding"
-msgstr ""
+msgstr "El tipo de particiones «%s» no permite el embebido"
 
 #: util/grub-setup.c:456
 #, c-format
 msgid "File system `%s' doesn't support embedding"
-msgstr ""
+msgstr "El sistema de ficheros «%s» no permite el embebido"
 
 #: util/grub-setup.c:481
 msgid "Your embedding area is unusually small.  core.img won't fit in it."
 msgstr ""
-"Su área embebida es inusualmente pequeña.  core.img no entrará en ella."
+"Su área de embebido es inusualmente pequeña.  core.img no entrará en ella."
 
 #: util/grub-setup.c:503 util/grub-setup.c:694 util/grub-setup.c:919
 msgid "no terminator in the core image"
-msgstr ""
+msgstr "ninguna finalización en la imagen principal"
 
 #: util/grub-setup.c:538
 msgid "core.img version mismatch"
-msgstr ""
+msgstr "versión incorrecta de core.img"
 
 #: util/grub-setup.c:564
 msgid ""
 "embedding is not possible, but this is required for RAID and LVM install"
 msgstr ""
+"el embebido no es posible, pero se requiere para la instalación en RAID y LVM"
 
 #: util/grub-setup.c:571
 #, c-format
@@ -5050,6 +5073,8 @@ msgstr "el sistema de ficheros «%s» no soporta las listas de bloques"
 #: util/grub-setup.c:583
 msgid "embedding is not possible, but this is required for cross-disk install"
 msgstr ""
+"el embebido no es posible, pero esto es necesario para una instalación "
+"cruzada en disco"
 
 #: util/grub-setup.c:589
 msgid ""
@@ -5057,6 +5082,9 @@ msgid ""
 "using blocklists.  However, blocklists are UNRELIABLE and their use is "
 "discouraged."
 msgstr ""
+"El embebido no es posible.  GRUB podrá ser instalado con esta configuración "
+"únicamente usando listas de bloques.  No obstante, las listas de bloques son "
+"INSEGURAS y su uso está desaconsejado."
 
 #. TRANSLATORS: Here GRUB refuses to continue with blocklist install.
 #: util/grub-setup.c:594
@@ -5066,12 +5094,12 @@ msgstr "no se procederá con las listas de bloques"
 #: util/grub-setup.c:616
 #, c-format
 msgid "attempting to read the core image `%s' from GRUB"
-msgstr ""
+msgstr "intentado leer la imagen principal «%s» de GRUB"
 
 #: util/grub-setup.c:617
 #, c-format
 msgid "attempting to read the core image `%s' from GRUB again"
-msgstr ""
+msgstr "intentado leer de nuevo la imagen principal «%s» de GRUB"
 
 #: util/grub-setup.c:676
 #, c-format
@@ -5089,11 +5117,11 @@ msgstr "el tamaño de bloque no es divisible por 512"
 
 #: util/grub-setup.c:816
 msgid "failed to read the first sector of the core image"
-msgstr ""
+msgstr "la lectura del primer sector de la imagen principal falló"
 
 #: util/grub-setup.c:822
 msgid "failed to read the rest sectors of the core image"
-msgstr ""
+msgstr "la lectura del resto de sectores de la imagen principal falló"
 
 #: util/grub-setup.c:892 util/grub-setup.c:912
 msgid "blocklists are invalid"
@@ -5111,11 +5139,11 @@ msgstr "usa el FICHERO como la imagen principal [predeterminado=%s]"
 
 #: util/grub-setup.c:954 util/grub-install.in:108
 msgid "install even if problems are detected"
-msgstr ""
+msgstr "instala aunque se encuentren problemas"
 
 #: util/grub-setup.c:956
 msgid "do not probe for filesystems in DEVICE"
-msgstr ""
+msgstr "no buscar sistemas de ficheros en DISPOSITIVO"
 
 #. TRANSLATORS: The potential breakage isn't limited to floppies but it's
 #. likely to make the install unbootable from HDD.
@@ -5126,6 +5154,8 @@ msgid ""
 "make the drive also bootable as floppy (default for fdX devices). May break "
 "on some BIOSes."
 msgstr ""
+"hacer que la unidad sea arrancable como disco extraíble (predeterminado para "
+"dispositivos fdX). Puede fallar en algunas BIOS."
 
 #: util/grub-setup.c:1066
 msgid "No device is specified.\n"
@@ -5137,6 +5167,10 @@ msgid ""
 "\n"
 "You should not normally run this program directly.  Use grub-install instead."
 msgstr ""
+"Configura las imágenes para arrancar desde DISPOSITIVO.\n"
+"\n"
+"Normalmente no debería ejecutar este programa directamente.  Use grub-"
+"install."
 
 #: util/grub-setup.c:1084
 msgid "DEVICE must be an OS device (e.g. /dev/sda)."
@@ -5147,7 +5181,7 @@ msgstr ""
 #: util/grub-setup.c:1154
 #, c-format
 msgid "Invalid device `%s'.\n"
-msgstr "Dispositivo «%s¢ no válido.\n"
+msgstr "Dispositivo «%s» no válido.\n"
 
 #: util/ieee1275/grub-ofpathname.c:41 util/ieee1275/ofpath.c:471
 #, c-format
@@ -5158,6 +5192,8 @@ msgstr "Uso: %s DISPOSITIVO"
 #, c-format
 msgid "'obppath' not found in parent dirs of %s, no IEEE1275 name discovery"
 msgstr ""
+"no se encontró 'obppath' en los directorios superiores a %s, no se ha "
+"descubierto ningún nombre IEEE1275"
 
 #: util/ieee1275/ofpath.c:453
 #, c-format
@@ -5581,7 +5617,6 @@ msgstr ""
 "%s>"
 
 #: util/grub-install.in:662
-#, fuzzy
 msgid "No hints available for your platform. Expect reduced performance."
 msgstr ""
 "No hay indicaciones disponibles para su plataforma. El rendimiento se verá "
@@ -5627,7 +5662,6 @@ msgstr ""
 "de comandos IEEE1275:"
 
 #: util/grub-install.in:813
-#, fuzzy
 msgid "You will have to set `SystemPartition' and `OSLoader' manually."
 msgstr "Tendrá que fijar «SystemPartition» and «OSLoader» manualmente."
 
@@ -5683,7 +5717,6 @@ msgstr "Generando «grub.cfg»..."
 
 #. TRANSLATORS: %s is replaced by filename
 #: util/grub-mkconfig.in:259
-#, fuzzy
 msgid ""
 "Syntax errors are detected in generated GRUB config file.\n"
 "Ensure that there are no errors in /etc/default/grub\n"
@@ -5693,7 +5726,7 @@ msgstr ""
 "Se han detectado errores de sintaxis en el fichero de\n"
 "configuración de GRUB generado.\n"
 "Asegurese de que no hay errores en /etc/default/grub\n"
-"en los ficheros de /etc/grub.d/ o, por favor, abra una\n"
+"en los ficheros /etc/grub.d/* o, por favor, abra una\n"
 "notificación de errores con el fichero %s adjunto."
 
 #: util/grub-mkconfig.in:269
@@ -5732,6 +5765,8 @@ msgid ""
 "Netboot directory for %s created. Configure your DHCP server to point to %s"
 "\\n"
 msgstr ""
+"Creado directorio «Netboot» para %s. Configure su servidor DHCP para que "
+"apunte a %s\\n"
 
 #: util/grub-mkrescue.in:62 util/grub-mkstandalone.in:55
 #: util/powerpc/ieee1275/grub-mkrescue.in:49
@@ -5740,12 +5775,15 @@ msgstr "Uso: %s [OPCIÓN] FUENTE...\\n"
 
 #. TRANSLATORS: it generates one single image which is bootable through any method.
 #: util/grub-mkrescue.in:64 util/powerpc/ieee1275/grub-mkrescue.in:50
+#, fuzzy
 msgid "Make GRUB CD-ROM, disk, pendrive and floppy bootable image."
 msgstr ""
+"Crear una imagen arrancable de GRUB para CD-ROM, disco y disco extraíble "
+"(USB y diskette)."
 
 #: util/grub-mkrescue.in:71
 msgid "save ROM images in DIR [optional]"
-msgstr ""
+msgstr "almacena las imagenes ROM en el DIRECTORIO [opcional]"
 
 #. TRANSLATORS: xorriso is a program for creating ISOs and burning CDs
 #: util/grub-mkrescue.in:73
@@ -5757,10 +5795,13 @@ msgid ""
 "%s generates a bootable rescue image with specified source files, source "
 "directories, or mkisofs options listed by the output of `%s'\\n"
 msgstr ""
+"%s genera una imagen arrancable de rescate con los ficheros y directorios "
+"fuente especificados, o las opciones de mkisofs enumeradas por en la salida "
+"de «%s»\\n"
 
 #: util/grub-mkrescue.in:78
 msgid "Option -- switches to native xorriso command mode."
-msgstr ""
+msgstr "La opción -- cambia al modo de comandos nativo de xorriso."
 
 #: util/grub-mkrescue.in:81
 msgid "Mail xorriso support requests to <bug-xorriso@gnu.org>."
@@ -5774,6 +5815,8 @@ msgstr "Activando el soporte de %s...\\n"
 msgid ""
 "Generate a standalone image (containing all modules) in the selected format"
 msgstr ""
+"Crea una imagen única (que contiene todos los módulos) en el formato "
+"seleccionado"
 
 #: util/grub-reboot.in:48 util/grub-set-default.in:48
 msgid "Usage: %s [OPTION] MENU_ENTRY\\n"
