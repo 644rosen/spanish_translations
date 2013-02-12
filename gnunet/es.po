@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GNUnet 0.9.5\n"
+"Project-Id-Version: gnunet 0.9.5a\n"
 "Report-Msgid-Bugs-To: gnunet-developers@mail.gnu.org\n"
 "POT-Creation-Date: 2013-02-05 19:22+0100\n"
 "PO-Revision-Date: 2013-02-10 18:59+0100\n"
@@ -278,7 +278,7 @@ msgstr "«ATS» devolvió resultados para %u direcciones\n"
 #: src/ats-tool/gnunet-ats.c:199
 #, c-format
 msgid "Peer `%s' plugin `%s', address `%s', `%s' bw out: %u Bytes/s, bw in %u Bytes/s, %s\n"
-msgstr "Par «%s» módulo «%s», dirección «%s», subida: %u Bytes/s, bajada %u Bytes/s, %s\n"
+msgstr "Par «%s» módulo «%s», dirección «%s», «%s» subida: %u Bytes/s, bajada %u Bytes/s, %s\n"
 
 #: src/ats-tool/gnunet-ats.c:326
 #, c-format
@@ -5601,7 +5601,7 @@ msgstr "La configuración especifica un valor no válido en la opción «%s» de
 #: src/util/configuration.c:291
 #, c-format
 msgid "Syntax error while deserializing in line %u\n"
-msgstr "Error de sintaxis en la línea %d mientras se deserializaba\n"
+msgstr "Error de sintaxis en la línea %u mientras se deserializaba\n"
 
 #: src/util/configuration.c:998
 #, c-format
