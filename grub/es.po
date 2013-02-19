@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: grub 2.0.0-pre6\n"
 "Report-Msgid-Bugs-To: bug-grub@gnu.org\n"
 "POT-Creation-Date: 2012-05-09 14:36+0200\n"
-"PO-Revision-Date: 2013-02-11 11:18+0100\n"
+"PO-Revision-Date: 2013-02-19 10:38+0100\n"
 "Last-Translator: Miguel Ángel Arruga Vivas <rosen644835@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "Language: \n"
@@ -1870,7 +1870,7 @@ msgstr "FUENTE|-u UUID|-a|-b"
 
 #: grub-core/disk/cryptodisk.c:975
 msgid "Mount a crypto device."
-msgstr "Monta un dispositivo encriptado."
+msgstr "Monta un dispositivo cifrado."
 
 #. TRANSLATORS: This message kicks in during the detection of
 #. which modules needs to be included in core image. This happens
@@ -1916,7 +1916,7 @@ msgstr "versión o número mágico ELI erroneos"
 
 #: grub-core/disk/geli.c:422 grub-core/disk/luks.c:319
 msgid "Attempting to decrypt master key..."
-msgstr "Intentando desencriptar la clave principal..."
+msgstr "Intentando descifrar la clave principal..."
 
 #: grub-core/disk/geli.c:428 grub-core/disk/luks.c:335
 #, c-format
@@ -2093,7 +2093,7 @@ msgstr "falló la verificación de la suma de comprobación"
 
 #: grub-core/fs/zfs/zfscrypt.c:291
 msgid "no decryption key available"
-msgstr "no hay ninguna clave de desencriptado disponible"
+msgstr "no hay ninguna clave de descifrado disponible"
 
 #: grub-core/fs/zfs/zfscrypt.c:303
 msgid "MAC verification failed"
@@ -4187,7 +4187,7 @@ msgstr "no se pudo encontrar el cliente «geli»"
 #: util/getroot.c:1499 util/getroot.c:1544
 #, c-format
 msgid "can't mount encrypted volume `%s': %s"
-msgstr "no se pudo montar el volumen encriptado «%s»: %s"
+msgstr "no se pudo montar el volumen cifrado «%s»: %s"
 
 #: util/getroot.c:2312
 #, c-format
@@ -4423,7 +4423,7 @@ msgstr "Cambia la variable de entorno de depuración."
 #: util/grub-fstest.c:506 util/grub-mount.c:412
 #, fuzzy
 msgid "Mount crypto devices."
-msgstr "Monta un dispositivo encriptado."
+msgstr "Monta un dispositivo cifrado."
 
 #. TRANSLATORS: "prompt" is a keyword.
 #: util/grub-fstest.c:509 util/grub-mount.c:415
@@ -4433,7 +4433,7 @@ msgstr "FICHERO|prompt"
 
 #: util/grub-fstest.c:509 util/grub-mount.c:415
 msgid "Load zfs crypto key."
-msgstr "No se pudo cargar la clave de encriptación de zfs."
+msgstr "No se pudo cargar la clave de cifrado de zfs."
 
 #: util/grub-fstest.c:511
 msgid "Uncompress data."
