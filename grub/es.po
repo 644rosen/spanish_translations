@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: grub 2.0.0-pre6\n"
 "Report-Msgid-Bugs-To: bug-grub@gnu.org\n"
 "POT-Creation-Date: 2012-05-09 14:36+0200\n"
-"PO-Revision-Date: 2013-02-19 10:38+0100\n"
+"PO-Revision-Date: 2013-02-24 22:48+0100\n"
 "Last-Translator: Miguel Ángel Arruga Vivas <rosen644835@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "Language: \n"
@@ -28,10 +28,10 @@ msgstr "velocidad del puerto serie no soportada"
 msgid "unsupported serial port parity"
 msgstr "paridad del puerto serie no soportada"
 
+# Miguel: ¿Alguien con más conocimientos sobre puertos serie?
 #: grub-core/bus/usb/serial/ftdi.c:153 grub-core/bus/usb/serial/pl2303.c:166
 #: grub-core/term/efi/serial.c:116 grub-core/term/ns8250.c:210
 #: grub-core/term/serial.c:222
-#, fuzzy
 msgid "unsupported serial port stop bits number"
 msgstr "número de bits de parada del puerto serie no soportados"
 
@@ -41,46 +41,42 @@ msgid "unsupported serial port word length"
 msgstr "longitud de palabra del puerto serie no soportada"
 
 #: grub-core/commands/acpi.c:42
-#, fuzzy
 msgid "Don't load host tables specified by comma-separated list."
-msgstr ""
-"No cargar las tablas de máquinas especificadas por una lista separada por "
-"comas."
+msgstr "No carga las tablas de máquinas especificadas en la lista separada por comas."
 
 #: grub-core/commands/acpi.c:45
-#, fuzzy
 msgid "Load only tables specified by comma-separated list."
-msgstr ""
-"Cargar únicamente las tablas especificadas en una lista separada por comas."
+msgstr "Carga únicamente las tablas especificadas en la lista separada por comas."
 
 #: grub-core/commands/acpi.c:46
 msgid "Export version 1 tables to the OS."
-msgstr "Exportar la versión 1 de las tablas al SO."
+msgstr "Exporta la versión 1 de las tablas al SO."
 
 #: grub-core/commands/acpi.c:47
 msgid "Export version 2 and version 3 tables to the OS."
-msgstr "Exportar las versiones 2 y 3 de las tablas al SO."
+msgstr "Exporta las versiones 2 y 3 de las tablas al SO."
 
 #: grub-core/commands/acpi.c:48
 msgid "Set OEMID of RSDP, XSDT and RSDT."
-msgstr "Cambiar OEMID en RSDP, XSDT y RSDT."
+msgstr "Cambia OEMID en RSDP, XSDT y RSDT."
 
 #: grub-core/commands/acpi.c:50
 msgid "Set OEMTABLE ID of RSDP, XSDT and RSDT."
-msgstr "Cambiar OEMTABLE ID en RDSP, XSDT y RSDT."
+msgstr "Cambia OEMTABLE ID en RDSP, XSDT y RSDT."
 
 #: grub-core/commands/acpi.c:52
 msgid "Set OEMTABLE revision of RSDP, XSDT and RSDT."
-msgstr "Cambiar la revisión de OEMTABLE en RDSP, XSDT y RSDT."
+msgstr "Cambia la revisión de OEMTABLE en RDSP, XSDT y RSDT."
 
 #: grub-core/commands/acpi.c:54
 msgid "Set creator field of RSDP, XSDT and RSDT."
-msgstr "Cambiar el campo 'creador' en RDSP, XSDT y RSDT."
+msgstr "Cambia el campo 'creador' en RDSP, XSDT y RSDT."
 
 #: grub-core/commands/acpi.c:56
 msgid "Set creator revision of RSDP, XSDT and RSDT."
-msgstr "Cambiar la revisión del campo 'creador' en RDSP, XSDT y RSDT."
+msgstr "Cambia la revisión del campo 'creador' en RDSP, XSDT y RSDT."
 
+# Miguel: Cuelgue es un poco barriobajero, ¿algún término más correcto?
 #. TRANSLATORS: "hangs" here is a noun, not a verb.
 #: grub-core/commands/acpi.c:58
 msgid ""
@@ -142,9 +138,7 @@ msgstr ""
 
 #: grub-core/commands/acpi.c:776
 msgid "Load host ACPI tables and tables specified by arguments."
-msgstr ""
-"Cargar las tablas ACPI de la máquina y las tablas especificadas en los "
-"argumentos."
+msgstr "Carga las tablas ACPI de la máquina y las tablas especificadas en los argumentos."
 
 #. TRANSLATORS: It's computer shutdown using ACPI, not disabling ACPI.
 #: grub-core/commands/acpihalt.c:359
@@ -226,11 +220,11 @@ msgstr "Imprime una lista de bloques."
 #: grub-core/loader/xnu.c:1213 grub-core/loader/xnu.c:1244
 #: grub-core/loader/xnu.c:1387
 msgid "you need to load the kernel first"
-msgstr "debe cargar el núcleo primero"
+msgstr "se debe cargar primero el núcleo"
 
 #: grub-core/commands/boot.c:194
 msgid "Boot an operating system."
-msgstr "Arrancando un sistema operativo."
+msgstr "Arranca un sistema operativo."
 
 #: grub-core/commands/cacheinfo.c:38
 #, c-format
@@ -245,11 +239,11 @@ msgstr "No hay estadísticas disponibles de la caché del disco\n"
 
 #: grub-core/commands/cacheinfo.c:54
 msgid "Get disk cache info."
-msgstr "Obtener información de la caché del disco."
+msgstr "Obtiene información de la caché del disco."
 
 #: grub-core/commands/cat.c:32
 msgid "Accept DOS-style CR/NL line endings."
-msgstr "Aceptar terminaciones de línea en formato DOS (CR/NL)."
+msgstr "Acepta saltos de línea en formato DOS (CR/NL)."
 
 #: grub-core/commands/cat.c:97 grub-core/commands/minicmd.c:189
 msgid "Show the contents of a file."
@@ -294,18 +288,16 @@ msgstr "Compara dos ficheros."
 
 #: grub-core/commands/configfile.c:65
 msgid "Load another config file."
-msgstr "Cargar otro fichero de configuración."
+msgstr "Carga otro fichero de configuración."
 
 #: grub-core/commands/configfile.c:69 grub-core/commands/configfile.c:87
 msgid "Load another config file without changing context."
-msgstr "Cargar otro fichero de configuración sin cambiar de contexto."
+msgstr "Carga otro fichero de configuración sin cambiar de contexto."
 
 #: grub-core/commands/configfile.c:75 grub-core/commands/configfile.c:81
 msgid ""
 "Load another config file without changing context but take only menu entries."
-msgstr ""
-"Cargar otro fichero de configuración tomando únicamente sus entradas de menú "
-"sin cambiar de contexto."
+msgstr "Carga otro fichero de configuración tomando únicamente sus entradas de menú sin cambiar de contexto."
 
 #: grub-core/commands/date.c:141
 msgid "[[year-]month-day] [hour:minute[:second]]"
@@ -317,7 +309,7 @@ msgstr "Muestra/cambia la fecha actual."
 
 #: grub-core/commands/echo.c:30
 msgid "Do not output the trailing newline."
-msgstr "No mandar a la salida el salto de línea final"
+msgstr "No imprime el salto de línea final."
 
 #: grub-core/commands/echo.c:31
 msgid "Enable interpretation of backslash escapes."
@@ -331,10 +323,13 @@ msgstr "[-e|-n] CADENA"
 msgid "Display a line of text."
 msgstr "Muestra una línea de texto."
 
+# Miguel: He tomado el plural al ser algo genérico.
+# También he usado vídeo y no video, creo que hispanoamérica,
+# aunque es la forma más usada, se recomienda también
+# la pronunciación llana.
 #: grub-core/commands/efi/fixvideo.c:105
-#, fuzzy
 msgid "Fix video problem."
-msgstr "Arregla un problema de vídeo."
+msgstr "Repara problemas de vídeo."
 
 #: grub-core/commands/efi/loadbios.c:52
 msgid "ROM image is present."
@@ -352,7 +347,6 @@ msgstr ""
 "existentes."
 
 #: grub-core/commands/efi/loadbios.c:214
-#, fuzzy
 msgid "BIOS_DUMP [INT10_DUMP]"
 msgstr "VOLCADO_BIOS [VOLCADO_INT10]"
 
@@ -402,18 +396,14 @@ msgid "Specify hash to use."
 msgstr "Especifica el hash a usar."
 
 #: grub-core/commands/hashsum.c:32
-#, fuzzy
 msgid "HASH"
 msgstr "HASH"
 
 #: grub-core/commands/hashsum.c:33
-#, fuzzy
 msgid "Check hashes of files with hash list FILE."
-msgstr ""
-"Comprobar el hash de los ficheros con la lista de valores hash FICHERO."
+msgstr "Comprueba el hash de los ficheros con el FICHERO con la lista de valores hash."
 
 #: grub-core/commands/hashsum.c:35
-#, fuzzy
 msgid "Base directory for hash list."
 msgstr "Directorio base para la lista de hash."
 
@@ -429,7 +419,7 @@ msgstr "DIRECTORIO"
 
 #: grub-core/commands/hashsum.c:37
 msgid "Don't stop after first error."
-msgstr "No detenerse ante el primer error."
+msgstr "No se detiene ante el primer error."
 
 #: grub-core/commands/hashsum.c:38
 msgid "Uncompress file before checksumming."
@@ -441,7 +431,7 @@ msgid "%s: READ ERROR\n"
 msgstr "%s: ERROR DE LECTURA\n"
 
 #: grub-core/commands/hashsum.c:162
-#, fuzzy, c-format
+#, c-format
 msgid "%s: HASH MISMATCH\n"
 msgstr "%s: EL HASH DIFIERE\n"
 
@@ -451,17 +441,16 @@ msgid "%s: OK\n"
 msgstr "%s: BIEN\n"
 
 #: grub-core/commands/hashsum.c:264
-#, fuzzy
 msgid "-h HASH [-c FILE [-p PREFIX]] [FILE1 [FILE2 ...]]"
 msgstr "-h HASH [-c FICHERO [-p PREFIJO]] [FICHERO1 [FICHERO2 ..]]"
 
+# Miguel: Dicho y hecho. :)
 #. TRANSLATORS: "hash checksum" is just to
 #. be a bit more precise, you can treat it as
 #. just "hash".
 #: grub-core/commands/hashsum.c:269 grub-core/commands/hashsum.c:274
 #: grub-core/commands/hashsum.c:279 grub-core/commands/hashsum.c:284
 #: grub-core/commands/hashsum.c:289 grub-core/commands/hashsum.c:295
-#, fuzzy
 msgid "Compute or check hash checksum."
 msgstr "Calcula o comprueba el hash."
 
@@ -471,14 +460,18 @@ msgstr "Calcula o comprueba el hash."
 msgid "[-c FILE [-p PREFIX]] [FILE1 [FILE2 ...]]"
 msgstr "[-c FICHERO [-p PREFIJO]] [FICHERO1 [FICHERO2 ...]]"
 
+# Miguel: APM se usa en el resto de la traducción.
 #: grub-core/commands/hdparm.c:33
 msgid ""
 "Set Advanced Power Management\n"
 "(1=low, ..., 254=high, 255=off)."
 msgstr ""
-"Cambiar Gestión Avanzada de Energía (APM en inglés)\n"
+"Cambia la Gestión Avanzada de Energía (APM en inglés)\n"
 "(1=baja, ..., 254=alta, 255=apagada)."
 
+# Miguel: Es el estado del disco duro, el clásico "suspendido", "activo"
+# o "apagado", desconozco si en las herramientas de modificación
+# de datos del disco duro se traduce de otro modo.
 #: grub-core/commands/hdparm.c:36
 msgid "Display power mode."
 msgstr "Muestra el modo de energía."
@@ -492,7 +485,6 @@ msgid "Display SMART health status."
 msgstr "Muestra el estado de salud SMART."
 
 #: grub-core/commands/hdparm.c:40
-#, fuzzy
 msgid ""
 "Set Automatic Acoustic Management\n"
 "(0=off, 128=quiet, ..., 254=fast)."
@@ -501,12 +493,11 @@ msgstr ""
 "(0=apagado, 128=silencioso, ..., 254=rápido)."
 
 #: grub-core/commands/hdparm.c:43
-#, fuzzy
 msgid ""
 "Set standby timeout\n"
 "(0=off, 1=5s, 2=10s, ..., 240=20m, 241=30m, ...)."
 msgstr ""
-"Cambia la finalización del estado de espera\n"
+"Cambia el plazo de finalización del estado de espera\n"
 "(0=apagado, 1=5s, 2=10s, ..., 240=20m, 241=30m, ...)."
 
 #: grub-core/commands/hdparm.c:46
@@ -523,7 +514,7 @@ msgstr "Imprime la identidad y la configuración de la unidad."
 
 #: grub-core/commands/hdparm.c:50
 msgid "Show raw contents of ATA IDENTIFY sector."
-msgstr "Mostrar el contenido crudo del sector ATA IDENTIFY."
+msgstr "Muestra el contenido crudo del sector ATA IDENTIFY."
 
 #: grub-core/commands/hdparm.c:52
 msgid "Disable/enable SMART (0/1)."
@@ -531,7 +522,7 @@ msgstr "Desactivar/activar SMART (0/1)."
 
 #: grub-core/commands/hdparm.c:53
 msgid "Do not print messages."
-msgstr "No imprimir mensajes."
+msgstr "No imprime mensajes."
 
 #: grub-core/commands/hdparm.c:286 grub-core/commands/iorw.c:47
 #: grub-core/commands/legacycfg.c:709 grub-core/commands/legacycfg.c:735
@@ -566,15 +557,15 @@ msgstr "[PATRÓN ..]"
 
 #: grub-core/commands/help.c:146
 msgid "Show a help message."
-msgstr "Mostrar un mensaje de ayuda."
+msgstr "Muestra un mensaje de ayuda."
 
 #: grub-core/commands/hexdump.c:31
 msgid "Skip offset bytes from the beginning of file."
-msgstr "Descartar bytes de desplazamiento del inicio del fichero."
+msgstr "Descarta bytes de desplazamiento del inicio del fichero."
 
 #: grub-core/commands/hexdump.c:33
 msgid "Read only LENGTH bytes."
-msgstr "Leer únicamente LONGITUD bytes."
+msgstr "Lee únicamente LONGITUD bytes."
 
 #: grub-core/commands/hexdump.c:125
 msgid "[OPTIONS] FILE_OR_DEVICE"
@@ -582,8 +573,10 @@ msgstr "[OPCIONES] FICHERO_O_DISPOSITIVO"
 
 #: grub-core/commands/hexdump.c:126
 msgid "Show raw contents of a file or memory."
-msgstr "Mostrar el contenido crudo de un fichero o de la memoria."
+msgstr "Muestra el contenido crudo de un fichero o de la memoria."
 
+# Miguel: Falso en castellano tiene género, lo cual es un "TODO"
+# en toda regla para Gettext.
 #. TRANSLATORS: it's a standalone boolean value,
 #. opposite of "true".
 #: grub-core/commands/i386/cmostest.c:63 grub-core/commands/i386/cpuid.c:57
@@ -600,33 +593,36 @@ msgstr "BYTE:BIT"
 
 #: grub-core/commands/i386/cmostest.c:91
 msgid "Test bit at BYTE:BIT in CMOS."
-msgstr "Probar el bit de la CMOS en BYTE:BIT."
+msgstr "Comprueba el bit de la CMOS en BYTE:BIT."
 
 #: grub-core/commands/i386/cmostest.c:94
 msgid "Clean bit at BYTE:BIT in CMOS."
-msgstr "Limpiar el bit de la CMOS en BYTE:BIT."
+msgstr "Limpia el bit de la CMOS en BYTE:BIT."
 
 #. TRANSLATORS: "(default)" at the end means that this option is used if
 #. no argument is specified.
 #: grub-core/commands/i386/cpuid.c:41
 msgid "Check if CPU supports 64-bit (long) mode (default)."
-msgstr "Comprobar si la CPU soporta el modo de 64 bits (predeterminado)."
+msgstr "Comprueba si la CPU soporta el modo de 64 bits (predeterminada)."
 
 #: grub-core/commands/i386/cpuid.c:98
 msgid "Check for CPU features."
-msgstr "Comprobar las características de la CPU."
+msgstr "Comprueba las características de la CPU."
 
+# Miguel: Mapeado no me gusta mucho, pero tampoco encuentro
+# una palabra más adecuada. Esto y hash tienen bastantes puntos para
+# poder ser traducidos mejor.
 #. TRANSLATORS: In this file "mapping" refers to a change GRUB makes so if
 #. your language doesn't have an equivalent of "mapping" you can
 #. use the word like "rerouting".
 #.
 #: grub-core/commands/i386/pc/drivemap.c:43
 msgid "Show the current mappings."
-msgstr "Mostrar los mapas actuales."
+msgstr "Muestra los mapeados actuales."
 
 #: grub-core/commands/i386/pc/drivemap.c:44
 msgid "Reset all mappings to the default values."
-msgstr "Reiniciar todos los mapas a los valores predeterminados."
+msgstr "Reinicia todos los mapeados a los valores predeterminados."
 
 #: grub-core/commands/i386/pc/drivemap.c:45
 msgid "Perform both direct and reverse mappings."
@@ -645,19 +641,19 @@ msgstr "Disco del SO ------> Dispositivo GRUB/BIOS"
 
 #: grub-core/commands/i386/pc/drivemap.c:413
 msgid "-l | -r | [-s] grubdev osdisk."
-msgstr ""
+msgstr "-l | -r | [-s] disco_grub disco_so."
 
 #: grub-core/commands/i386/pc/drivemap.c:414
 msgid "Manage the BIOS drive mappings."
-msgstr "Gestionar los mapas de dispositivos de la BIOS."
+msgstr "Gestiona los mapas de dispositivos de la BIOS."
 
 #: grub-core/commands/i386/pc/halt.c:31
 msgid "Do not use APM to halt the computer."
-msgstr "No usar la APM para parar el ordenador."
+msgstr "No usa la APM para detener el ordenador."
 
 #: grub-core/commands/i386/pc/halt.c:119
 msgid "Halt the system, if possible using APM."
-msgstr "Parar el sistema, si es posible usando la APM."
+msgstr "Detiene el sistema, si es posible usando la APM."
 
 #: grub-core/commands/i386/pc/lsapm.c:75
 msgid "no APM found"
@@ -694,11 +690,11 @@ msgstr "Interfaz protegida de 32 bits no permitida\n"
 
 #: grub-core/commands/i386/pc/lsapm.c:92
 msgid "CPU Idle slows down processor\n"
-msgstr "La espera de la CPU ralentiza al procesador\n"
+msgstr "Poner en espera a la CPU ralentiza al procesador\n"
 
 #: grub-core/commands/i386/pc/lsapm.c:93
 msgid "CPU Idle doesn't slow down processor\n"
-msgstr "La espera de la CPU no ralentiza al procesador\n"
+msgstr "Poner en espera a la CPU no ralentiza al procesador\n"
 
 #: grub-core/commands/i386/pc/lsapm.c:95
 msgid "APM disabled\n"
@@ -898,7 +894,7 @@ msgstr "no se ha fijado la variable «%s»"
 
 #: grub-core/commands/keylayouts.c:300
 msgid "Load a keyboard layout."
-msgstr "Cargar una distribución de teclado."
+msgstr "Carga una distribución de teclado."
 
 #. TRANSLATORS: "Check" in a sense that if this key is pressed then
 #. "true" is returned, otherwise "false".
@@ -917,7 +913,7 @@ msgstr "Comprueba la tecla «Alt»."
 #. TRANSLATORS: there are 3 modifiers.
 #: grub-core/commands/keystatus.c:106
 msgid "Check key modifier status."
-msgstr "Comprueba el estado de modificadores del teclado."
+msgstr "Comprueba el estado de los modificadores del teclado."
 
 #: grub-core/commands/legacycfg.c:473 grub-core/commands/legacycfg.c:482
 #: grub-core/commands/legacycfg.c:502 grub-core/commands/legacycfg.c:519
@@ -932,27 +928,26 @@ msgstr "no se puede encontrar el comando «%s»"
 msgid "Enter password: "
 msgstr "Introduzca la contraseña: "
 
+# Miguel: He preferido clarificar legacy con GRUB1, porque
+# puede que en el futuro GRUB2 sea también obsoleto aunque no
+# se llame GRUB-legacy.
 #. TRANSLATORS: "legacy config" means
 #. "config as used by grub-legacy".
 #: grub-core/commands/legacycfg.c:776
 msgid "Parse legacy config in same context"
-msgstr "Analiza la configuración obsoleta en el mismo contexto"
+msgstr "Procesa la configuración de GRUB1 en el mismo contexto"
 
 #: grub-core/commands/legacycfg.c:781
 msgid "Parse legacy config in new context"
-msgstr "Analiza la configuración obsoleta en un nuevo contexto"
+msgstr "Procesa la configuración de GRUB1 en un nuevo contexto"
 
 #: grub-core/commands/legacycfg.c:786
 msgid "Parse legacy config in same context taking only menu entries"
-msgstr ""
-"Analiza la configuración obsoleta en el mismo contexto tomando únicamente "
-"las entradas del menú"
+msgstr "Procesa la configuración de GRUB 1 en el mismo contexto tomando únicamente las entradas del menú"
 
 #: grub-core/commands/legacycfg.c:791
 msgid "Parse legacy config in new context taking only menu entries"
-msgstr ""
-"Analiza la configuración obsoleta en un nuevo contexto tomando únicamente "
-"las entradas del menú"
+msgstr "Procesa la configuración de GRUB1 en un nuevo contexto tomando únicamente las entradas del menú"
 
 #: grub-core/commands/legacycfg.c:795
 msgid "[--no-mem-option] [--type=TYPE] FILE [ARG ...]"
@@ -960,7 +955,7 @@ msgstr "[--no-mem-option] [--type=TIPO] FICHERO [PARÁMETRO ...]"
 
 #: grub-core/commands/legacycfg.c:796
 msgid "Simulate grub-legacy `kernel' command"
-msgstr "Simula el comando «kernel» de grub-legacy"
+msgstr "Simula el comando «kernel» de GRUB1"
 
 #: grub-core/commands/legacycfg.c:800 grub-core/commands/legacycfg.c:804
 msgid "FILE [ARG ...]"
@@ -968,11 +963,11 @@ msgstr "FICHERO [PARÁMETRO ...]"
 
 #: grub-core/commands/legacycfg.c:801
 msgid "Simulate grub-legacy `initrd' command"
-msgstr "Simula el comando «initrd» de grub-legacy"
+msgstr "Simula el comando «initrd» de GRUB1"
 
 #: grub-core/commands/legacycfg.c:805
 msgid "Simulate grub-legacy `modulenounzip' command"
-msgstr "Simula el comando «modulenounzip» de grub-legacy"
+msgstr "Simula el comando «modulenounzip» de GRUB1"
 
 #: grub-core/commands/legacycfg.c:809 grub-core/commands/legacycfg.c:814
 msgid "[--md5] PASSWD [FILE]"
@@ -980,11 +975,11 @@ msgstr "[--md5] CONTRASEÑA [FICHERO]"
 
 #: grub-core/commands/legacycfg.c:810
 msgid "Simulate grub-legacy `password' command"
-msgstr "Simula el comando «password» de grub-legacy"
+msgstr "Simula el comando «password» de GRUB1"
 
 #: grub-core/commands/legacycfg.c:815
 msgid "Simulate grub-legacy `password' command in menu entry mode"
-msgstr "Simula el comando «pasword» de grub-legacy en modo de entrada de menú"
+msgstr "Simula el comando «pasword» de GRUB1 en modo de entrada de menú"
 
 #. TRANSLATORS: This option is used to override default filename
 #. for loading and storing environment.
@@ -1244,7 +1239,7 @@ msgstr ""
 #: grub-core/commands/mips/loongson/lsspd.c:66
 #, c-format
 msgid "RAM slot number %d\n"
-msgstr "Zócalo de RAM número %d"
+msgstr "Zócalo de RAM número %d\n"
 
 #: grub-core/commands/mips/loongson/lsspd.c:73
 #, c-format
@@ -1375,7 +1370,7 @@ msgstr "DISPOSITIVO"
 
 #: grub-core/commands/probe.c:160
 msgid "Retrieve device info."
-msgstr "Obtener información del dispositivo."
+msgstr "Obtiene información del dispositivo."
 
 #: grub-core/commands/read.c:85
 msgid "[ENVVAR]"
@@ -1411,11 +1406,13 @@ msgstr "[NÚMERO:]VARIABLE"
 #. attention not to reverse them.
 #: grub-core/commands/regexp.c:154
 msgid "REGEXP STRING"
-msgstr "EXPRESION_REGULAR CADENA"
+msgstr "EXPR_REGULAR CADENA"
 
+# Miguel: Los autómatas finitos aceptan cadenas, ¿hay alguna forma
+# menos técnica de decirlo?
 #: grub-core/commands/regexp.c:155
 msgid "Test if REGEXP matches STRING."
-msgstr "Comprueba si la EXPRESIÓN_REGULAR acepta la CADENA."
+msgstr "Comprueba si la EXPR_REGULAR acepta la CADENA."
 
 #: grub-core/commands/search.c:300
 msgid "NAME [VARIABLE] [HINTS]"
@@ -1463,7 +1460,7 @@ msgstr "Cambia una variable al primer dispositivo encontrado."
 
 #: grub-core/commands/search_wrap.c:42
 msgid "Do not probe any floppy drive."
-msgstr "No probar ninguna unidad de discos extraíbles."
+msgstr "No prueba ninguna unidad de discos extraíbles."
 
 #: grub-core/commands/search_wrap.c:44
 msgid ""
@@ -1672,14 +1669,14 @@ msgstr "Comprueba el soporte USB."
 
 #: grub-core/commands/videoinfo.c:55
 msgid "Text-only "
-msgstr "Solo texto"
+msgstr "Solo texto "
 
 #. TRANSLATORS: "Direct color" is a mode when the color components
 #. are written dirrectly into memory.
 #: grub-core/commands/videoinfo.c:60
 #, c-format
 msgid "Direct color, mask: %d/%d/%d/%d  pos: %d/%d/%d/%d"
-msgstr "Color directo, máscara: %d/%d/%d/%d  posición: %d/%d/%d/%d"
+msgstr "Color en memoria, máscara: %d/%d/%d/%d  posición: %d/%d/%d/%d"
 
 #. TRANSLATORS: In "packed pixel" mode you write the index of the color
 #. in the palette. Synonyms include "paletted color".
@@ -1689,7 +1686,7 @@ msgstr "Píxel empaquetado "
 
 #: grub-core/commands/videoinfo.c:74
 msgid "YUV "
-msgstr "YUV"
+msgstr "YUV "
 
 #. TRANSLATORS: "Planar" is the video memory where you have to write
 #. in several different banks "plans" to control the different color
@@ -1710,11 +1707,11 @@ msgstr "CGA "
 #. (unchained) video memory mode.
 #: grub-core/commands/videoinfo.c:87
 msgid "Non-chain 4 "
-msgstr ""
+msgstr "Non-chain 4 (modo no encadenado de 256 colores) "
 
 #: grub-core/commands/videoinfo.c:89
 msgid "Monochrome "
-msgstr "Monocromo"
+msgstr "Monocromo "
 
 #: grub-core/commands/videoinfo.c:91
 msgid "Unknown video mode "
@@ -1747,7 +1744,7 @@ msgstr "especificación de modo de vídeo «%s» no válida"
 
 #: grub-core/commands/videoinfo.c:161
 msgid "List of supported video modes:"
-msgstr "Lista de modos de vídeo soportados:"
+msgstr "Lista de modos de vídeo admitidos:"
 
 #: grub-core/commands/videoinfo.c:162
 msgid "Legend: mask/position=red/green/blue/reserved"
@@ -1928,7 +1925,7 @@ msgstr "Introduzca la clave para %s%s%s (%s): "
 #: grub-core/disk/geli.c:517 grub-core/disk/luks.c:439
 #, c-format
 msgid "Slot %d opened\n"
-msgstr "Abierto zócalo %s\n"
+msgstr "Abierto zócalo %d\n"
 
 #: grub-core/disk/i386/pc/biosdisk.c:468 grub-core/disk/i386/pc/biosdisk.c:592
 #: grub-core/disk/scsi.c:722
@@ -2078,7 +2075,7 @@ msgstr ""
 #: grub-core/fs/btrfs.c:1659 grub-core/fs/zfs/zfs.c:3929
 #: grub-core/partmap/msdos.c:388
 msgid "your core.img is unusually large.  It won't fit in the embedding area"
-msgstr "su core.img es inusualmente grande.  No entrará en el área de embebido"
+msgstr "su core.img es extraordinariamente grande.  No entrará en el área de embebido"
 
 #: grub-core/fs/fshelp.c:206 grub-core/fs/hfs.c:1083 grub-core/fs/minix.c:613
 #: grub-core/fs/ufs.c:630 grub-core/fs/ufs.c:710 grub-core/kern/fs.c:165
@@ -2120,13 +2117,14 @@ msgstr "Introduzca la clave ZFS: "
 msgid "[-h|-p|-r] [FILE]"
 msgstr "[-h|-p|-r] [FICHERO]"
 
+# Miguel: ¿Alguien que controle ZFS?
 #: grub-core/fs/zfs/zfscrypt.c:469
 msgid "Import ZFS wrapping key stored in FILE."
-msgstr "Importar clave de cobertura ZFS almacenada en el FICHERO."
+msgstr "Importa una clave de cobertura ZFS almacenada en el FICHERO."
 
 #: grub-core/fs/zfs/zfsinfo.c:51
 msgid "Virtual device is removed"
-msgstr "El dispositivo virtual está borrado"
+msgstr "El dispositivo virtual se ha retirado"
 
 #: grub-core/fs/zfs/zfsinfo.c:57
 msgid "Virtual device is faulted"
@@ -2140,7 +2138,7 @@ msgstr "El dispositivo virtual está desconectado"
 #. component are missing but virtual device as whole is still usable.
 #: grub-core/fs/zfs/zfsinfo.c:70
 msgid "Virtual device is degraded"
-msgstr "El dispositivo virtual está degradado"
+msgstr "El dispositivo virtual está degradado (falta algún componente)"
 
 #: grub-core/fs/zfs/zfsinfo.c:73
 msgid "Virtual device is online"
@@ -2157,7 +2155,7 @@ msgstr "Dispositivo virtual incorrecto: ningún tipo disponible"
 #. (or partitions) or files.
 #: grub-core/fs/zfs/zfsinfo.c:105
 msgid "Leaf virtual device (file or disk)"
-msgstr "Dispositivo virtual hoja (fichero o disco)"
+msgstr "Dispositivo hoja virtual (fichero o disco)"
 
 #: grub-core/fs/zfs/zfsinfo.c:113
 msgid "Bootpath: unavailable\n"
@@ -2217,6 +2215,7 @@ msgstr "Elemento número %d del espejo:\n"
 msgid "Unknown virtual device type: %s\n"
 msgstr "Tipo de dispositivo virtual desconocido: %s\n"
 
+# Miguel: Con más razón, ¿alguien que use ZFS?
 #. TRANSLATORS: Here we speak about ZFS pools it's semi-marketing,
 #. semi-technical term by Sun/Oracle and should be translated in sync with
 #. other ZFS-related software and documentation.
@@ -2316,7 +2315,7 @@ msgstr "Inicia el soporte de GDB en el puerto proporcionado"
 #. into GDB.
 #: grub-core/gdb/gdb.c:89
 msgid "Break into GDB"
-msgstr "Saltar a GDB"
+msgstr "Salta (con un punto de parada) a GDB"
 
 #: grub-core/gdb/gdb.c:91
 msgid "Stop GDB stub"
@@ -2324,7 +2323,7 @@ msgstr "Para el soporte de GFB"
 
 #: grub-core/gettext/gettext.c:85
 msgid "premature end of file"
-msgstr "fin de fichero prematuro"
+msgstr "fin prematuro del fichero"
 
 #. TRANSLATORS: It refers to passing the string through gettext.
 #. So it's "translate" in the same meaning as in what you're
@@ -2358,7 +2357,7 @@ msgstr "intro: arrancar, «e»: opciones, «c»: línea de comandos"
 #: grub-core/gfxmenu/gui_progress_bar.c:281 grub-core/normal/menu_text.c:375
 #, c-format
 msgid "The highlighted entry will be executed automatically in %ds."
-msgstr "La entrada marcada se ejecutará automáticamente en %ds."
+msgstr "La entrada marcada se ejecutará automáticamente en %d s."
 
 #. TRANSLATORS:  's' stands for seconds.
 #. It's a standalone timeout notification.
@@ -2366,7 +2365,7 @@ msgstr "La entrada marcada se ejecutará automáticamente en %ds."
 #: grub-core/gfxmenu/gui_progress_bar.c:286
 #, c-format
 msgid "%ds remaining."
-msgstr "faltan %ds."
+msgstr "faltan %d s."
 
 #. TRANSLATORS:  's' stands for seconds.
 #. It's a standalone timeout notification.
@@ -2374,7 +2373,7 @@ msgstr "faltan %ds."
 #: grub-core/gfxmenu/gui_progress_bar.c:291
 #, c-format
 msgid "%ds"
-msgstr "%ds"
+msgstr "%d s"
 
 #: grub-core/gfxmenu/view.c:81
 msgid "GRUB Boot Menu"
@@ -2383,7 +2382,7 @@ msgstr "Menú de arranque de GRUB"
 #: grub-core/gnulib/argp-help.c:147
 #, c-format
 msgid "ARGP_HELP_FMT: %s value is less than or equal to %s"
-msgstr "ARGP_HELP_FMT: el valor %s es menor o igual a %s"
+msgstr "ARGP_HELP_FMT: el valor %s es menor o igual que %s"
 
 #: grub-core/gnulib/argp-help.c:220
 #, c-format
@@ -2489,7 +2488,7 @@ msgstr "%s: la opción «--%s» no permite un parámetro\n"
 #: grub-core/gnulib/getopt.c:589 grub-core/gnulib/getopt.c:594
 #, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
-msgstr "%s: la opción «--%s» no permite un parámetro\n"
+msgstr "%s: la opción «%c%s» no permite un parámetro\n"
 
 #: grub-core/gnulib/getopt.c:637 grub-core/gnulib/getopt.c:656
 #, c-format
@@ -2544,10 +2543,12 @@ msgstr "Ninguna coincidencia"
 msgid "Invalid regular expression"
 msgstr "Expresión regular no válida"
 
+# Miguel: Tengo que echar un vistazo en grep, puede
+# que haya alguna cadena parecida.
 #: grub-core/gnulib/regcomp.c:141
 #, fuzzy
 msgid "Invalid collation character"
-msgstr "Carácter de secuencia inválido"
+msgstr "Carácter de orden de secuencia inválido"
 
 #: grub-core/gnulib/regcomp.c:144
 msgid "Invalid character class name"
@@ -2625,7 +2626,7 @@ msgstr "intento de buscar fuera del fichero"
 #. complete lack of gzip support.
 #: grub-core/io/gzio.c:1179 grub-core/io/gzio.c:1185 grub-core/io/gzio.c:1192
 msgid "unsupported gzip format"
-msgstr "formato gzip no soportado"
+msgstr "formato de gzip no soportado"
 
 #: grub-core/io/lzopio.c:512
 msgid "lzop file corrupted"
@@ -2683,9 +2684,9 @@ msgstr "número mágico independiente de la arquitectura ELF no válido"
 #: util/getroot.c:2195 util/getroot.c:2215 util/getroot.c:2217
 #: util/getroot.c:2608 util/getroot.c:2623 util/getroot.c:2769
 #: util/getroot.c:2793 util/misc.c:94
-#, fuzzy, c-format
+#, c-format
 msgid "cannot stat `%s': %s"
-msgstr "no se puede hacer stat a «%s»: %s"
+msgstr "no se puede hacer stat() sobre «%s»: %s"
 
 #: grub-core/kern/emu/hostdisk.c:317 grub-core/kern/emu/hostdisk.c:367
 msgid "unaligned device size"
@@ -2697,7 +2698,7 @@ msgstr "tamaño de dispositivo desalineado"
 #: grub-core/kern/emu/hostdisk.c:443 util/getroot.c:1233 util/getroot.c:1461
 #: util/getroot.c:2458
 msgid "couldn't open geom"
-msgstr "no se puede abrir «geom»"
+msgstr "no se pudo abrir «geom»"
 
 #. TRANSLATORS: geom is the name of (k)FreeBSD device framework.
 #. Usually left untranslated. "part" is the identifier of one of its
@@ -2716,7 +2717,7 @@ msgstr "no se puede buscar «%s»: %s"
 #. TRANSLATORS: it refers to the lack of free slots.
 #: grub-core/kern/emu/hostdisk.c:783 grub-core/kern/emu/hostdisk.c:1227
 msgid "device count exceeds limit"
-msgstr "la cuenta de dispositivos supera el límite"
+msgstr "el número de dispositivos supera el límite"
 
 #: grub-core/kern/emu/hostdisk.c:1103 grub-core/kern/emu/hostdisk.c:1114
 #: util/grub-editenv.c:131 util/grub-editenv.c:216 util/grub-fstest.c:184
@@ -2724,7 +2725,7 @@ msgstr "la cuenta de dispositivos supera el límite"
 #: util/misc.c:157 util/misc.c:172
 #, c-format
 msgid "cannot write to `%s': %s"
-msgstr "no se pudo escribir en «%s»: %s"
+msgstr "no se puede escribir en «%s»: %s"
 
 #. TRANSLATORS: device.map is a file indicating which
 #. devices are available at boot time. Fedora populated it with
@@ -2775,7 +2776,7 @@ msgstr "NOMBRE_DE_DISPOSITIVO"
 #: grub-core/loader/i386/bsd.c:165 util/grub-fstest.c:501
 #: util/grub-mount.c:410
 msgid "Set root device."
-msgstr "Cambiar el dispositivo raíz."
+msgstr "Fija el dispositivo raíz."
 
 #. TRANSLATORS: There are many devices in device map.
 #: grub-core/kern/emu/main.c:89 util/grub-probe.c:691 util/grub-setup.c:952
@@ -2815,7 +2816,7 @@ msgstr "Emulador de GRUB."
 #: util/grub-mkpasswd-pbkdf2.c:128 util/grub-mkrelpath.c:94
 #: util/grub-probe.c:830 util/grub-script-check.c:146 util/grub-setup.c:1119
 msgid "Error in parsing command line arguments\n"
-msgstr "Error analizando los parámetros de la línea de comandos\n"
+msgstr "Error procesando los parámetros de la línea de comandos\n"
 
 #. TRANSLATORS: In this case GRUB tells user what he has to do.
 #: grub-core/kern/emu/main.c:197
@@ -2871,7 +2872,7 @@ msgstr "sistema de ficheros desconocido"
 #: grub-core/loader/powerpc/ieee1275/linux.c:283
 #: grub-core/loader/sparc64/ieee1275/linux.c:333
 msgid "invalid arch-dependent ELF magic"
-msgstr "número mágico dependiente de la arquitectura ELF no válido"
+msgstr "número mágico ELF dependiente de la arquitectura no válido"
 
 #: grub-core/kern/mips/arc/init.c:182 grub-core/kern/mips/loongson/init.c:249
 msgid "Shutdown failed"
@@ -2886,6 +2887,9 @@ msgstr "Falló al salir"
 msgid "overflow is detected"
 msgstr "desbordamiento detectado"
 
+# Miguel: Las tablas de partición BSD están embebidas en una
+# partición tradicional. Desconozco si existe un termino ampliamente
+# aceptado para "nested" en este caso.
 #: grub-core/kern/partition.c:51 grub-core/partmap/bsdlabel.c:109
 #, c-format
 msgid "Discarding improperly nested partition (%s,%s,%s%d)"
@@ -2919,7 +2923,7 @@ msgstr "el parámetro «%s» necesita un entero."
 msgid ""
 "a value was assigned to the argument `%s' while it doesn't require an "
 "argument"
-msgstr "se asignó un valor al parámetro «%s» que no lo requiere"
+msgstr "se asignó un valor al parámetro «%s» cuando no lo requiere"
 
 #: grub-core/lib/backtrace.c:64
 msgid "Print backtrace."
@@ -2951,10 +2955,12 @@ msgstr "[OPCIONES]"
 msgid "Boot BIOS-based system."
 msgstr "Arranca un sistema basado en BIOS."
 
+# Miguel: "Chainload" lo he traducido como salto a otro cargador
+# de arranque, es el concepto más cercano que se me ocurre.
 #: grub-core/loader/efi/chainloader.c:368
 #: grub-core/loader/i386/pc/chainloader.c:287
 msgid "Load another boot loader."
-msgstr "Carga otro cargador de arranque."
+msgstr "Salta a otro cargador de arranque."
 
 #: grub-core/loader/i386/bsd.c:99
 msgid "Display output on all consoles."
@@ -2968,7 +2974,7 @@ msgstr "Usa la consola serie."
 #: grub-core/loader/i386/bsd.c:101 grub-core/loader/i386/bsd.c:127
 #: grub-core/loader/i386/bsd.c:155
 msgid "Ask for file name to reboot from."
-msgstr "Preguntar por un nombre de fichero para reiniciar desde él."
+msgstr "Pregunta por un nombre de fichero para reiniciar desde él."
 
 #: grub-core/loader/i386/bsd.c:102
 msgid "Use CD-ROM as root."
@@ -2981,7 +2987,7 @@ msgstr "Invoca la configuración de encaminado del usuario."
 #: grub-core/loader/i386/bsd.c:104 grub-core/loader/i386/bsd.c:131
 #: grub-core/loader/i386/bsd.c:158
 msgid "Enter in KDB on boot."
-msgstr "Entrar en el KDB al arrancar."
+msgstr "Entra en el KDB al arrancar."
 
 #: grub-core/loader/i386/bsd.c:105
 msgid "Use GDB remote debugger instead of DDB."
@@ -2993,7 +2999,7 @@ msgstr "Desactiva toda la salida durante el arranque."
 
 #: grub-core/loader/i386/bsd.c:108
 msgid "Wait for keypress after every line of output."
-msgstr "Esperar una pulsación de tecla después de la impresión de cada línea."
+msgstr "Espera una pulsación de tecla después de la impresión de cada línea."
 
 #: grub-core/loader/i386/bsd.c:110
 msgid "Use compiled-in root device."
@@ -3010,7 +3016,7 @@ msgstr "Arranca con mensajes prolijos."
 
 #: grub-core/loader/i386/bsd.c:128 grub-core/loader/i386/bsd.c:156
 msgid "Don't reboot, just halt."
-msgstr "No reiniciar, simplemente apagar."
+msgstr "No reinicia, simplemente apaga."
 
 #: grub-core/loader/i386/bsd.c:129 grub-core/loader/i386/bsd.c:157
 msgid "Change configured devices."
@@ -3021,7 +3027,7 @@ msgstr "Cambia los dispositivos configurados."
 #.
 #: grub-core/loader/i386/bsd.c:138
 msgid "comUNIT[,SPEED]"
-msgstr "comUNIDAD[,VELOCIDAD]"
+msgstr "comNÚMERO[,VELOCIDAD]"
 
 #: grub-core/loader/i386/bsd.c:153
 msgid "Disable SMP."
@@ -3033,7 +3039,7 @@ msgstr "Deshabilita ACPI."
 
 #: grub-core/loader/i386/bsd.c:160
 msgid "Don't display boot diagnostic messages."
-msgstr "No mostrar mensajes de diagnóstico del arranque."
+msgstr "No muestra mensajes de diagnóstico del arranque."
 
 #: grub-core/loader/i386/bsd.c:163
 msgid "Boot with debug messages."
@@ -3041,14 +3047,14 @@ msgstr "Arranca con mensajes de depuración."
 
 #: grub-core/loader/i386/bsd.c:164
 msgid "Suppress normal output (warnings remain)."
-msgstr "Suprimir salida normal (los avisos permanecen)."
+msgstr "Silencia la salida normal (los avisos permanecen)."
 
 #. TRANSLATORS: "com" is static and not to be translated. It refers to
 #. serial ports e.g. com1.
 #.
 #: grub-core/loader/i386/bsd.c:171
 msgid "[ADDR|comUNIT][,SPEED]"
-msgstr "[DIRECCION|comUNIDAD][,VELOCIDAD]"
+msgstr "[DIRECCION|comNÚMERO][,VELOCIDAD]"
 
 #: grub-core/loader/i386/bsd.c:462 grub-core/loader/i386/bsd.c:528
 msgid "name"
@@ -3115,11 +3121,11 @@ msgstr "Carga una imagen de memoria de kOpenBSD."
 #. let it untranslated.
 #: grub-core/loader/i386/coreboot/chainloader.c:143
 msgid "Load another coreboot payload"
-msgstr "Carga otro cargador de coreboot."
+msgstr "Carga otro \"payload\" de coreboot."
 
 #: grub-core/loader/i386/linux.c:873
 msgid "Legacy `ask' parameter no longer supported."
-msgstr "El parámetro obsoleto «ask» ya no está soportado."
+msgstr "El parámetro de GRUB1 «ask» ya no está soportado."
 
 #: grub-core/loader/i386/linux.c:889 grub-core/loader/i386/linux.c:899
 #: grub-core/loader/i386/linux.c:929
@@ -3172,7 +3178,7 @@ msgstr "Carga NTLDR o BootMGR."
 #. in OS and GRUB.
 #: grub-core/loader/i386/pc/plan9.c:58
 msgid "Override guessed mapping of Plan9 devices."
-msgstr "Sobrescribir el mapeado supuesto de dispositivos de Plan9."
+msgstr "Fuerza el mapeado de dispositivos de Plan9."
 
 #: grub-core/loader/i386/pc/plan9.c:59
 msgid "GRUBDEVICE=PLAN9DEVICE"
@@ -3248,7 +3254,7 @@ msgstr "Carga un módulo «multiboot»."
 
 #: grub-core/loader/xnu.c:1373 grub-core/term/gfxterm.c:1103
 msgid "Background image mode."
-msgstr "Modo de imagen de fondo."
+msgstr "Modo de imagen de fondo. (Entre paréntesis su traducción)"
 
 #. TRANSLATORS: This refers to background image mode (stretched or
 #. in left-top corner). Note that GRUB will accept only original
@@ -3261,7 +3267,7 @@ msgstr "Modo de imagen de fondo."
 #. string.
 #: grub-core/loader/xnu.c:1373 grub-core/term/gfxterm.c:1113
 msgid "stretch|normal"
-msgstr ""
+msgstr "stretch(estirada)|normal(en la esquina superior izquierda)"
 
 #: grub-core/loader/xnu.c:1439
 msgid "Load XNU image."
@@ -3285,9 +3291,8 @@ msgstr "Carga una extensión XNU."
 #. GNU/Linux runlevels.
 #.
 #: grub-core/loader/xnu.c:1452
-#, fuzzy
 msgid "DIRECTORY [OSBundleRequired]"
-msgstr "DIRECTORIO [OSBundleRequerido]"
+msgstr "DIRECTORIO [OSBundleRequired]"
 
 #. TRANSLATORS: There are many extensions
 #. in extension directory.
@@ -3298,15 +3303,15 @@ msgstr "Carga un directorio de extensión XNU."
 #. TRANSLATORS: ramdisk here isn't identifier. It can be translated.
 #: grub-core/loader/xnu.c:1458
 msgid "Load XNU ramdisk. It will be available in OS as md0."
-msgstr "Cargar disco de memoria de XNU. Estará disponible en el SO como md0."
+msgstr "Carga un disco de memoria de XNU. Estará disponible en el SO como md0."
 
 #: grub-core/loader/xnu.c:1462
 msgid "Load a splash image for XNU."
-msgstr "Cargar imagen para XNU."
+msgstr "Carga una imagen de inicio para XNU."
 
 #: grub-core/loader/xnu.c:1467
 msgid "Load an image of hibernated XNU."
-msgstr "Carga una imagen de XNU hibernando."
+msgstr "Carga una imagen de XNU hibernado."
 
 #: grub-core/mmap/mmap.c:467
 msgid "ADDR1,MASK1[,ADDR2,MASK2[,...]]"
@@ -3362,7 +3367,7 @@ msgstr "[TARJETA]"
 
 #: grub-core/net/bootp.c:571
 msgid "perform a bootp autoconfiguration"
-msgstr "realizar una auto-configuración de bootp"
+msgstr "realizar una autoconfiguración de bootp"
 
 #: grub-core/net/bootp.c:573
 msgid "VAR INTERFACE NUMBER DESCRIPTION"
@@ -3491,7 +3496,6 @@ msgstr "tarjeta no encontrada"
 
 #. TRANSLATORS: it refers to the network address.
 #: grub-core/net/net.c:1073
-#, fuzzy
 msgid "temporary"
 msgstr "temporal"
 
@@ -3570,7 +3574,7 @@ msgstr "conexión expirada"
 
 #: grub-core/normal/auth.c:217
 msgid "Enter username: "
-msgstr "Introduzca el nombre de usuario:"
+msgstr "Introduzca el nombre de usuario: "
 
 #: grub-core/normal/auth.c:266
 msgid "[USERLIST]"
@@ -3604,9 +3608,8 @@ msgstr "Los parámetros posibles son:"
 #. This shouldn't happen but please use the general term for
 #. "thing" or "object".
 #: grub-core/normal/cmdline.c:192 grub-core/normal/menu_entry.c:1126
-#, fuzzy
 msgid "Possible things are:"
-msgstr "Cosas posibles:"
+msgstr "Objetos posibles:"
 
 #: grub-core/normal/color.c:81
 #, c-format
@@ -3682,21 +3685,21 @@ msgstr ""
 
 #: grub-core/normal/main.c:353
 msgid "ESC at any time exits."
-msgstr "Salga en cualquier momento con «ESC»."
+msgstr "Se puede salir en cualquier momento pulsando «ESC»."
 
 #. TRANSLATORS: it's command line prompt.
 #: grub-core/normal/main.c:381
 msgid ">"
-msgstr ""
+msgstr "es>"
 
 #. TRANSLATORS: it's command line prompt.
 #: grub-core/normal/main.c:384
 msgid "grub>"
-msgstr ""
+msgstr "grub_es>"
 
 #: grub-core/normal/main.c:495
 msgid "Clear the screen."
-msgstr "Refrescar la pantalla."
+msgstr "Limpia la pantalla."
 
 #: grub-core/normal/main.c:504
 msgid "Enter normal mode."
@@ -3715,13 +3718,15 @@ msgstr "Presione cualquier tecla para continuar..."
 msgid "Booting `%s'"
 msgstr "Arrancando «%s»"
 
+# Miguel: He traducido "fallback" por entrada de reserva,
+# puesto que en el menú se puede seleccionar una entrada por
+# si falla la predeterminada.
 #: grub-core/normal/menu.c:688
 #, c-format
 msgid "Falling back to `%s'"
-msgstr "Volviendo a «%s»"
+msgstr "Arrancando la entrada de reserva «%s»"
 
 #: grub-core/normal/menu.c:704
-#, fuzzy
 msgid "Failed to boot both default and fallback entries.\n"
 msgstr "No se pudo arrancar la entrada predeterminada ni la de reserva.\n"
 
@@ -3757,24 +3762,27 @@ msgstr "Dispositivo %s:"
 
 #: grub-core/normal/misc.c:53
 msgid "Filesystem cannot be accessed"
-msgstr "No se pudo acceder al sistema de ficheros."
+msgstr "No se puede acceder al sistema de ficheros"
 
 #: grub-core/normal/misc.c:64
 #, c-format
 msgid "Filesystem type %s"
-msgstr "Sistema de ficheros del tipo %s"
+msgstr "Sistema de ficheros de tipo %s"
 
 #: grub-core/normal/misc.c:74
 #, c-format
 msgid "- Label `%s'"
 msgstr "- Etiqueta «%s»"
 
+# Miguel: La fecha se muestra en el formato usado habitualmente en
+# castellano: "día/mes/año", la hora se mantiene igual y el día de
+# la semana se pasa al principio.
 #. TRANSLATORS: Arguments are year, month, day, hour, minute,
 #. second, day of the week (translated).
 #: grub-core/normal/misc.c:91
 #, c-format
 msgid "- Last modification time %d-%02d-%02d %02d:%02d:%02d %s"
-msgstr "- Fecha de la última modificación %d-%02d-%02d %02d:%02d:%02d %s"
+msgstr "- Fecha de la última modificación %7$s %3$02d/%2$02d/%1$d %4$02d:%5$02d:%6$02d"
 
 #: grub-core/normal/misc.c:114
 msgid "No known filesystem detected"
@@ -3794,6 +3802,14 @@ msgstr " - Tamaño total desconocido"
 msgid " - Total size %llu sectors"
 msgstr " - Tamaño total de %llu sectores"
 
+# Madre, yo al oro me humillo,
+# él es mi amante y mi amado,
+# pues de puro enamorado
+# de continuo anda amarillo...
+# (Fco. de Quevedo)
+#
+# Ah, creo que no se referían a esto... ;)
+# En serio, ¿como puede dar para más de una línea?
 #. TRANSLATORS: This has to fit on one line.  It's ok to include few
 #. words but don't write poems.
 #: grub-core/normal/term.c:77
@@ -3862,8 +3878,7 @@ msgstr ""
 
 #: grub-core/partmap/msdos.c:392
 msgid "your embedding area is unusually small.  core.img won't fit in it."
-msgstr ""
-"su área de embebido es inusualmente pequeña.  core.img no entrará en ella."
+msgstr "su área de embebido es extraordinariamente pequeña.  core.img no entrará en ella."
 
 #: grub-core/parttool/msdospart.c:39
 msgid "Make partition active"
@@ -3916,7 +3931,7 @@ msgstr "no se puede salir de 0 bucles"
 #. anywhere else.
 #: grub-core/script/execute.c:177
 msgid "not in function body"
-msgstr "no se está en el cuerpo de una función"
+msgstr "fuera del cuerpo de una función"
 
 #: grub-core/script/execute.c:321
 #, c-format
@@ -3944,7 +3959,7 @@ msgstr "Continúa bucles"
 #. arguments $0, $1, $2, ...
 #: grub-core/script/main.c:61
 msgid "Shift positional parameters."
-msgstr "Rotar parámetros posicionales."
+msgstr "Rota los parámetros posicionales."
 
 #: grub-core/script/main.c:63
 msgid "[VALUE]..."
@@ -3952,8 +3967,9 @@ msgstr "[VALOR]..."
 
 #: grub-core/script/main.c:64
 msgid "Set positional parameters."
-msgstr "Establece parámetros posicionales."
+msgstr "Establece los parámetros posicionales."
 
+# Miguel: Tengo que mirar también las traducciones de Bash...
 #. TRANSLATORS: It's a command description
 #. and "Return" is a verb, not a noun. The
 #. command in question is "return" and
@@ -4074,7 +4090,7 @@ msgstr "especificación incorrecta de las dimensiones del terminal"
 #: grub-core/term/terminfo.c:710
 #, c-format
 msgid "terminal %s isn't found or it's not handled by terminfo"
-msgstr "no se ha encontrado el terminal %s o no se maneja por terminfo"
+msgstr "no se ha encontrado el terminal %s o no es manejado por «terminfo»"
 
 #: grub-core/term/terminfo.c:723
 msgid "[[-a|-u|-v] [-g WxH] TERM [TYPE]]"
@@ -4082,7 +4098,7 @@ msgstr "[[-a|-u|-v] [-g ANCHOxALTO] TERMINAL [TIPO]]"
 
 #: grub-core/term/terminfo.c:724
 msgid "Set terminfo type of TERM  to TYPE.\n"
-msgstr "Cambia el tipo de «terminfo» de TERMINAL a TIPO.\n"
+msgstr "Cambia el tipo del TERMINAL de «terminfo» a TIPO.\n"
 
 #. TRANSLATORS: this is the BLOCK-argument, not
 #. environment block.
@@ -4090,12 +4106,15 @@ msgstr "Cambia el tipo de «terminfo» de TERMINAL a TIPO.\n"
 msgid "Print and execute block argument."
 msgstr "Imprime y ejecuta el bloque pasado como parámetro."
 
+# Miguel: Imágen visual, si produce alguna confusión con
+# fichero imágen (de disco, por ejemplo) se puede cambiar por
+# mapa de bits.
 #. TRANSLATORS: We're speaking about bitmap images like
 #. JPEG or PNG.
 #: grub-core/video/bitmap.c:209
 #, c-format
 msgid "bitmap file `%s' is of unsupported format"
-msgstr "no está soportado el formato del fichero de mapa de bits «%s»"
+msgstr "no está soportado el formato de la imágen «%s»"
 
 #: grub-core/video/i386/pc/vbe.c:1189
 #, c-format
@@ -4111,21 +4130,25 @@ msgstr "              memoria total: %d KiB\n"
 
 #: grub-core/video/video.c:547 grub-core/video/video.c:711
 msgid "no suitable video mode found"
-msgstr "no se encontró un modo de vídeo apropiado."
+msgstr "no se encontró un modo de vídeo apropiado"
 
 #: include/grub/crypto.h:318
 msgid "access denied"
 msgstr "acceso denegado"
 
+# Miguel: Tanto pipe como fork se usan bastantes, además
+# he leido algún comentario sobre discusiones sobre fork en
+# otras traducciones (¿o era stat?), así que he optado por especificar
+# el término inglés entre paréntesis. Cualquier idea es bienvenida.
 #: util/getroot.c:233
 #, c-format
 msgid "Unable to create pipe: %s"
-msgstr "No se pudo crear tubería: %s"
+msgstr "No se pudo crear una tubería (pipe): %s"
 
 #: util/getroot.c:239
 #, c-format
 msgid "Unable to fork: %s"
-msgstr "No se pudo bifurcar: %s"
+msgstr "No se pudo bifurcar (fork) el proceso: %s"
 
 #: util/getroot.c:357 util/getroot.c:1319 util/getroot.c:1386
 #, c-format
@@ -4174,7 +4197,7 @@ msgstr ""
 
 #: util/getroot.c:860 util/getroot.c:910 util/getroot.c:919
 msgid "cannot restore the original directory"
-msgstr "no se pudo restituir el directorio original"
+msgstr "no se puede restituir el directorio original"
 
 #: util/getroot.c:1114
 msgid "Failed to create `device-mapper' tree"
@@ -4187,12 +4210,12 @@ msgstr "no se pudo encontrar el cliente «geli»"
 #: util/getroot.c:1499 util/getroot.c:1544
 #, c-format
 msgid "can't mount encrypted volume `%s': %s"
-msgstr "no se pudo montar el volumen cifrado «%s»: %s"
+msgstr "no se puede montar el volumen cifrado «%s»: %s"
 
 #: util/getroot.c:2312
 #, c-format
 msgid "disk does not exist, so falling back to partition device %s"
-msgstr "no existe el disco, por lo que se usa el dispositivo de partición %s"
+msgstr "no existe el disco, por lo que se usa la partición de reserva %s"
 
 #: util/getroot.c:2482
 msgid "couldn't retrieve geli UUID"
@@ -4213,7 +4236,7 @@ msgstr "falló cygwin_conv_path()"
 #. we're in trouble and throw this error.
 #: util/getroot.c:2786
 msgid "no `/' in canonical filename"
-msgstr "ningún «/» en el nombre canónico del fichero"
+msgstr "ninguna barra «/» en el nombre canónico del fichero"
 
 #: util/grub-editenv.c:39 util/grub-fstest.c:491
 msgid "Commands:"
@@ -4225,7 +4248,7 @@ msgstr "Crea un fichero de bloques de entorno limpio."
 
 #: util/grub-editenv.c:43
 msgid "List the current variables."
-msgstr "Enumerar las variables actuales."
+msgstr "Enumera las variables actuales."
 
 #. TRANSLATORS: "set" is a keyword. It's a summary of "set" subcommand.
 #: util/grub-editenv.c:45
@@ -4251,7 +4274,7 @@ msgstr "Opciones:"
 
 #: util/grub-editenv.c:78
 msgid "You need to specify at least one command.\n"
-msgstr "Necesita especificar al menos un comando.\n"
+msgstr "Se debe especificar al menos un comando.\n"
 
 #: util/grub-editenv.c:103
 msgid "FILENAME COMMAND"
@@ -4421,13 +4444,11 @@ msgid "Set debug environment variable."
 msgstr "Cambia la variable de entorno de depuración."
 
 #: util/grub-fstest.c:506 util/grub-mount.c:412
-#, fuzzy
 msgid "Mount crypto devices."
 msgstr "Monta un dispositivo cifrado."
 
 #. TRANSLATORS: "prompt" is a keyword.
 #: util/grub-fstest.c:509 util/grub-mount.c:415
-#, fuzzy
 msgid "FILE|prompt"
 msgstr "FICHERO|prompt"
 
@@ -4437,19 +4458,18 @@ msgstr "No se pudo cargar la clave de cifrado de zfs."
 
 #: util/grub-fstest.c:511
 msgid "Uncompress data."
-msgstr "Descomprimir datos."
+msgstr "Descomprime datos."
 
 #: util/grub-fstest.c:590
-#, fuzzy
 msgid "Invalid disk count.\n"
-msgstr "Cuenta de discos no válida.\n"
+msgstr "Número de discos no válido.\n"
 
 #. TRANSLATORS: disk count is optional but if it's there it must
 #. be before disk list. So please don't imply disk count as mandatory.
 #.
 #: util/grub-fstest.c:598
 msgid "Disk count must precede disks list.\n"
-msgstr "La cuenta de discos debe preceder a la lista de discos.\n"
+msgstr "El número de discos debe preceder a la lista de discos.\n"
 
 #: util/grub-fstest.c:618
 msgid "No command is specified.\n"
@@ -4462,7 +4482,7 @@ msgstr "Parámetros del comando insuficientes.\n"
 #: util/grub-fstest.c:696
 #, c-format
 msgid "Invalid command %s.\n"
-msgstr "comando %s no válido.\n"
+msgstr "Comando %s no válido.\n"
 
 #: util/grub-fstest.c:709
 msgid "IMAGE_PATH COMMANDS"
@@ -4488,17 +4508,16 @@ msgstr "Error de Freetype %d cargando el símbolo 0x%x para U+0x%x%s"
 #. leftmost is initial but with right-to-left script like Arabic
 #. rightmost is the initial.
 #: util/grub-mkfont.c:150
-#, fuzzy
 msgid " (medial)"
 msgstr " (altura de minúsculas)"
 
 #: util/grub-mkfont.c:151
 msgid " (leftmost)"
-msgstr ""
+msgstr " (margen izquierdo)"
 
 #: util/grub-mkfont.c:152
 msgid " (rightmost)"
-msgstr ""
+msgstr " (margen derecho)"
 
 #: util/grub-mkfont.c:478
 #, c-format
@@ -4528,6 +4547,8 @@ msgstr "Etiqueta de sustitución no soportada: 0x%x\n"
 msgid "Unsupported substitution specification: %d\n"
 msgstr "Especificación de sustitución no soportada: %d\n"
 
+# Miguel: No tengo mucha idea de esto, ¿alguien tiene mejor
+# conocimiento de Unicode sobre este asunto?
 #. TRANSLATORS: most font transformations apply only to
 #. some glyphs. Those glyphs are described as "coverage".
 #. There are 2 coverage specifications: list and range.
@@ -4621,7 +4642,7 @@ msgstr "deshabilita indicaciones"
 #.
 #: util/grub-mkfont.c:1006
 msgid "ignore bitmap strikes when loading"
-msgstr "ignora los fallos de los mapas de bits al cargar"
+msgstr "ignora los mapas de bits existentes al cargar"
 
 #. TRANSLATORS: It refers to the range of characters in font.
 #: util/grub-mkfont.c:1075 util/grub-mkfont.c:1091
@@ -4666,7 +4687,7 @@ msgstr "no se puede comprimir la imagen del núcleo"
 #: util/grub-mkimage.c:677 util/grub-mkimage.c:912
 #, c-format
 msgid "unknown compression %d\n"
-msgstr "compresión «%s» desconocida\n"
+msgstr "compresión %d desconocida\n"
 
 #: util/grub-mkimage.c:922
 msgid "Decompressor is too big"
@@ -4731,7 +4752,7 @@ msgstr "FORMATO"
 
 #: util/grub-mkimage.c:1658 util/grub-mkstandalone.in:67
 msgid "choose the compression to use"
-msgstr "seleccione la compresión a usar"
+msgstr "selecciona la compresión a usar"
 
 #: util/grub-mkimage.c:1690 util/grub-mkstandalone.in:64
 msgid "generate an image in FORMAT"
@@ -4814,6 +4835,9 @@ msgstr "Número de iteraciones PBKDF2"
 msgid "Length of generated hash"
 msgstr "Longitud del hash generado"
 
+# Miguel: De nuevo a vueltas con el hash. 'Salt' es un número o
+# una cadena aleatoria que se añade para aumentar el tamaño de
+# los datos a cifrar/calcular el hash.
 #: util/grub-mkpasswd-pbkdf2.c:42
 msgid "Length of salt"
 msgstr "Longitud del 'salt'"
@@ -4855,7 +4879,7 @@ msgstr "El hash PBKDF2 de su contraseña es %s\n"
 
 #: util/grub-mkrelpath.c:63
 msgid "No path is specified.\n"
-msgstr "No se ha especificado ninguna.\n"
+msgstr "No se ha especificado ninguna ruta.\n"
 
 #: util/grub-mkrelpath.c:74
 msgid "PATH"
@@ -5041,8 +5065,7 @@ msgstr "El sistema de ficheros «%s» no permite el embebido"
 
 #: util/grub-setup.c:481
 msgid "Your embedding area is unusually small.  core.img won't fit in it."
-msgstr ""
-"Su área de embebido es inusualmente pequeña.  core.img no entrará en ella."
+msgstr "Su área de embebido es excepcionalmente pequeña.  core.img no entrará en ella."
 
 #: util/grub-setup.c:503 util/grub-setup.c:694 util/grub-setup.c:919
 msgid "no terminator in the core image"
@@ -5072,9 +5095,7 @@ msgstr "el sistema de ficheros «%s» no soporta las listas de bloques"
 #. but MBR on another.
 #: util/grub-setup.c:583
 msgid "embedding is not possible, but this is required for cross-disk install"
-msgstr ""
-"el embebido no es posible, pero esto es necesario para una instalación "
-"cruzada en disco"
+msgstr "el embebido no es posible, pero esto es necesario para una instalación en múltiples particiones"
 
 #: util/grub-setup.c:589
 msgid ""
@@ -5104,7 +5125,7 @@ msgstr "intentado leer de nuevo la imagen principal «%s» de GRUB"
 #: util/grub-setup.c:676
 #, c-format
 msgid "cannot read `%s' correctly"
-msgstr "no se pudo leer correctamente «%s»"
+msgstr "no se puede leer «%s» correctamente"
 
 #: util/grub-setup.c:727 util/grub-setup.c:737 util/grub-setup.c:771
 #, c-format
@@ -5143,7 +5164,7 @@ msgstr "instala aunque se encuentren problemas"
 
 #: util/grub-setup.c:956
 msgid "do not probe for filesystems in DEVICE"
-msgstr "no buscar sistemas de ficheros en DISPOSITIVO"
+msgstr "no busca sistemas de ficheros en DISPOSITIVO"
 
 #. TRANSLATORS: The potential breakage isn't limited to floppies but it's
 #. likely to make the install unbootable from HDD.
@@ -5153,9 +5174,7 @@ msgstr "no buscar sistemas de ficheros en DISPOSITIVO"
 msgid ""
 "make the drive also bootable as floppy (default for fdX devices). May break "
 "on some BIOSes."
-msgstr ""
-"hacer que la unidad sea arrancable como disco extraíble (predeterminado para "
-"dispositivos fdX). Puede fallar en algunas BIOS."
+msgstr "hace que la unidad sea arrancable como disco extraíble (predeterminado para dispositivos fdX). Puede provocar fallos en algunas BIOS."
 
 #: util/grub-setup.c:1066
 msgid "No device is specified.\n"
@@ -5186,7 +5205,7 @@ msgstr "Dispositivo «%s» no válido.\n"
 #: util/ieee1275/grub-ofpathname.c:41 util/ieee1275/ofpath.c:471
 #, c-format
 msgid "Usage: %s DEVICE\n"
-msgstr "Uso: %s DISPOSITIVO"
+msgstr "Uso: %s DISPOSITIVO\n"
 
 #: util/ieee1275/ofpath.c:126
 #, c-format
@@ -5203,7 +5222,7 @@ msgstr "tipo de dispositivo %s desconocido\n"
 #: util/raid.c:54
 #, c-format
 msgid "ioctl RAID_VERSION error: %s"
-msgstr "error de ioctl GET_ARRAY_INFO: %s"
+msgstr "error en ioctl RAID_VERSION: %s"
 
 #: util/raid.c:60 util/raid.c:64
 #, c-format
@@ -5335,7 +5354,7 @@ msgstr "Cargando imagen de memoria inicial..."
 
 #: util/grub.d/10_linux.in:185 util/grub.d/20_linux_xen.in:188
 msgid "Found linux image: %s\\n"
-msgstr "Encontrada imagen linux: %s\\n"
+msgstr "Encontrada imagen de linux: %s\\n"
 
 #: util/grub.d/10_linux.in:222 util/grub.d/20_linux_xen.in:208
 msgid "Found initrd image: %s\\n"
@@ -5375,7 +5394,7 @@ msgstr "%s, con Xen %s y Linux %s"
 
 #: util/grub.d/20_linux_xen.in:109
 msgid "%s, with Xen hypervisor"
-msgstr "%s, con hipervisor Xen"
+msgstr "%s, con el hipervisor Xen"
 
 #: util/grub.d/20_linux_xen.in:120
 msgid "Loading Xen %s ..."
@@ -5532,7 +5551,7 @@ msgstr ""
 
 #: util/grub-install.in:114
 msgid "use DIR as the EFI System Partition root."
-msgstr "usa DIRECTORIO como la Partición EFI del Sistema raíz."
+msgstr "usa DIRECTORIO como la raíz de la partición del sistema EFI."
 
 #: util/grub-install.in:116
 msgid "INSTALL_DEVICE must be system device filename."
@@ -5548,12 +5567,17 @@ msgstr ""
 "%s copia las imágenes de GRUB en %s, y usa grub-setup\n"
 "para instalar grub en el sector de arranque.\\n"
 
+# Miguel: He añadido esta línea, pero tiene poco sentido
+# si la lista no permite mensajes de nadie que no esté inscrito,
+# desde mi humilde punto de vista.
 #: util/grub-install.in:122 util/grub-kbdcomp.in:35 util/grub-mkconfig.in:61
 #: util/grub-mknetdir.in:79 util/grub-mkrescue.in:80
 #: util/grub-mkstandalone.in:71 util/grub-reboot.in:58
 #: util/grub-set-default.in:58 util/powerpc/ieee1275/grub-mkrescue.in:59
 msgid "Report bugs to <bug-grub@gnu.org>."
-msgstr "Notifique los errores a <bug-grub@gnu.org>."
+msgstr ""
+"Notifique los errores a <bug-grub@gnu.org>.\n"
+"Notifique los errores de traducción a <es@li.org>."
 
 #: util/grub-install.in:130 util/grub-kbdcomp.in:43 util/grub-mkconfig.in:69
 #: util/grub-mknetdir.in:87 util/grub-mkrescue.in:89
@@ -5668,9 +5692,7 @@ msgstr "Tendrá que fijar «SystemPartition» and «OSLoader» manualmente."
 #: util/grub-install.in:846
 msgid ""
 "Can't find GRUB drive for %s; unable to create EFI Boot Manager entry.\\n"
-msgstr ""
-"No se pudo encontrar la unidad GRUB para %s; no se pudo crear la entrada del "
-"Gestor de Arranque EFI.\\n"
+msgstr "No se pudo encontrar la unidad GRUB para %s; no se pudo crear la entrada del gestor de arranque EFI.\\n"
 
 #: util/grub-install.in:854
 msgid "WARNING: no platform-specific install was performed"
@@ -5775,11 +5797,8 @@ msgstr "Uso: %s [OPCIÓN] FUENTE...\\n"
 
 #. TRANSLATORS: it generates one single image which is bootable through any method.
 #: util/grub-mkrescue.in:64 util/powerpc/ieee1275/grub-mkrescue.in:50
-#, fuzzy
 msgid "Make GRUB CD-ROM, disk, pendrive and floppy bootable image."
-msgstr ""
-"Crear una imagen arrancable de GRUB para CD-ROM, disco y disco extraíble "
-"(USB y diskette)."
+msgstr "Crea una imagen arrancable de GRUB desde CD-ROM, disco duro y extraíble."
 
 #: util/grub-mkrescue.in:71
 msgid "save ROM images in DIR [optional]"
@@ -5814,9 +5833,7 @@ msgstr "Activando el soporte de %s...\\n"
 #: util/grub-mkstandalone.in:56
 msgid ""
 "Generate a standalone image (containing all modules) in the selected format"
-msgstr ""
-"Crea una imagen única (que contiene todos los módulos) en el formato "
-"seleccionado"
+msgstr "Crea una imagen (que contiene todos los módulos) en el formato seleccionado"
 
 #: util/grub-reboot.in:48 util/grub-set-default.in:48
 msgid "Usage: %s [OPTION] MENU_ENTRY\\n"
@@ -5824,9 +5841,7 @@ msgstr "Uso: %s [OPCIÓN] ENTRADA_DEL_MENÚ\\n"
 
 #: util/grub-reboot.in:49
 msgid "Set the default boot menu entry for GRUB, for the next boot only."
-msgstr ""
-"Cambiar la entrada predeterminada del menú de GRUB, únicamente para el "
-"próximo arranque."
+msgstr "Modifica la entrada predeterminada del menú de GRUB, únicamente para el próximo arranque."
 
 #: util/grub-reboot.in:53 util/grub-set-default.in:53
 msgid ""
@@ -5851,4 +5866,4 @@ msgstr "No se ha especificado una entrada del menú."
 
 #: util/grub-set-default.in:49
 msgid "Set the default boot menu entry for GRUB."
-msgstr "Cambiar la entrada del menú predeterminada para GRUB."
+msgstr "Cambia la entrada del menú predeterminada para GRUB."
