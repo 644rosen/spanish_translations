@@ -1,6 +1,6 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the GNU Grub package.
+# Spanish translation for grub.
+# Copyright (C) 2013 Free Software Foundation, Inc.
+# This file is distributed under the same license as the grub package.
 # Miguel Ángel Arruga Vivas <rosen644835@gmail.com>, 2013.
 #
 msgid ""
@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: grub 2.0.0-pre6\n"
 "Report-Msgid-Bugs-To: bug-grub@gnu.org\n"
 "POT-Creation-Date: 2012-05-09 14:36+0200\n"
-"PO-Revision-Date: 2013-02-24 22:48+0100\n"
+"PO-Revision-Date: 2013-03-01 22:10+0100\n"
 "Last-Translator: Miguel Ángel Arruga Vivas <rosen644835@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "Language: \n"
@@ -82,9 +82,7 @@ msgstr "Cambia la revisión del campo 'creador' en RDSP, XSDT y RSDT."
 msgid ""
 "Don't update EBDA. May fix failures or hangs on some BIOSes but makes it "
 "ineffective with OS not receiving RSDP from GRUB."
-msgstr ""
-"No actualizar EBDA. Puede solucionar fallos o cuelgues en algunas BIOS pero "
-"se vuelve inefectivo con sistemas operativos que no reciben RSDP de GRUB."
+msgstr "No actualizar EBDA. Puede solucionar fallos o cuelgues en algunas BIOS pero se vuelve inefectivo con sistemas operativos que no reciben RSDP de GRUB."
 
 #: grub-core/commands/acpi.c:644 grub-core/commands/acpi.c:661
 #: grub-core/commands/i386/pc/play.c:206 grub-core/commands/keylayouts.c:225
@@ -132,9 +130,7 @@ msgstr "fin prematuro del fichero %s"
 msgid ""
 "[-1|-2] [--exclude=TABLE1,TABLE2|--load-only=TABLE1,TABLE2] FILE1 [FILE2] "
 "[...]"
-msgstr ""
-"[-1|-2] [--exclude=TABLA1,TABLA2|--load-only=TABLA1,TABLA2] FICHERO1 "
-"[FICHERO2] [...]"
+msgstr "[-1|-2] [--exclude=TABLA1,TABLA2|--load-only=TABLA1,TABLA2] FICHERO1 [FICHERO2] [...]"
 
 #: grub-core/commands/acpi.c:776
 msgid "Load host ACPI tables and tables specified by arguments."
@@ -229,9 +225,7 @@ msgstr "Arranca un sistema operativo."
 #: grub-core/commands/cacheinfo.c:38
 #, c-format
 msgid "Disk cache statistics: hits = %lu (%lu.%02lu%%), misses = %lu\n"
-msgstr ""
-"Estadísticas de la caché del disco: aciertos = %lu (%lu.%02lu%%), fallos = "
-"%lu\n"
+msgstr "Estadísticas de la caché del disco: aciertos = %lu (%lu.%02lu%%), fallos = %lu\n"
 
 #: grub-core/commands/cacheinfo.c:43
 msgid "No disk cache statistics available\n"
@@ -270,8 +264,7 @@ msgstr "Los ficheros difieren en tamaño: %llu [%s], %llu [%s]\n"
 #: grub-core/commands/cmp.c:81
 #, c-format
 msgid "Files differ at the offset %llu: 0x%x [%s], 0x%x [%s]\n"
-msgstr ""
-"Los ficheros difieren en el desplazamiento %llu: 0x%x [%s], 0x%x [%s]\n"
+msgstr "Los ficheros difieren en el desplazamiento %llu: 0x%x [%s], 0x%x [%s]\n"
 
 #. TRANSLATORS: it's always exactly 2 files.
 #: grub-core/commands/cmp.c:93
@@ -2898,7 +2891,7 @@ msgstr "Descartando partición impropiamente embebida (%s,%s,%s%d)"
 #: grub-core/kern/rescue_parser.c:67 util/grub-editenv.c:312
 #, c-format
 msgid "Unknown command `%s'.\n"
-msgstr "Comando desconocido «%s».\n"
+msgstr "Comando «%s» desconocido.\n"
 
 #: grub-core/lib/arg.c:31
 msgid "Display this help and exit."
@@ -5325,7 +5318,7 @@ msgstr "%s, con kFreeBSD %s"
 
 #: util/grub.d/10_kfreebsd.in:101
 msgid "Loading kernel of FreeBSD %s ..."
-msgstr "Cargando núcleo de «FreeBSD %s»..."
+msgstr "Cargando núcleo de FreeBSD %s..."
 
 #: util/grub.d/10_kfreebsd.in:161
 msgid "Found kernel of FreeBSD: %s\\n"
@@ -5345,7 +5338,7 @@ msgstr "%s, con Linux %s"
 
 #: util/grub.d/10_linux.in:135 util/grub.d/20_linux_xen.in:121
 msgid "Loading Linux %s ..."
-msgstr "Cargando «Linux %s»..."
+msgstr "Cargando Linux %s..."
 
 #. TRANSLATORS: ramdisk isn't identifier. Should be translated.
 #: util/grub.d/10_linux.in:142 util/grub.d/20_linux_xen.in:130
@@ -5735,7 +5728,7 @@ msgstr "%s: Debe ejecutarse como root\\n"
 
 #: util/grub-mkconfig.in:227
 msgid "Generating grub.cfg ..."
-msgstr "Generando «grub.cfg»..."
+msgstr "Generando grub.cfg..."
 
 #. TRANSLATORS: %s is replaced by filename
 #: util/grub-mkconfig.in:259
