@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: grub 2.0.0-pre6\n"
 "Report-Msgid-Bugs-To: bug-grub@gnu.org\n"
 "POT-Creation-Date: 2012-05-09 14:36+0200\n"
-"PO-Revision-Date: 2013-03-01 22:10+0100\n"
+"PO-Revision-Date: 2013-03-06 23:02+0100\n"
 "Last-Translator: Miguel Ángel Arruga Vivas <rosen644835@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "Language: \n"
@@ -380,9 +380,7 @@ msgstr ""
 msgid ""
 "Halts the computer.  This command does not work on all firmware "
 "implementations."
-msgstr ""
-"Detiene el ordenador.  Este comando no funciona en todas las "
-"implementaciones de firmware."
+msgstr "Detiene el ordenador.  Esta orden no funciona en todas las implementaciones de firmware."
 
 #: grub-core/commands/hashsum.c:32
 msgid "Specify hash to use."
@@ -826,7 +824,7 @@ msgstr "Ejecute «go» para continuar con GRUB."
 
 #: grub-core/commands/ieee1275/suspend.c:45
 msgid "Return to IEEE1275 prompt."
-msgstr "Vuelve a la línea de comandos IEEE1275."
+msgstr "Vuelve a la línea de órdenes IEEE1275."
 
 #: grub-core/commands/iorw.c:34 grub-core/commands/memrw.c:33
 #: grub-core/commands/setpci.c:73
@@ -914,7 +912,7 @@ msgstr "Comprueba el estado de los modificadores del teclado."
 #: util/grub-fstest.c:59 util/grub-mount.c:64
 #, c-format
 msgid "can't find command `%s'"
-msgstr "no se puede encontrar el comando «%s»"
+msgstr "no se puede encontrar la orden «%s»"
 
 #: grub-core/commands/legacycfg.c:736 grub-core/normal/auth.c:222
 #: util/grub-mkpasswd-pbkdf2.c:137
@@ -948,7 +946,7 @@ msgstr "[--no-mem-option] [--type=TIPO] FICHERO [PARÁMETRO ...]"
 
 #: grub-core/commands/legacycfg.c:796
 msgid "Simulate grub-legacy `kernel' command"
-msgstr "Simula el comando «kernel» de GRUB1"
+msgstr "Simula la orden «kernel» de GRUB1"
 
 #: grub-core/commands/legacycfg.c:800 grub-core/commands/legacycfg.c:804
 msgid "FILE [ARG ...]"
@@ -956,11 +954,11 @@ msgstr "FICHERO [PARÁMETRO ...]"
 
 #: grub-core/commands/legacycfg.c:801
 msgid "Simulate grub-legacy `initrd' command"
-msgstr "Simula el comando «initrd» de GRUB1"
+msgstr "Simula la orden «initrd» de GRUB1"
 
 #: grub-core/commands/legacycfg.c:805
 msgid "Simulate grub-legacy `modulenounzip' command"
-msgstr "Simula el comando «modulenounzip» de GRUB1"
+msgstr "Simula la orden «modulenounzip» de GRUB1"
 
 #: grub-core/commands/legacycfg.c:809 grub-core/commands/legacycfg.c:814
 msgid "[--md5] PASSWD [FILE]"
@@ -968,11 +966,11 @@ msgstr "[--md5] CONTRASEÑA [FICHERO]"
 
 #: grub-core/commands/legacycfg.c:810
 msgid "Simulate grub-legacy `password' command"
-msgstr "Simula el comando «password» de GRUB1"
+msgstr "Simula la orden «password» de GRUB1"
 
 #: grub-core/commands/legacycfg.c:815
 msgid "Simulate grub-legacy `password' command in menu entry mode"
-msgstr "Simula el comando «pasword» de GRUB1 en modo de entrada de menú"
+msgstr "Simula la orden «pasword» de GRUB1 en modo de entrada de menú"
 
 #. TRANSLATORS: This option is used to override default filename
 #. for loading and storing environment.
@@ -1266,9 +1264,8 @@ msgid ""
 "Perform COMMANDS on partition.\n"
 "Use `parttool PARTITION help' for the list of available commands."
 msgstr ""
-"Realiza COMANDOS en la partición.\n"
-"Use «parttool PARTICIÓN help»' para obtener una lista de los comandos "
-"disponibles."
+"Realiza las ÓRDENES en la partición.\n"
+"Use «parttool PARTICIÓN help»' para obtener una lista de las órdenes disponibles."
 
 #: grub-core/commands/parttool.c:131
 msgid "=VAL"
@@ -1287,7 +1284,7 @@ msgstr "parámetro «%s» desconocido"
 
 #: grub-core/commands/parttool.c:330
 msgid "PARTITION COMMANDS"
-msgstr "PARTICIÓN COMANDOS"
+msgstr "PARTICIÓN ÓRDENES"
 
 #: grub-core/commands/password.c:85
 msgid "USER PASSWORD"
@@ -1525,11 +1522,11 @@ msgstr ""
 
 #: grub-core/commands/setpci.c:69
 msgid "Select device by vendor and device IDs."
-msgstr "Selecciona un dispositivo por vendedor e identificador."
+msgstr "Selecciona un dispositivo por ID de fabricante y dispositivo."
 
 #: grub-core/commands/setpci.c:70
 msgid "[vendor]:[device]"
-msgstr "[vendedor]:[identificador]"
+msgstr "[fabricante]:[dispositivo]"
 
 #: grub-core/commands/setpci.c:71
 msgid "Select device by its position on the bus."
@@ -1631,7 +1628,7 @@ msgstr "Carga el mismo fichero de múltiples formas."
 
 #: grub-core/commands/time.c:38 grub-core/script/execute.c:819
 msgid "no command is specified"
-msgstr "no se ha especificado un comando"
+msgstr "no se ha especificado una orden"
 
 #: grub-core/commands/time.c:50
 #, c-format
@@ -1640,11 +1637,11 @@ msgstr "Tiempo transcurrido: %d.%03d segundos\n"
 
 #: grub-core/commands/time.c:61
 msgid "COMMAND [ARGS]"
-msgstr "COMANDO [PARÁMETROS]"
+msgstr "ORDEN [PARÁMETROS]"
 
 #: grub-core/commands/time.c:62
 msgid "Measure time used by COMMAND"
-msgstr "Mide el tiempo usado por COMANDO"
+msgstr "Mide el tiempo usado por la ORDEN"
 
 #. TRANSLATORS: it's a command description.
 #: grub-core/commands/true.c:50
@@ -2330,22 +2327,17 @@ msgstr "Traduce la cadena con las opciones actuales."
 msgid ""
 "Press enter to boot the selected OS, `e' to edit the commands before booting "
 "or `c' for a command-line. ESC to return previous menu."
-msgstr ""
-"Pulse «Intro» para arrancar el SO seleccionado, «e» para editar los comandos "
-"antes de arrancar o «c» para una línea de comandos. «ESC» para volver al "
-"menú anterior."
+msgstr "Pulse «Intro» para arrancar el SO seleccionado, «e» para editar las órdenes antes de arrancar o «c» para una línea de órdenes. «ESC» para volver al menú anterior."
 
 #: grub-core/gfxmenu/gui_label.c:187 grub-core/normal/menu_text.c:191
 msgid ""
 "Press enter to boot the selected OS, `e' to edit the commands before booting "
 "or `c' for a command-line."
-msgstr ""
-"Pulse «Intro» para arrancar el SO seleccionado, «e» para editar los comandos "
-"antes de arrancar o «c» para una línea de comandos."
+msgstr "Pulse «Intro» para arrancar el SO seleccionado, «e» para editar los órdenes antes de arrancar o «c» para una línea de órdenes."
 
 #: grub-core/gfxmenu/gui_label.c:191
 msgid "enter: boot, `e': options, `c': cmd-line"
-msgstr "intro: arrancar, «e»: opciones, «c»: línea de comandos"
+msgstr "intro: arrancar, «e»: opciones, «c»: línea de órdenes"
 
 #: grub-core/gfxmenu/gui_progress_bar.c:281 grub-core/normal/menu_text.c:375
 #, c-format
@@ -2536,12 +2528,10 @@ msgstr "Ninguna coincidencia"
 msgid "Invalid regular expression"
 msgstr "Expresión regular no válida"
 
-# Miguel: Tengo que echar un vistazo en grep, puede
-# que haya alguna cadena parecida.
+# Miguel: Robando traducción de Christian Othón en gawk. ;) Gracias.
 #: grub-core/gnulib/regcomp.c:141
-#, fuzzy
 msgid "Invalid collation character"
-msgstr "Carácter de orden de secuencia inválido"
+msgstr "Carácter de ordenación inválido"
 
 #: grub-core/gnulib/regcomp.c:144
 msgid "Invalid character class name"
@@ -2804,12 +2794,13 @@ msgstr "Parámetro extra «%s» desconocido."
 msgid "GRUB emulator."
 msgstr "Emulador de GRUB."
 
+# Miguel: Estra traducción no me acaba de gustar... :(
 #: grub-core/kern/emu/main.c:189 util/grub-editenv.c:282
 #: util/grub-mkfont.c:1157 util/grub-mkimage.c:1843 util/grub-mklayout.c:466
 #: util/grub-mkpasswd-pbkdf2.c:128 util/grub-mkrelpath.c:94
 #: util/grub-probe.c:830 util/grub-script-check.c:146 util/grub-setup.c:1119
 msgid "Error in parsing command line arguments\n"
-msgstr "Error procesando los parámetros de la línea de comandos\n"
+msgstr "Error procesando los parámetros de la línea de órdenes\n"
 
 #. TRANSLATORS: In this case GRUB tells user what he has to do.
 #: grub-core/kern/emu/main.c:197
@@ -2891,7 +2882,7 @@ msgstr "Descartando partición impropiamente embebida (%s,%s,%s%d)"
 #: grub-core/kern/rescue_parser.c:67 util/grub-editenv.c:312
 #, c-format
 msgid "Unknown command `%s'.\n"
-msgstr "Comando «%s» desconocido.\n"
+msgstr "Orden «%s» desconocida.\n"
 
 #: grub-core/lib/arg.c:31
 msgid "Display this help and exit."
@@ -2899,7 +2890,7 @@ msgstr "Muestra esta ayuda y finaliza."
 
 #: grub-core/lib/arg.c:33
 msgid "Display the usage of this command and exit."
-msgstr "Muestra el uso de este comando y termina."
+msgstr "Muestra el uso de esta orden y termina."
 
 #: grub-core/lib/arg.c:359
 #, c-format
@@ -3124,7 +3115,7 @@ msgstr "El parámetro de GRUB1 «ask» ya no está soportado."
 #: grub-core/loader/i386/linux.c:929
 #, c-format
 msgid "%s is deprecated. Use set gfxpayload=%s before linux command instead.\n"
-msgstr "%s es obsoleto. Use «set gfxpayload=%s» antes del comando «linux».\n"
+msgstr "%s está obsoleto. Use «set gfxpayload=%s» antes de la orden «linux».\n"
 
 #. TRANSLATORS: "x" has to be entered in, like an identifier,
 #. so please don't use better Unicode codepoints.
@@ -3133,9 +3124,7 @@ msgstr "%s es obsoleto. Use «set gfxpayload=%s» antes del comando «linux».\n
 msgid ""
 "%s is deprecated. VGA mode %d isn't recognized. Use set "
 "gfxpayload=WIDTHxHEIGHT[xDEPTH] before linux command instead.\n"
-msgstr ""
-"%s es obsoleto. No se reconoce el modo VGA %d. Use «set gfxpayload=ANCHOxALTO"
-"[xPROFUNDO] antes del comando «linux»\n"
+msgstr "%s está obsoleto. No se reconoce el modo VGA %d. Use «set gfxpayload=ANCHOxALTO[xPROFUNDO] antes de la orden «linux»\n"
 
 #: grub-core/loader/i386/linux.c:1142 grub-core/loader/i386/pc/linux.c:473
 #: grub-core/loader/ia64/efi/linux.c:655 grub-core/loader/mips/linux.c:548
@@ -3579,7 +3568,7 @@ msgstr "Comprobar si el usuario está en la LISTA_DE_USUARIOS."
 
 #: grub-core/normal/cmdline.c:174 grub-core/normal/menu_entry.c:1106
 msgid "Possible commands are:"
-msgstr "Los comandos posibles son:"
+msgstr "Las órdenes posibles son:"
 
 #: grub-core/normal/cmdline.c:177 grub-core/normal/menu_entry.c:1110
 msgid "Possible devices are:"
@@ -3670,11 +3659,7 @@ msgid ""
 "Minimal BASH-like line editing is supported. For the first word, TAB lists "
 "possible command completions. Anywhere else TAB lists possible device or "
 "file completions. %s"
-msgstr ""
-"Se soporta una edición de línea mínima al estilo de BASH. «TAB» enumera los "
-"posibles comandos a completar para la primera palabra. En cualquier otro "
-"lado «TAB» muestra una lista de posibles dispositivos o ficheros a "
-"completar. %s"
+msgstr "Se soporta una edición de línea mínima al estilo de BASH. «TAB» enumera las posibles órdenes a completar para la primera palabra. En cualquier otro lado «TAB» muestra una lista de posibles dispositivos o ficheros a completar. %s"
 
 #: grub-core/normal/main.c:353
 msgid "ESC at any time exits."
@@ -3723,20 +3708,18 @@ msgstr "Arrancando la entrada de reserva «%s»"
 msgid "Failed to boot both default and fallback entries.\n"
 msgstr "No se pudo arrancar la entrada predeterminada ni la de reserva.\n"
 
+# Miguel: Prefier añadir la preposición «con» para especificar que se usa,
+# lo que el usuario ve que arranca es el sistema operativo normalmente.
 #: grub-core/normal/menu_entry.c:1232
 msgid "Booting a command list"
-msgstr "Arrancando con una lista de comandos"
+msgstr "Arrancando con una lista de órdenes"
 
 #: grub-core/normal/menu_text.c:155
 msgid ""
 "Minimum Emacs-like screen editing is supported. TAB lists completions. Press "
 "Ctrl-x or F10 to boot, Ctrl-c or F2 for a command-line or ESC to discard "
 "edits and return to the GRUB menu."
-msgstr ""
-"Se soporta una edición de pantalla mínima al estilo de Emacs. «TAB» enumera "
-"las posibles palabras a completar. Pulse «Ctrl-x» o «F10» para arrancar, "
-"«Ctrl-c» o «F2» para una línea de comandos o «ESC» para descartar las "
-"ediciones y volver al menú de GRUB."
+msgstr "Se soporta una edición de pantalla mínima al estilo de Emacs. «TAB» enumera las posibles palabras a completar. Pulse «Ctrl-x» o «F10» para arrancar, «Ctrl-c» o «F2» para una línea de órdenes o «ESC» para descartar las ediciones y volver al menú de GRUB."
 
 #: grub-core/normal/menu_text.c:163
 #, c-format
@@ -4157,13 +4140,12 @@ msgstr "No se pudo abrir el flujo de %s: %s"
 #: util/getroot.c:737
 #, c-format
 msgid "cannot get translator command line for path `%s': %s"
-msgstr ""
-"no se pudo obtener la línea de comandos del traductor para la ruta «%s»: %s"
+msgstr "no se pudo obtener la línea de órdenes del traductor para la ruta «%s»: %s"
 
 #: util/getroot.c:740
 #, c-format
 msgid "translator command line is empty for path `%s'"
-msgstr "la línea de comandos del traductor está vacía para la ruta «%s»"
+msgstr "la línea de órdenes del traductor está vacía para la ruta «%s»"
 
 #. TRANSLATORS: we expect to get something like
 #. /hurd/foobar --option1 --option2=baz /dev/something
@@ -4233,7 +4215,7 @@ msgstr "ninguna barra «/» en el nombre canónico del fichero"
 
 #: util/grub-editenv.c:39 util/grub-fstest.c:491
 msgid "Commands:"
-msgstr "Comandos:"
+msgstr "Órdenes:"
 
 #: util/grub-editenv.c:41
 msgid "Create a blank environment block file."
@@ -4267,11 +4249,11 @@ msgstr "Opciones:"
 
 #: util/grub-editenv.c:78
 msgid "You need to specify at least one command.\n"
-msgstr "Se debe especificar al menos un comando.\n"
+msgstr "Se debe especificar al menos una orden.\n"
 
 #: util/grub-editenv.c:103
 msgid "FILENAME COMMAND"
-msgstr "FICHERO COMANDO"
+msgstr "FICHERO ORDEN"
 
 #: util/grub-editenv.c:104
 msgid "Tool to edit environment block."
@@ -4338,12 +4320,12 @@ msgstr "error de apertura en el fichero del SO %s: %s"
 #: util/grub-fstest.c:387 util/grub-mount.c:351
 #, c-format
 msgid "`loopback' command fails: %s"
-msgstr "el comando «loopback» falló: %s"
+msgstr "la orden «loopback» ha fallado: %s"
 
 #: util/grub-fstest.c:398 util/grub-mount.c:361
 #, c-format
 msgid "`cryptomount' command fails: %s"
-msgstr "el comando «cryptmount» falló: %s"
+msgstr "la orden «cryptmount» ha fallado: %s"
 
 #: util/grub-fstest.c:459 util/grub-fstest.c:463
 msgid "couldn't retrieve UUID"
@@ -4466,20 +4448,20 @@ msgstr "El número de discos debe preceder a la lista de discos.\n"
 
 #: util/grub-fstest.c:618
 msgid "No command is specified.\n"
-msgstr "Ningún comando especificado.\n"
+msgstr "Ninguna orden especificada.\n"
 
 #: util/grub-fstest.c:623
 msgid "Not enough parameters to command.\n"
-msgstr "Parámetros del comando insuficientes.\n"
+msgstr "Parámetros insuficientes para la orden.\n"
 
 #: util/grub-fstest.c:696
 #, c-format
 msgid "Invalid command %s.\n"
-msgstr "Comando %s no válido.\n"
+msgstr "Orden %s no válida.\n"
 
 #: util/grub-fstest.c:709
 msgid "IMAGE_PATH COMMANDS"
-msgstr "RUTA_DE_LA_IMAGEN COMANDOS"
+msgstr "RUTA_DE_LA_IMAGEN ÓRDENES"
 
 #: util/grub-fstest.c:710 util/grub-mount.c:509
 msgid "Debug tool for filesystem driver."
@@ -5674,9 +5656,7 @@ msgstr "«%s» falló.\\n"
 msgid ""
 "You will have to set `boot-device' variable manually.  At the IEEE1275 "
 "prompt, type:"
-msgstr ""
-"Tendrá que fijar la variable «boot-device» manualmente.  Escriba en la línea "
-"de comandos IEEE1275:"
+msgstr "Tendrá que fijar la variable «boot-device» manualmente.  Escriba en la línea de órdenes IEEE1275:"
 
 #: util/grub-install.in:813
 msgid "You will have to set `SystemPartition' and `OSLoader' manually."
@@ -5813,7 +5793,7 @@ msgstr ""
 
 #: util/grub-mkrescue.in:78
 msgid "Option -- switches to native xorriso command mode."
-msgstr "La opción -- cambia al modo de comandos nativo de xorriso."
+msgstr "La opción -- cambia al modo de órdenes nativo de xorriso."
 
 #: util/grub-mkrescue.in:81
 msgid "Mail xorriso support requests to <bug-xorriso@gnu.org>."
