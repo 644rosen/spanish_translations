@@ -1,13 +1,16 @@
 Este repositorio contiene las traducciones al castellano de varios
-paquetes GNU en las que estoy trabajando actualmente para ser subidos
-al Translation Project tan pronto como sea posible.
+paquetes GNU alojados en el Translation Project.
+
+Los paquetes en la rama master corresponden a estas versiones.
 
 GNUnet: Versión 0.9.5
 GNUnet-gtk: Versión 0.9.5
 GRUB: 2.0.0-pre6
 
-El copyright de los mensajes pertenece a la FSF y/o a sus creadores.
-El copyright de las traducciones permanece en los mismos términos que
-cada paquete.
+El copyright de los mensajes pertenece a la FSF y/o a sus
+respectivos creadores.
+
+El copyright de las traducciones ha sido cedido a la
+Free Software Foundation.
 
 Se incluye una copia de la GNU GPLv3 en el fichero COPYING.
